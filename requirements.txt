@@ -1,4 +1,6 @@
-streamlit
-pandas
-joblib
+streamlit==1.50.0
+pandas==2.2.3
+numpy==2.2.6
+joblib==1.4.2
 scikit-learn==1.6.1
+pyarrow==19.0.1

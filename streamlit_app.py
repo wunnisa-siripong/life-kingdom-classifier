@@ -53,6 +53,7 @@ with tab1:
                 " — ยังไม่ได้เชื่อมฐานข้อมูลและโมเดล"
             )
 
+
 with tab2:
     features = [
         "Ribosome — มีไรโบโซม",
@@ -65,10 +66,13 @@ with tab2:
 
     with st.form("feature_form"):
         answers = {}
+
         for i, feature in enumerate(features):
-            answers[feature] = st.selectbox(
+            answers[feature] = st.radio(
                 feature,
-                ["โปรดเลือก", "ใช่", "ไม่ใช่"],
+                options=["ใช่", "ไม่ใช่"],
+                index=None,
+                horizontal=True,
                 key=f"feature_{i}"
             )
 
@@ -78,12 +82,15 @@ with tab2:
         )
 
     if predict:
-        if "โปรดเลือก" in answers.values():
-            st.warning("กรุณาเลือกคุณลักษณะให้ครบทั้ง 6 ข้อ")
+        if any(v is None for v in answers.values()):
+            st.warning(
+                "กรุณาเลือกคุณลักษณะให้ครบทั้ง 6 ข้อ"
+            )
         else:
+            st.success("รับข้อมูลครบทั้ง 6 คุณลักษณะแล้ว")
             st.info(
-                "รับคุณลักษณะครบแล้ว "
-                "— รอเชื่อม Decision Tree จาก Colab"
+                "รอเชื่อมโมเดล Decision Tree "
+                "จาก Google Colab"
             )
 
 with st.expander("ดูเหตุผลการทำนาย"):

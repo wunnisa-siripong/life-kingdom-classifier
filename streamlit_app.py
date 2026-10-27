@@ -1,11 +1,18 @@
 
 import streamlit as st
-
+import pandas as pd
+import joblib
 st.set_page_config(
     page_title="Life Kingdom",
     page_icon="🌿",
     layout="centered"
 )
+@st.cache_resource
+def load_model():
+    package = joblib.load("life_kingdom_model.joblib")
+    return package["model"], list(package["features"])
+
+model, model_columns = load_model()
 
 st.markdown("""
 <style>
@@ -26,7 +33,7 @@ div[data-testid="stFormSubmitButton"] button {
 
 st.title("🌿 Life Kingdom")
 st.write("ทดลองจำแนกอาณาจักรสิ่งมีชีวิตด้วย Decision Tree")
-st.caption("ต้นแบบหน้าเว็บ — ยังไม่เชื่อมโมเดล")
+st.caption("ทดลองจำแนกสิ่งมีชีวิตด้วยโมเดล Decision Tree")
 
 tab1, tab2 = st.tabs([
     "ค้นหาสิ่งมีชีวิต",
@@ -83,15 +90,41 @@ with tab2:
 
     if predict:
         if any(v is None for v in answers.values()):
-            st.warning(
-                "กรุณาเลือกคุณลักษณะให้ครบทั้ง 6 ข้อ"
-            )
+            st.warning("กรุณาเลือกคุณลักษณะให้ครบทั้ง 6 ข้อ")
         else:
-            st.success("รับข้อมูลครบทั้ง 6 คุณลักษณะแล้ว")
-            st.info(
-                "รอเชื่อมโมเดล Decision Tree "
-                "จาก Google Colab"
-            )
+            form_columns = [
+                "Ribosome",
+                "Photosynthesis",
+                "Nucleus",
+                "Cell wall",
+                "Chloroplast",
+                "Multicellular organisms"
+            ]
+
+            values = {
+                col: 1 if answer == "ใช่" else 0
+                for col, answer in zip(
+                    form_columns, answers.values()
+                )
+            }
+
+            missing = [
+                col for col in model_columns
+                if col not in values
+            ]
+
+            if missing:
+                st.error(
+                    f"ชื่อคุณลักษณะไม่ตรงกับ Colab: {missing}"
+                )
+            else:
+                X = pd.DataFrame(
+                    [[values[col] for col in model_columns]],
+                    columns=model_columns
+                )
+
+                result = model.predict(X)[0]
+                st.success(f"ผลการทำนาย: {result}")
 
 with st.expander("ดูเหตุผลการทำนาย"):
     st.write("จะแสดงเส้นทางการตัดสินใจของโมเดลจริง")

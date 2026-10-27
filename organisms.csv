@@ -1,0 +1,51 @@
+﻿Common name,Ribosome,Photosynthesis,Nucleus,Cell wall,Chloroplast,Multicellular organisms,Kingdom
+Rhizobium,1,0,0,1,0,0,Monera
+Anabaena,1,1,0,1,0,1,Monera
+Sponge,1,0,1,0,0,1,Animalia
+Sea Anemones,1,0,1,0,0,1,Animalia
+Trematoda,1,0,1,0,0,1,Animalia
+Giant tiger prawn,1,0,1,0,0,1,Animalia
+Asian elephant,1,0,1,0,0,1,Animalia
+Rhizopus,1,0,1,1,0,1,Fungi
+Yeast,1,0,1,1,0,0,Fungi
+Shiitake mushroom,1,0,1,1,0,1,Fungi
+Fern,1,1,1,1,1,1,Plantae
+Liverwort,1,1,1,1,1,1,Plantae
+Hornwort,1,1,1,1,1,1,Plantae
+Skeleton Fork Fern,1,1,1,1,1,1,Plantae
+Cycad,1,1,1,1,1,1,Plantae
+Ginkgo biloba,1,1,1,1,1,1,Plantae
+Porphyra,1,1,1,1,1,1,Protista
+Gracilaria,1,1,1,1,1,1,Protista
+Ochromonas danica,1,1,1,0,1,0,Protista
+Thalassiosira pseudonana,1,1,1,1,1,0,Protista
+Amoeba,1,0,1,0,0,0,Protista
+Paramecium,1,0,1,0,0,0,Protista
+Euglena gracilis,1,1,1,0,1,0,Protista
+Chlorella,1,1,1,1,1,0,Protista
+Ulva lactuca,1,1,1,1,1,1,Protista
+Spirogyra,1,1,1,1,1,1,Protista
+Hydra,1,0,1,0,0,1,Animalia
+Dinosaur,1,0,1,0,0,1,Animalia
+Tetrahymena thermophila,1,0,1,0,0,0,Protista
+Chlamydomonas reinhardtii,1,1,1,1,1,0,Protista
+Slime mold,1,0,1,0,0,0,Protista
+Cyanidioschyzon merolae,1,1,1,0,1,0,Protista
+Brown algae,1,1,1,1,1,1,Protista
+Chondrus crispus,1,1,1,1,1,1,Protista
+Volvariella volvacea,1,0,1,1,0,1,Fungi
+Giardia lamblia,1,0,1,0,0,0,Protista
+Trichomonas vaginalis,1,0,1,0,0,0,Protista
+Physcomitrium patens,1,1,1,1,1,1,Plantae
+Staghorn clubmoss,1,1,1,1,1,1,Plantae
+Rock tassel fern,1,1,1,1,1,1,Plantae
+Coat buttons,1,1,1,1,1,1,Plantae
+Isoetes,1,1,1,1,1,1,Plantae
+Bacillus sp,1,0,0,1,0,0,Monera
+Mycoplasma,1,0,0,0,0,0,Monera
+Nostoc,1,1,0,1,0,1,Monera
+Oscillatoria,1,1,0,1,0,1,Monera
+Red tube coral,1,0,1,0,0,1,Animalia
+Gorgonian sea fan,1,0,1,0,0,1,Animalia
+Flat worm,1,0,1,0,0,1,Animalia
+Barnacle,1,0,1,0,0,1,Animalia

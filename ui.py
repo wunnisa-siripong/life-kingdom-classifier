@@ -82,7 +82,29 @@ def source_label(url):
     host=parsed.netloc.removeprefix('www.')
     path=unquote(parsed.path).strip('/').split('/')
     title=path[-1].replace('-',' ').replace('_',' ') if path and path[-1] else 'หน้าข้อมูล'
+    if host=='scimath.org': return 'Scimath · บทเรียนชีววิทยา'
+    if host=='gbif.org': return 'GBIF · ข้อมูลชื่อและอนุกรมวิธาน'
+    for slug,label in {'eukaryotic-cells':'เซลล์ยูแคริโอต','prokaryotic-cells':'เซลล์โพรแคริโอต','groups-of-protists':'กลุ่มโพรทิสต์','characteristics-of-the-animal-kingdom':'ลักษณะของอาณาจักรสัตว์','early-plant-life':'พืชบกและวิวัฒนาการระยะแรก'}.items():
+        if slug in parsed.path: title=label;break
     return escape(host+' · '+title[:75])
+
+def thai_evidence(text):
+    translations={
+        'All living cells contain ribosomes':'เซลล์ที่มีชีวิตมีไรโบโซม',
+        'Green leaf photosynthetic capability under light':'เนื้อเยื่อใบสีเขียวสังเคราะห์แสงได้เมื่อได้รับแสง',
+        'Host animal is heterotrophic; excludes symbionts':'ตัวสัตว์รับสารอาหารจากภายนอก ไม่รวมคุณลักษณะของสิ่งมีชีวิตร่วมอาศัย',
+        'Representative eukaryotic cell has a nucleus':'เซลล์ยูแคริโอตตัวแทนมีนิวเคลียส',
+        'Representative nucleated somatic cell':'ใช้เซลล์ร่างกายตัวแทนที่มีนิวเคลียส',
+        'Plant cell wall':'เซลล์พืชมีผนังเซลล์',
+        'Animal cell membrane is not a cell wall':'เยื่อหุ้มเซลล์สัตว์ไม่ใช่ผนังเซลล์',
+        'Green leaf cell chloroplast':'เซลล์ใบสีเขียวมีคลอโรพลาสต์',
+        'Host animal cell lacks chloroplasts':'เซลล์ของตัวสัตว์ไม่มีคลอโรพลาสต์',
+        'Mature land plant body is multicellular':'ร่างกายพืชบกโตเต็มวัยประกอบด้วยหลายเซลล์',
+        'Animal body is multicellular':'ร่างกายสัตว์ประกอบด้วยหลายเซลล์',
+    }
+    prefix='Group-level inference: '
+    if text.startswith(prefix): return 'อนุมานระดับกลุ่ม: '+translations.get(text[len(prefix):],text[len(prefix):])
+    return text
 
 def evidence(row,columns):
     with st.expander('หลักฐาน แหล่งอ้างอิง และข้อจำกัด'):
@@ -101,9 +123,10 @@ def evidence(row,columns):
         for f in columns:
             state='ไม่ทราบ' if pd.isna(row[f]) else ('มี / ทำได้' if row[f] else 'ไม่มี / ทำไม่ได้')
             st.markdown(f'**{LABELS[f]} · {state}**')
-            st.caption(row[f+'_evidence'])
+            st.caption(thai_evidence(row[f+'_evidence']))
         with st.expander('ข้อความขอบเขตและหลักฐานต้นฉบับ'):
             st.write(row['scope']);st.write(row['evidence_basis'])
+            for f in columns: st.caption(f+': '+row[f+'_evidence'])
         for title,key in [('ชื่อและอนุกรมวิธาน','name_sources'),('คุณลักษณะและชีววิทยา','feature_sources')]:
             st.markdown('**'+title+'**')
             for url in dict.fromkeys(row[key].split('|')):

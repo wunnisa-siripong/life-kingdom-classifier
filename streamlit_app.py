@@ -26,6 +26,10 @@ def load_data():
 from html import escape
 import math
 import streamlit.components.v1 as components
+# Refresh presentation helpers retained by a running Streamlit Cloud process.
+import importlib
+import ui
+importlib.reload(ui)
 from ui import CSS, LABELS, QUESTIONS, KINGDOM_TH, KINGDOM_ICONS, BOOK_ICON, profile, prediction, evidence, manual_feature_label
 st.markdown(CSS,unsafe_allow_html=True)
 try:

@@ -46,7 +46,12 @@ def profile(row):
 def feature_cards(row):
     cards=[]
     for f in FEATURES:
-        value='ไม่ทราบ' if pd.isna(row[f]) else ('ใช่ · มี / ทำได้' if row[f]==1 else 'ไม่ใช่ · ไม่มี / ทำไม่ได้')
+        if pd.isna(row[f]):
+            value = "ไม่ทราบ"
+        elif f == "Photosynthesis":
+            value = "ได้" if row[f] == 1 else "ไม่ได้"
+        else:
+            value = "มี" if row[f] == 1 else "ไม่มี"
         cards.append(f'<div class="lk-feature"><span class="lk-icon" aria-hidden="true">{ICONS[f]}</span><div><small>{LABELS[f]}</small><strong>{value}</strong></div></div>')
     st.markdown('<div class="lk-kicker">ลักษณะสำคัญทั้ง 6</div><div class="lk-grid">'+''.join(cards)+'</div>',unsafe_allow_html=True)
 

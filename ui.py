@@ -36,23 +36,6 @@ a{color:#B7D7BA!important} [data-testid="stCaptionContainer"]{color:#b5c4b2}
 }
 
 
-/* Compact manual feature controls */
-[data-testid="stRadio"] {
-    padding: 8px 14px !important;
-    min-height: 58px;
-    border-radius: 12px !important;
-    gap: 6px !important;
-}
-
-[data-testid="stRadio"] > label {
-    font-size: 0.95rem;
-}
-
-@media (max-width: 600px) {
-    [data-testid="stRadio"] {
-        padding: 10px 12px !important;
-    }
-}
 
 </style>'''
 

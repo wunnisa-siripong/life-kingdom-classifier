@@ -14,7 +14,7 @@ class CatalogueTests(unittest.TestCase):
         cls.package=joblib.load(BASE/'life_kingdom_model.joblib')
     def test_original_files(self):
         def git_sha(path):
-            b=path.read_bytes();return hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()
+            b=path.read_bytes(); b=b.replace(b'\r\n',b'\n') if path.suffix=='.csv' else b;return hashlib.sha1(b'blob '+str(len(b)).encode()+b'\0'+b).hexdigest()
         self.assertEqual(git_sha(BASE/'organisms.csv'),'53311374e7c0787131df5e81446564d0d1a5815a')
         self.assertEqual(git_sha(BASE/'life_kingdom_model.joblib'),'3aeef574a4c65a3de51a07b47fbd4ee4de15f2de')
     def test_scope_and_sources(self):
@@ -44,35 +44,59 @@ class CatalogueTests(unittest.TestCase):
         with self.assertRaises(ValueError): prediction_input(dict.fromkeys(FEATURES,None),cols)
         with self.assertRaises(ValueError): prediction_input(dict.fromkeys(FEATURES,2),cols)
     def test_ui(self):
-        app=AppTest.from_file(str(BASE/'streamlit_app.py'),default_timeout=20).run()
-        self.assertEqual(len(app.exception),0)
-        for q,kingdom in [('มะม่วง','Plantae'),('MANGO','Plantae'),('Felis catus','Animalia'),('อะมีบา','Protista')]:
-            app.text_input[0].set_value(q).run()
+        def app_for(view='home', **state):
+            app=AppTest.from_file(str(BASE/'streamlit_app.py'),default_timeout=20)
+            app.session_state['view']=view
+            for key,value in state.items(): app.session_state[key]=value
+            app.run()
             self.assertEqual(len(app.exception),0)
-            self.assertTrue(any('lk-result' in m.value and kingdom in m.value for m in app.markdown))
-        app.text_input[0].set_value('Spirogyra').run()
-        result=next(m.value for m in app.markdown if 'section class="lk-result"' in m.value)
-        self.assertIn('Protista',result)
-        self.assertIn('Plantae',result)
-        self.assertIn('ผลต่างกัน',result)
-        # AppTest 1.50 cannot submit new selectbox options. No-match is tested
-        # by search() above and through the deployed browser UI.
-        app.text_input[0].set_value('not-a-real-organism-999').run()
-        self.assertTrue(any('ไม่พบ' in i.value for i in app.info))
-        self.assertEqual(len(app.metric),0)
-        app.button[0].click().run()
+            return app
+        app=app_for()
+        next(b for b in app.button if b.label=='ทำนายอาณาจักร').click().run()
         self.assertTrue(any('ครบทั้ง 6' in w.value for w in app.warning))
         for radio in app.radio: radio.set_value('ใช่')
-        app.button[0].click().run()
-        self.assertTrue(any('section class="lk-result"' in s.value and 'Plantae' in s.value for s in app.markdown))
-        self.assertEqual(len(app.exception),0)
-        app.button[1].click().run()
+        next(b for b in app.button if b.label=='ทำนายอาณาจักร').click().run()
+        self.assertTrue(any('section class="lk-result"' in m.value and 'Plantae' in m.value for m in app.markdown))
+        self.assertTrue(any('6/6' in m.value for m in app.markdown))
+        result=next(m.value for m in app.markdown if 'section class="lk-result"' in m.value)
+        self.assertNotIn('สอดคล้อง',result)
+        self.assertNotIn('ข้อมูลอ้างอิง',result)
+        next(b for b in app.button if b.label=='ล้างคำตอบ').click().run()
         self.assertTrue(all(r.value is None for r in app.radio))
         self.assertFalse(any('section class="lk-result"' in m.value for m in app.markdown))
-        for radio in app.radio: radio.set_value('ไม่ใช่')
-        app.button[0].click().run()
-        self.assertTrue(any('ไรโบโซม' in i.value for i in app.info))
-        self.assertTrue(any('section class="lk-result"' in m.value for m in app.markdown))
+        for q,kingdom in [('มะม่วง','Plantae'),('แมว','Animalia'),('Spirogyra','Plantae')]:
+            row=search(self.data,q).iloc[0]
+            profile=app_for('profile',selected_id=row['id'])
+            result=next(m.value for m in profile.markdown if 'section class="lk-result"' in m.value)
+            self.assertIn(kingdom,result)
+            if q=='Spirogyra':
+                self.assertIn('Protista',result); self.assertIn('ผลต่างกัน',result)
+            self.assertTrue(any('lk-profile' in m.value and '<img' in m.value for m in profile.markdown))
+        for label,kingdom in [('พืช','Plantae'),('สัตว์','Animalia'),('เห็ดรา','Fungi'),('โพรทิสตา','Protista'),('มอเนอรา','Monera')]:
+            listing=app_for('catalog',kingdom_filter=label,catalog_query='')
+            self.assertTrue(any('รายการสิ่งมีชีวิต' in m.value and str(sum(self.data.Kingdom.eq(kingdom))) in m.value for m in listing.markdown))
+        listing=app_for('catalog',kingdom_filter='สัตว์',catalog_query='cat')
+        # Streamlit 1.50's AppTest exposes single-select pills as a ButtonGroup.
+        listing.get('button_group')[0].set_value(['สัตว์'])
+        target=next(b for b in listing.button if b.key and b.key.startswith('open_'))
+        target.click().run()
+        self.assertEqual(listing.session_state['view'],'profile')
+        next(b for b in listing.button if b.label=='← กลับไปแค็ตตาล็อก').click().run()
+        self.assertEqual(listing.session_state['kingdom_filter'],'สัตว์')
+        self.assertEqual(listing.session_state['catalog_query'],'cat')
+        empty=app_for('catalog',catalog_query='not-a-real-organism-999')
+        self.assertTrue(any('ไม่พบรายการ' in m.value for m in empty.markdown))
+        empty.get('button_group')[0].set_value(['ทั้งหมด'])
+        next(b for b in empty.button if b.label=='ล้างตัวกรอง').click().run()
+        self.assertEqual(empty.session_state['catalog_query'],'')
+        self.assertEqual(empty.session_state['kingdom_filter'],'ทั้งหมด')
+        second=app_for('catalog',catalog_page=2)
+        self.assertEqual(len([b for b in second.button if b.key and b.key.startswith('open_')]),18)
+        self.assertEqual(second.session_state['catalog_page'],2)
+        from ui import feature_html
+        unknown=self.data.iloc[0].copy()
+        unknown['Cell wall']=pd.NA
+        self.assertIn('ผนังเซลล์ · ไม่ทราบ',feature_html(unknown))
 
     def test_paths(self):
         from ui import decision_steps

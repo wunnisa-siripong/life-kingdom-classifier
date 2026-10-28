@@ -22,7 +22,7 @@ def load_model():
 def load_data():
     return read_catalog(BASE/"organism_catalog.csv"),pd.read_csv(BASE/"organisms.csv",encoding="utf-8-sig")
 
-from ui import CSS, LABELS, ICONS, profile, feature_cards, prediction, evidence
+from ui import CSS, LABELS, ICONS, profile, feature_cards, prediction, evidence, manual_feature_label
 st.markdown(CSS,unsafe_allow_html=True)
 st.markdown('<div class="lk-kicker">EXPLORE THE LIVING WORLD</div>',unsafe_allow_html=True)
 st.title("Life Kingdom")
@@ -74,7 +74,11 @@ with tab2:
     st.caption("เลือกคำตอบทั้ง 6 ข้อ แล้วให้โมเดลช่วยจำแนกอาณาจักร")
     complete=sum(st.session_state.get(f'feature_{i}') is not None for i in range(6))
     st.markdown(f'**เลือกแล้ว {complete}/6 ข้อ**')
-    answers={f:st.radio(f'{ICONS[f]}  {LABELS[f]}',["ใช่","ไม่ใช่"],index=None,horizontal=True,key=f'feature_{i}',on_change=changed_manual,width='stretch') for i,f in enumerate(FEATURES)}
+    answers={}
+    for i,f in enumerate(FEATURES):
+        with st.container(key=f'manual_feature_{i}'):
+            manual_feature_label(f)
+            answers[f]=st.radio(LABELS[f],["ใช่","ไม่ใช่"],index=None,horizontal=True,key=f'feature_{i}',on_change=changed_manual,width='stretch',label_visibility='collapsed')
     left,right=st.columns([2,1])
     predict=left.button("ทำนายอาณาจักร",type="primary",use_container_width=True)
     right.button("ล้างคำตอบ",on_click=clear_manual,use_container_width=True)

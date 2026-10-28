@@ -9,6 +9,29 @@ LABELS=dict(zip(FEATURES,['ไรโบโซม','การสังเคร�
 ICONS=dict(zip(FEATURES,['◉','☀','◎','▣','❋','◌']))
 KINGDOM_TH={'Monera':'มอเนอรา','Protista':'โพรทิสตา','Fungi':'ฟังไจ','Plantae':'พืช','Animalia':'สัตว์'}
 
+
+def vector_icon(paths, color="currentColor"):
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" stroke="{color}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{paths}</svg>'
+
+KINGDOM_ICONS = {
+    "Plantae": vector_icon('<path d="M26 5C13 3 5 9 7 19c9 6 21-1 19-14Z" fill="#B7D7BA" fill-opacity=".18"/><path d="M5 28 23 9M12 21l-1-8M17 16l7 1"/>', "#B7D7BA"),
+    "Animalia": vector_icon('<ellipse cx="10" cy="10" rx="3" ry="4"/><ellipse cx="22" cy="10" rx="3" ry="4"/><ellipse cx="4.5" cy="16" rx="2.5" ry="3.5"/><ellipse cx="27.5" cy="16" rx="2.5" ry="3.5"/><path d="M8 25c0-4 5-10 8-10s8 6 8 10c0 5-5 3-8 2-3 1-8 3-8-2Z" fill="#E8BC7D" fill-opacity=".2"/>', "#E8BC7D"),
+    "Fungi": vector_icon('<path d="M3 18a13 13 0 0 1 26 0Z" fill="#E6A9BD" fill-opacity=".2"/><path d="m13 18-2 10h10l-2-10M9 12h.01M17 8h.01M23 13h.01"/>', "#E6A9BD"),
+    "Protista": vector_icon('<path d="m15 4 7 4-6 11-7-4ZM13 3l11 6M11 20H5M20 15a7 7 0 0 1 1 13M6 28h21M13 23v5"/><circle cx="21" cy="16" r="2"/>', "#C9B8EB"),
+    "Monera": vector_icon('<rect x="8" y="5" width="16" height="22" rx="8" transform="rotate(35 16 16)" fill="#93D8DC" fill-opacity=".2"/><path d="m9 4 2 3M21 3l-1 4M28 10l-4 1M28 22l-4-2M21 29l-1-4M6 28l3-4M3 17l4 1M4 8l4 3M13 12h.01M19 16h.01M13 21h.01"/>', "#93D8DC"),
+}
+MANUAL_ICONS = dict(zip(FEATURES, [
+    vector_icon('<circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="8"/>'),
+    vector_icon('<circle cx="16" cy="16" r="6"/><path d="M16 2v4M16 26v4M2 16h4M26 16h4M6 6l3 3M23 23l3 3M6 26l3-3M23 9l3-3"/>'),
+    vector_icon('<ellipse cx="16" cy="16" rx="6" ry="14" transform="rotate(45 16 16)"/><ellipse cx="16" cy="16" rx="6" ry="14" transform="rotate(-45 16 16)"/><circle cx="16" cy="16" r="1"/>'),
+    vector_icon('<path d="M16 3c4 4 7 4 11 5v10c0 6-5 9-11 12C10 27 5 24 5 18V8c4-1 7-1 11-5Z"/>'),
+    vector_icon('<path d="M26 5C13 3 5 9 7 19c9 6 21-1 19-14Z"/><path d="M5 28 23 9"/>'),
+    vector_icon('<circle cx="16" cy="5" r="3"/><circle cx="6" cy="26" r="3"/><circle cx="26" cy="26" r="3"/><circle cx="16" cy="26" r="3"/><path d="M16 8v15M6 23v-7h20v7"/>'),
+]))
+
+def manual_feature_label(feature):
+    st.markdown(f'<div class="lk-manual-label"><span>{MANUAL_ICONS[feature]}</span><span>{escape(LABELS[feature])}</span></div>', unsafe_allow_html=True)
+
 CSS='''<style>
 .stApp{background:#191D1A;color:#F2F5F0}
 [data-testid="stHeader"]{background:#191D1A}
@@ -53,6 +76,19 @@ a{color:#B7D7BA!important} [data-testid="stCaptionContainer"]{color:#b5c4b2}
     }
 }
 
+
+/* Only the prediction card and six keyed manual rows. */
+.lk-result{position:relative}
+.lk-result>.lk-kicker{padding-right:52px;min-height:32px;display:flex;align-items:center}
+.lk-result-icon{position:absolute;top:24px;right:24px;width:34px;height:34px}
+.lk-result-icon svg{display:block;width:100%;height:100%}
+[class*="st-key-manual_feature_"][data-testid="stVerticalBlock"]{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px;background:#292F2A;border-radius:12px;padding:8px 14px;min-height:58px}
+.lk-manual-label{display:flex;align-items:center;gap:14px;font-weight:550;line-height:1.4}
+.lk-manual-label>span:first-child{display:flex;flex:0 0 26px;width:26px;height:26px;color:#B7D7BA}
+.lk-manual-label svg{width:26px;height:26px;display:block}
+[class*="st-key-manual_feature_"] [data-testid="stRadio"]{padding:0!important;min-height:0;background:transparent;gap:0!important}
+[class*="st-key-manual_feature_"] [role="radiogroup"]{gap:10px;flex-wrap:nowrap}
+@media(max-width:600px){.lk-result-icon{top:20px;right:20px;width:32px;height:32px}[class*="st-key-manual_feature_"][data-testid="stVerticalBlock"]{padding:8px 10px}.lk-manual-label{font-size:.95rem}}
 </style>'''
 
 def profile(row):
@@ -95,7 +131,7 @@ def prediction(values,model,columns,reference=None):
         compare=f'<div class="lk-compare">ข้อมูลอ้างอิง · <strong>{escape(KINGDOM_TH[reference])} / {escape(reference)}</strong><br>{"✓ สอดคล้องกับผลโมเดล" if match else "ผลต่างกัน · ผลโมเดลกับข้อมูลอ้างอิงไม่ตรงกัน"}</div>'
         if not match:
             compare+='<div class="lk-note">คุณลักษณะ 6 ข้อนี้อาจเหมือนกันในต่างอาณาจักร โมเดลจึงแยกไม่ได้ทุกกรณี ผลนี้เป็นการทำนายจากโมเดล ไม่ได้เปลี่ยนข้อมูลอ้างอิงของสิ่งมีชีวิต</div>'
-    st.markdown(f'<section class="lk-result" aria-label="ผลการทำนาย"><div class="lk-kicker">MODEL PREDICTION</div><h2>อาณาจักร{escape(KINGDOM_TH.get(result,result))}</h2><div class="lk-en">{escape(result)}</div>{compare}</section>',unsafe_allow_html=True)
+    st.markdown(f'<section class="lk-result" aria-label="ผลการทำนาย"><span class="lk-result-icon">{KINGDOM_ICONS.get(result, "")}</span><div class="lk-kicker">MODEL PREDICTION</div><h2>อาณาจักร{escape(KINGDOM_TH.get(result,result))}</h2><div class="lk-en">{escape(result)}</div>{compare}</section>',unsafe_allow_html=True)
     with st.expander('ดูเหตุผลการทำนาย'):
         steps,leaf=decision_steps(model,X,columns)
         items=''.join(f'<li><strong>{LABELS[s["feature"]]}</strong><small>คำตอบ: {"ใช่" if s["value"] else "ไม่ใช่"} → ไปยังขั้นถัดไป</small></li>' for s in steps)

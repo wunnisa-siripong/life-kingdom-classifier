@@ -4,6 +4,7 @@ from urllib.parse import urlparse, unquote
 import pandas as pd
 import streamlit as st
 from catalog import FEATURES, prediction_input
+from species import PROFILES
 
 LABELS=dict(zip(FEATURES,['ไรโบโซม','การสังเคราะห์แสง','นิวเคลียส','ผนังเซลล์','คลอโรพลาสต์','หลายเซลล์']))
 ICONS=dict(zip(FEATURES,['◉','☀','◎','▣','❋','◌']))
@@ -33,6 +34,7 @@ def manual_feature_label(feature):
     st.markdown(f'<div class="lk-manual-label"><span>{MANUAL_ICONS[feature]}</span><span>{escape(LABELS[feature])}</span></div>', unsafe_allow_html=True)
 
 CSS='''<style>
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500;600;700&display=swap');
 .stApp{background:#191D1A;color:#F2F5F0}
 [data-testid="stHeader"]{background:#191D1A}
 .block-container{max-width:860px;padding-top:2.2rem;padding-bottom:3rem}
@@ -89,13 +91,38 @@ a{color:#B7D7BA!important} [data-testid="stCaptionContainer"]{color:#b5c4b2}
 [class*="st-key-manual_feature_"] [data-testid="stRadio"]{padding:0!important;min-height:0;background:transparent;gap:0!important}
 [class*="st-key-manual_feature_"] [role="radiogroup"]{gap:10px;flex-wrap:nowrap}
 @media(max-width:600px){.lk-result-icon{top:20px;right:20px;width:32px;height:32px}[class*="st-key-manual_feature_"][data-testid="stVerticalBlock"]{padding:8px 10px}.lk-manual-label{font-size:.95rem}}
+
+/* Remaining approved presentation work; manual row geometry stays intact. */
+.stApp,.stApp input,.stApp button,.stApp textarea{font-family:'Anuphan','Noto Sans Thai',Tahoma,sans-serif}
+.stApp h1,.stApp h2,.stApp h3{font-family:'Anuphan','Noto Sans Thai',Tahoma,sans-serif;line-height:1.35;letter-spacing:-.015em}
+.stApp h1{font-size:clamp(2.8rem,7vw,3.7rem);font-weight:700}
+.lk-profile{position:relative;align-items:flex-start;padding-right:76px}
+.lk-profile>div{min-width:0}.lk-profile h2{font-size:clamp(2rem,5vw,2.7rem);overflow-wrap:anywhere}.lk-profile i{overflow-wrap:anywhere}
+.lk-profile-icon{position:absolute;top:24px;right:24px;width:34px;height:34px}.lk-profile-icon svg{width:100%;height:100%}
+.lk-photo{flex:0 0 150px;width:150px;height:160px;background:#344236;border-radius:16px;overflow:hidden;display:flex;align-items:center;justify-content:center}.lk-photo img{width:100%;height:100%;object-fit:contain}
+.lk-bio{color:#d8e2d4;line-height:1.85;margin:0 0 14px}.lk-bio p{margin:0 0 6px}.lk-bio ul{margin:0;padding-left:22px}
+.lk-placeholder svg{width:40px;height:40px}.lk-placeholder span{display:flex}
+.lk-feature .lk-icon{display:flex;flex:0 0 26px;width:26px;height:26px}.lk-feature svg{width:26px;height:26px}
+.lk-feature{gap:14px;line-height:1.6}.lk-feature small{font-size:.88rem;color:#c5d0c2}.lk-feature strong{font-size:1.05rem}
+.lk-result h2{font-size:clamp(2rem,5vw,2.8rem)}
+[data-baseweb="tab"][aria-selected="true"]{color:#B7D7BA;font-weight:600}
+.lk-feature{transition:background-color .16s ease,transform .16s ease}
+@media(hover:hover){.lk-feature:hover{background:#344236;transform:translateY(-2px)}}
+@media(prefers-reduced-motion:reduce){.lk-feature{transition:none;transform:none!important}}
+@media(max-width:600px){.lk-profile{padding:18px;gap:14px;padding-top:62px}.lk-profile-icon{top:18px;right:18px;width:32px;height:32px}.lk-photo{flex-basis:94px;width:94px;height:126px}.lk-profile h2{font-size:1.9rem}.lk-feature{gap:12px}.lk-feature small{font-size:.8rem}}
 </style>'''
 
 def profile(row):
     e=lambda key:escape(str(row[key]))
+    info=PROFILES.get(str(row['scientific_name']))
+    visual=(f'<div class="lk-photo"><img src="{escape(info["image"],quote=True)}" alt="{escape(info["alt"],quote=True)}" loading="lazy" /></div>' if info else f'<div class="lk-placeholder" role="img" aria-label="ภาพแทน ยังไม่มีภาพที่ตรวจสอบสิทธิ์"><span aria-hidden="true">{KINGDOM_ICONS.get(row["Kingdom"], "")}</span>ภาพแทน<br>รอภาพยืนยันสิทธิ์</div>')
     st.markdown(f'''<section class="lk-profile" aria-label="Species Profile">
-<div class="lk-placeholder" role="img" aria-label="ภาพแทน ยังไม่มีภาพที่ตรวจสอบสิทธิ์"><span aria-hidden="true">❋</span>ภาพแทน<br>รอภาพยืนยันสิทธิ์</div>
+<span class="lk-profile-icon" aria-hidden="true">{KINGDOM_ICONS.get(row["Kingdom"], "")}</span>{visual}
 <div><div class="lk-kicker">SPECIES PROFILE</div><h2>{escape(row['thai_name'] or row['english_name'] or row['scientific_name'])}</h2><p><i>{e('scientific_name')}</i></p><p>{e('english_name')}</p><span class="lk-tag">อ้างอิง · {escape(KINGDOM_TH[row['Kingdom']])} / {e('Kingdom')}</span></div></section>''',unsafe_allow_html=True)
+    if info:
+        st.markdown(f'<div class="lk-bio"><p>{escape(info["description"])}</p><ul>'+''.join('<li>'+escape(fact)+'</li>' for fact in info['facts'])+'</ul></div>',unsafe_allow_html=True)
+        st.caption(f'ข้อมูล: [{info["source_label"]}]({info["source"]})')
+        st.caption(f'ภาพ: [{info["credit"]}]({info["image_source"]}) · [{info["license"]}]({info["license_url"]}) · แสดงภาพต้นฉบับ ย่อให้พอดีกรอบ')
 
 def feature_cards(row):
     cards=[]
@@ -106,7 +133,7 @@ def feature_cards(row):
             value = "ได้" if row[f] == 1 else "ไม่ได้"
         else:
             value = "มี" if row[f] == 1 else "ไม่มี"
-        cards.append(f'<div class="lk-feature"><span class="lk-icon" aria-hidden="true">{ICONS[f]}</span><div><small>{LABELS[f]}</small><strong>{value}</strong></div></div>')
+        cards.append(f'<div class="lk-feature"><span class="lk-icon" aria-hidden="true">{MANUAL_ICONS[f]}</span><div><small>{LABELS[f]}</small><strong>{value}</strong></div></div>')
     st.markdown('<div class="lk-kicker">ลักษณะสำคัญทั้ง 6</div><div class="lk-grid">'+''.join(cards)+'</div>',unsafe_allow_html=True)
 
 def decision_steps(model,X,columns):

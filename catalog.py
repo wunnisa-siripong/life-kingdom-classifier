@@ -27,7 +27,7 @@ def read_catalog(path):
     return data
 def option_label(row):
     primary=row['thai_name'] or row['english_name'] or row['scientific_name']
-    return primary+' · '+' · '.join(dict.fromkeys(n for n in names(row) if n and n!=primary))
+    return primary+(' · '+row['scientific_name'] if row['scientific_name']!=primary else '')
 def prediction_input(values,columns):
     if len(columns)!=6 or set(columns)!=set(FEATURES): raise ValueError('Unexpected model features')
     if any(pd.isna(values[c]) or values[c] not in (0,1) for c in columns):

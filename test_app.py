@@ -47,22 +47,39 @@ class CatalogueTests(unittest.TestCase):
         app=AppTest.from_file(str(BASE/'streamlit_app.py'),default_timeout=20).run()
         self.assertEqual(len(app.exception),0)
         for q,kingdom in [('มะม่วง','Plantae'),('MANGO','Plantae'),('Felis catus','Animalia'),('อะมีบา','Protista')]:
-            label=option_label(search(self.data,q).iloc[0])
-            app.selectbox[0].select(label).run()
+            app.text_input[0].set_value(q).run()
             self.assertEqual(len(app.exception),0)
-            self.assertIn(kingdom,[m.value for m in app.metric])
-        app.selectbox[0].select(option_label(search(self.data,'Spirogyra').iloc[0])).run()
-        self.assertEqual([m.value for m in app.metric],['Protista','Plantae'])
-        self.assertTrue(any('ผลต่างกัน' in w.value for w in app.warning))
+            self.assertTrue(any('lk-result' in m.value and kingdom in m.value for m in app.markdown))
+        app.text_input[0].set_value('Spirogyra').run()
+        result=next(m.value for m in app.markdown if 'section class="lk-result"' in m.value)
+        self.assertIn('Protista',result)
+        self.assertIn('Plantae',result)
+        self.assertIn('ผลต่างกัน',result)
         # AppTest 1.50 cannot submit new selectbox options. No-match is tested
         # by search() above and through the deployed browser UI.
-        app.selectbox[0].set_value(None).run()
+        app.text_input[0].set_value('not-a-real-organism-999').run()
+        self.assertTrue(any('ไม่พบ' in i.value for i in app.info))
         self.assertEqual(len(app.metric),0)
         app.button[0].click().run()
         self.assertTrue(any('ครบทั้ง 6' in w.value for w in app.warning))
         for radio in app.radio: radio.set_value('ใช่')
         app.button[0].click().run()
-        self.assertTrue(any('Plantae' in s.value for s in app.success))
+        self.assertTrue(any('section class="lk-result"' in s.value and 'Plantae' in s.value for s in app.markdown))
         self.assertEqual(len(app.exception),0)
+        app.button[1].click().run()
+        self.assertTrue(all(r.value is None for r in app.radio))
+        self.assertFalse(any('section class="lk-result"' in m.value for m in app.markdown))
+        for radio in app.radio: radio.set_value('ไม่ใช่')
+        app.button[0].click().run()
+        self.assertTrue(any('ไรโบโซม' in i.value for i in app.info))
+        self.assertTrue(any('section class="lk-result"' in m.value for m in app.markdown))
+
+    def test_paths(self):
+        from ui import decision_steps
+        model,cols=self.package['model'],list(self.package['features'])
+        for vector in itertools.product([0,1],repeat=6):
+            X=pd.DataFrame([vector],columns=cols)
+            steps,leaf=decision_steps(model,X,cols)
+            self.assertEqual([s['node'] for s in steps]+[leaf],list(model.decision_path(X).indices))
 
 if __name__=='__main__': unittest.main(verbosity=2)

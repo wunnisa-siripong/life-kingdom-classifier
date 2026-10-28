@@ -29,6 +29,12 @@ h1,h2,h3{letter-spacing:-.035em} .lk-kicker{font-size:.7rem;letter-spacing:.18em
 div.stButton>button{border-radius:24px;min-height:44px} [data-baseweb="tab-list"]{gap:22px;border-bottom:1px solid #3b493d} [data-baseweb="tab"]{padding:12px 0}
 a{color:#B7D7BA!important} [data-testid="stCaptionContainer"]{color:#b5c4b2}
 @media(max-width:600px){.block-container{padding:1.2rem 1rem 2rem}.lk-profile{padding:18px;gap:14px}.lk-placeholder{flex-basis:74px;height:108px;font-size:10px}.lk-profile h2{font-size:1.6rem}.lk-profile i{font-size:.9rem}.lk-feature{padding:12px 10px;gap:9px}.lk-feature small{font-size:.73rem}.lk-result{padding:20px}.lk-result h2{font-size:1.9rem}[data-baseweb="tab-list"]{gap:18px}[data-baseweb="tab"]{font-size:.86rem}}
+
+/* เพิ่มระยะด้านบน ไม่ให้หัวเว็บถูกบัง */
+[data-testid="stMainBlockContainer"] {
+    padding-top: 5rem !important;
+}
+
 </style>'''
 
 def profile(row):

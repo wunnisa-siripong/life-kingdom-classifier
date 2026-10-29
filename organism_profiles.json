@@ -8091,7 +8091,7 @@
   },
   "thai-anopheles-stephensi": {
     "id": "thai-anopheles-stephensi",
-    "description": "ยุงก้นปล่อง เป็นยุงในสกุล Anopheles วงศ์ Culicidae รายการนี้ระบุชนิด Anopheles stephensi เพื่อให้ภาพและข้อมูลตรงกัน ไม่ใช้ชื่อวิทยาศาสตร์ Anopheles vagus กำกับภาพของยุงอีกชนิด จัดอยู่ในอาณาจักรสัตว์ ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์",
+    "description": "ยุงก้นปล่อง Anopheles stephensi เป็นแมลงในวงศ์ Culicidae มีขา 3 คู่และปีก 1 คู่ วงจรชีวิตประกอบด้วยไข่ ลูกน้ำ ตัวโม่ง และยุงตัวเต็มวัย ระยะลูกน้ำและตัวโม่งอาศัยในน้ำ ตัวเต็มวัยมีท่าพักยกส่วนท้องทำมุมกับพื้นผิว จัดอยู่ในอาณาจักรสัตว์ ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์",
     "facts": [
       "ยุงก้นปล่อง",
       "ชื่อวิทยาศาสตร์ Anopheles stephensi",
@@ -8118,10 +8118,11 @@
     ],
     "alt": "ภาพ Anopheles stephensi",
     "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
-    "species_description_th": "ยุงก้นปล่อง เป็นยุงในสกุล Anopheles วงศ์ Culicidae รายการนี้ระบุชนิด Anopheles stephensi เพื่อให้ภาพและข้อมูลตรงกัน ไม่ใช้ชื่อวิทยาศาสตร์ Anopheles vagus กำกับภาพของยุงอีกชนิด จัดอยู่ในอาณาจักรสัตว์ ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์",
+    "species_description_th": "ยุงก้นปล่อง Anopheles stephensi เป็นแมลงในวงศ์ Culicidae มีขา 3 คู่และปีก 1 คู่ วงจรชีวิตประกอบด้วยไข่ ลูกน้ำ ตัวโม่ง และยุงตัวเต็มวัย ระยะลูกน้ำและตัวโม่งอาศัยในน้ำ ตัวเต็มวัยมีท่าพักยกส่วนท้องทำมุมกับพื้นผิว จัดอยู่ในอาณาจักรสัตว์ ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์",
     "biology_sources": [
       "https://thbif.onep.go.th/taxons/detail/2532",
       "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
+      "https://www.scimath.org/article-science/item/6726-2017-03-17-03-57-55",
       "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
     ],
     "review_locked": true,

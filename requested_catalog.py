@@ -68,7 +68,7 @@ def make(slug, thai, english, scientific, rank, kingdom, vector, source, scope, 
     }[kingdom]
     for f,v,n in zip(F,vector,notes):
         row[f]=str(v)
-        row[f+'_evidence']=('Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; ' if v=='' else 'อนุมานระดับกลุ่ม: ')+n+'; '+row['feature_sources']
+        row[f+'_evidence']=('Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; ' if v=='' else 'อนุมานระดับกลุ่ม: ')+n+'; '+row['feature_sources'].replace('|',' ; ')
     return row
 
 def reviewed_records():

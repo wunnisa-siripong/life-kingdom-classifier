@@ -65,6 +65,8 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(search(self.data,'ซุกซุ่น').iloc[0].scientific_name,'')
         self.assertIn('ยังไม่มีหลักฐาน',search(self.data,'ซุกซุ่น').iloc[0].scope)
         from requested_catalog import apply_requested
+        for _,row in self.data[self.data.id.str.startswith('request-')].iterrows():
+            for f in FEATURES: self.assertNotIn('|https://',row[f+'_evidence'])
         rows=json.loads((BASE/'evidence/catalog_audit/curated_catalog.json').read_text(encoding='utf8'))
         report=json.loads((BASE/'evidence/catalog_audit/row_report.json').read_text(encoding='utf8'))
         before=json.dumps(rows,sort_keys=True)

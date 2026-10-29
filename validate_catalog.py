@@ -24,7 +24,12 @@ def validate(check_links=False):
             assert tax['taxonomicStatus']=='ACCEPTED'
             assert row['rank']==tax['rank'].lower()
             if row['rank']=='species': assert row['scientific_name']==tax['canonicalName']
-        if audit.get('review_basis') == 'requested_catalog':
+        if audit.get('review_basis') == 'thai_catalog_update':
+            from catalog_updates import reviewed_updates
+            changes={c['row']['id']:c for c in reviewed_updates()}
+            assert row == {k:str(v) for k,v in changes[row['id']]['row'].items()}, 'Reviewed update differs from source record'
+            assert audit.get('review_sources') == row['name_sources'].split('|')
+        elif audit.get('review_basis') == 'requested_catalog':
             from requested_catalog import reviewed_records
             expected = reviewed_records()[row['id']]
             assert row == expected, 'Requested entry differs from reviewed source record'

@@ -1,12 +1,12 @@
 {
   "id": "train-09",
-  "description": "ยีสต์ เป็นราตามระบบ 5 อาณาจักรของโครงงาน วงศ์ Saccharomycetaceae อันดับ Saccharomycetales ชั้น Saccharomycetes ข้อมูลลักษณะทั้ง 6 ข้อด้านล่างใช้ระยะชีวิตและชนิดเซลล์ตามขอบเขตของรายการ",
+  "description": "ยีสต์ Saccharomyces cerevisiae เป็นราเซลล์เดียวที่เพิ่มจำนวนโดยการแตกหน่อและหมักน้ำตาลได้ เป็นหนึ่งในยีสต์ที่มีรายงานในลูกแป้งข้าวหมาก ลูกแป้งอาจมีราและยีสต์หลายชนิดร่วมกัน จึงไม่ใช้ภาพหรือคุณลักษณะของยีสต์ชนิดนี้แทนจุลินทรีย์ทั้งหมดในข้าวหมาก",
   "facts": [
-    "ข้อมูลระดับกลุ่ม",
-    "วงศ์ Saccharomycetaceae",
+    "ยีสต์ (ยีสต์ข้าวหมาก)",
+    "ชื่อวิทยาศาสตร์ Saccharomyces cerevisiae",
     "อาณาจักร Fungi"
   ],
-  "source": "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+  "source": "https://libdoc.dpu.ac.th/thesis/Chonlatid.Prap.pdf",
   "source_label": "แหล่งอ้างอิงชื่อและชีววิทยาของรายการ",
   "taxonomy": {
     "key": 7440012,
@@ -51,28 +51,31 @@
     ],
     "class": "Saccharomycetes"
   },
-  "image_caption": "ภาพตัวอย่างยีสต์ Saccharomyces cerevisiae; รายการนี้เป็นรูปแบบการเจริญ ไม่ได้ระบุยีสต์ทุกชนิดเป็นชนิดนี้",
-  "errors": [
-    "commons: HTTP Error 429: Too Many Requests"
-  ],
-  "review_status": "source-matched image; visual review pending",
-  "verified_on": "2026-10-29",
-  "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/405966087/original.jpeg",
-  "image_source": "https://www.gbif.org/occurrence/4909092718",
-  "credit": "Ashwin A",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "image_caption": "ภาพ ยีสต์ (ยีสต์ข้าวหมาก) (Saccharomyces cerevisiae)",
+  "errors": [],
+  "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+  "verified_on": "2026-10-30",
+  "image": "https://mushroomobserver.org/images/1280/1955882.jpg",
+  "image_source": "https://www.gbif.org/occurrence/6231228773",
+  "credit": "MO Observers",
+  "license": "CC BY-NC 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
   "image_taxon": "Saccharomyces cerevisiae (Desm.) Meyen",
   "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=7440012&media_type=StillImage&occurrence_status=PRESENT&limit=30",
-  "occurrence_id": 4909092718,
+  "occurrence_id": 6231228773,
   "image_description": "",
-  "image_local": "assets/species/train-09.jpg",
+  "image_local": "assets/species/thai-saccharomyces-cerevisiae.jpg",
   "image_size": [
     675,
     900
   ],
-  "alt": "ภาพตัวอย่างยีสต์ Saccharomyces cerevisiae; รายการนี้เป็นรูปแบบการเจริญ ไม่ได้ระบุยีสต์ทุกชนิดเป็นชนิดนี้",
+  "alt": "ภาพ ยีสต์ (ยีสต์ข้าวหมาก) (Saccharomyces cerevisiae)",
   "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
-  "review_locked": true,
-  "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification."
+  "species_description_th": "ยีสต์ Saccharomyces cerevisiae เป็นราเซลล์เดียวที่เพิ่มจำนวนโดยการแตกหน่อและหมักน้ำตาลได้ เป็นหนึ่งในยีสต์ที่มีรายงานในลูกแป้งข้าวหมาก ลูกแป้งอาจมีราและยีสต์หลายชนิดร่วมกัน จึงไม่ใช้ภาพหรือคุณลักษณะของยีสต์ชนิดนี้แทนจุลินทรีย์ทั้งหมดในข้าวหมาก",
+  "biology_sources": [
+    "https://libdoc.dpu.ac.th/thesis/Chonlatid.Prap.pdf",
+    "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+  ],
+  "reviewed_on": "2026-10-30",
+  "review_locked": true
 }

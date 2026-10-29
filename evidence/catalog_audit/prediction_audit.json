@@ -1,8 +1,8 @@
 {
   "counts": {
-    "match": 261,
-    "mismatch": 6,
-    "not_predicted_unknown": 185
+    "match": 296,
+    "mismatch": 8,
+    "not_predicted_unknown": 170
   },
   "interpretation": "Reference comparison only; shared six-trait combinations are not biological identification or an independent accuracy evaluation.",
   "rows": [
@@ -94,7 +94,7 @@
     },
     {
       "id": "train-09",
-      "scientific_name": "",
+      "scientific_name": "Saccharomyces cerevisiae",
       "reference": "Fungi",
       "prediction": "Fungi",
       "status": "match",
@@ -527,7 +527,7 @@
     },
     {
       "id": "train-43",
-      "scientific_name": "Bacillus sp.",
+      "scientific_name": "Bacillus subtilis",
       "reference": "Monera",
       "prediction": "Monera",
       "status": "match",
@@ -2730,8 +2730,8 @@
       ]
     },
     {
-      "id": "gbif-1650497",
-      "scientific_name": "Anopheles vagus",
+      "id": "thai-anopheles-stephensi",
+      "scientific_name": "Anopheles stephensi",
       "reference": "Animalia",
       "prediction": "Animalia",
       "status": "match",
@@ -4134,12 +4134,17 @@
       ]
     },
     {
-      "id": "gbif-9739824",
-      "scientific_name": "Saitozyma podzolica",
+      "id": "thai-schizophyllum-commune",
+      "scientific_name": "Schizophyllum commune",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4224,21 +4229,31 @@
       ]
     },
     {
-      "id": "gbif-11738943",
-      "scientific_name": "Russula pseudocyanoxantha",
+      "id": "thai-tremella-fuciformis",
+      "scientific_name": "Tremella fuciformis",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
-      "id": "gbif-10742558",
-      "scientific_name": "Lactifluus gerardiellus",
+      "id": "thai-lentinus-squarrosulus",
+      "scientific_name": "Lentinus squarrosulus",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4260,12 +4275,17 @@
       ]
     },
     {
-      "id": "gbif-11581860",
-      "scientific_name": "Russula byssina",
+      "id": "thai-pleurotus-ostreatus",
+      "scientific_name": "Pleurotus ostreatus",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4305,12 +4325,17 @@
       ]
     },
     {
-      "id": "gbif-9791807",
-      "scientific_name": "Bifiguratus adelaidae",
+      "id": "thai-pleurotus-eryngii",
+      "scientific_name": "Pleurotus eryngii",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4350,12 +4375,17 @@
       ]
     },
     {
-      "id": "gbif-8296805",
-      "scientific_name": "Basidioascus magus",
+      "id": "thai-hypsizygus-marmoreus",
+      "scientific_name": "Hypsizygus marmoreus",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4413,21 +4443,31 @@
       ]
     },
     {
-      "id": "gbif-9755839",
-      "scientific_name": "Solicoccozyma terricola",
+      "id": "thai-hericium-erinaceus",
+      "scientific_name": "Hericium erinaceus",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
-      "id": "gbif-5252097",
-      "scientific_name": "Fusarium buharicum",
+      "id": "thai-grifola-frondosa",
+      "scientific_name": "Grifola frondosa",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4449,39 +4489,59 @@
       ]
     },
     {
-      "id": "gbif-3545360",
-      "scientific_name": "Gymnostellatospora japonica",
+      "id": "thai-agaricus-bisporus",
+      "scientific_name": "Agaricus bisporus",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
-      "id": "gbif-5251371",
-      "scientific_name": "Trichoderma pubescens",
+      "id": "thai-flammulina-velutipes",
+      "scientific_name": "Flammulina velutipes",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
-      "id": "gbif-2614118",
-      "scientific_name": "Didymella exigua",
+      "id": "thai-cyclocybe-cylindracea",
+      "scientific_name": "Cyclocybe cylindracea",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
-      "id": "gbif-9814473",
-      "scientific_name": "Apiotrichum dehoogii",
+      "id": "thai-coprinopsis-cinerea",
+      "scientific_name": "Coprinopsis cinerea",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4494,12 +4554,17 @@
       ]
     },
     {
-      "id": "gbif-7713104",
-      "scientific_name": "Lactifluus pseudoluteopus",
+      "id": "thai-auricularia-cornea",
+      "scientific_name": "Auricularia cornea",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4566,12 +4631,17 @@
       ]
     },
     {
-      "id": "gbif-2573550",
-      "scientific_name": "Humicola nigrescens",
+      "id": "thai-lentinus-polychrous",
+      "scientific_name": "Lentinus polychrous",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -4620,30 +4690,45 @@
       ]
     },
     {
-      "id": "gbif-3473983",
-      "scientific_name": "Exophiala nishimurae",
+      "id": "thai-macrocybe-crassa",
+      "scientific_name": "Macrocybe crassa",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
-      "id": "gbif-10711232",
-      "scientific_name": "Niesslia ligustica",
+      "id": "thai-phallus-indusiatus",
+      "scientific_name": "Phallus indusiatus",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
-      "id": "gbif-11987476",
-      "scientific_name": "Scolecobasidium cordanae",
+      "id": "thai-coprinus-comatus",
+      "scientific_name": "Coprinus comatus",
       "reference": "Fungi",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Multicellular organisms"
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
       ]
     },
     {
@@ -5084,6 +5169,283 @@
       "status": "not_predicted_unknown",
       "unknown_traits": [
         "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "thai-escherichia-coli",
+      "scientific_name": "Escherichia coli",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "thai-streptomyces-coelicolor",
+      "scientific_name": "Streptomyces coelicolor",
+      "reference": "Monera",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "thai-porphyra-umbilicalis",
+      "scientific_name": "Porphyra umbilicalis",
+      "reference": "Protista",
+      "prediction": "Plantae",
+      "status": "mismatch",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "thai-navicula-tripunctata",
+      "scientific_name": "Navicula tripunctata",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "thai-plasmodium-falciparum",
+      "scientific_name": "Plasmodium falciparum",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "thai-rosa-chinensis",
+      "scientific_name": "Rosa chinensis",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "thai-amanita-phalloides",
+      "scientific_name": "Amanita phalloides",
+      "reference": "Fungi",
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "thai-rhizopus-stolonifer",
+      "scientific_name": "Rhizopus stolonifer",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "thai-pediculus-humanus",
+      "scientific_name": "Pediculus humanus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "thai-ctenocephalides-felis",
+      "scientific_name": "Ctenocephalides felis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "thai-wolffia-globosa",
+      "scientific_name": "Wolffia globosa",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "thai-cladophora-glomerata",
+      "scientific_name": "Cladophora glomerata",
+      "reference": "Protista",
+      "prediction": "Plantae",
+      "status": "mismatch",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "thai-astraeus-odoratus",
+      "scientific_name": "Astraeus odoratus",
+      "reference": "Fungi",
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "thai-fragaria-×-ananassa",
+      "scientific_name": "Fragaria ananassa",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "thai-cordyceps-militaris",
+      "scientific_name": "Cordyceps militaris",
+      "reference": "Fungi",
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "thai-lactobacillus-acidophilus",
+      "scientific_name": "Lactobacillus acidophilus",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "thai-termitomyces-clypeatus",
+      "scientific_name": "Termitomyces clypeatus",
+      "reference": "Fungi",
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "thai-physarum-polycephalum",
+      "scientific_name": "Physarum polycephalum",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "thai-micrococcus-luteus",
+      "scientific_name": "Micrococcus luteus",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "thai-nostoc-commune",
+      "scientific_name": "Nostoc commune",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "thai-dermatophagoides-pteronyssinus",
+      "scientific_name": "Dermatophagoides pteronyssinus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "thai-phereoeca-uterella",
+      "scientific_name": "Phereoeca uterella",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
       ]
     }
   ]

@@ -192,6 +192,8 @@ def run(fetch=False,promote=False):
     # Apply separately reviewed user-requested groups and names on offline replay.
     from requested_catalog import apply_requested
     apply_requested(rows, report)
+    from catalog_updates import apply_updates
+    apply_updates(rows, report)
     added = {k: sum(a['before'] is None and a['after']['Kingdom']==k for a in report)
              for k in sorted({r['Kingdom'] for r in rows})}
     # This is the single source of truth. build_catalog replays this snapshot only.

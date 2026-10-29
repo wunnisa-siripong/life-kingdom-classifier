@@ -65,6 +65,34 @@ class CatalogueTests(unittest.TestCase):
         self.assertTrue(search(self.data,'not-a-real-organism-999').empty)
         self.assertTrue(search(self.data,'   ').empty)
         self.assertGreater(len(search(self.data,'sativ')),1)
+
+    def test_requested_thai_examples_are_distinct_and_sourced(self):
+        from species import profile_for
+        expected={'ยุงก้นปล่อง':'Anopheles stephensi','หนอนปลอก':'Phereoeca uterella',
+                  'ไรฝุ่น':'Dermatophagoides pteronyssinus','ผำ':'Wolffia globosa',
+                  'ราเมือก':'Physarum polycephalum','เห็ดโคน':'Termitomyces clypeatus',
+                  'อีโคไล':'Escherichia coli','พลาสโมเดียม':'Plasmodium falciparum'}
+        for name,sci in expected.items():
+            with self.subTest(name=name):
+                selected=search(self.data,name)
+                self.assertEqual(len(selected),1)
+                self.assertEqual(selected.iloc[0].scientific_name,sci)
+                info=profile_for(selected.iloc[0]);self.assertTrue(info['image_local'])
+                self.assertGreater(len(info['description']),100)
+                self.assertTrue(info['biology_sources'])
+        self.assertEqual(search(self.data,'ผำ').iloc[0].Kingdom,'Plantae')
+        self.assertEqual(search(self.data,'ราเมือก').iloc[0].Kingdom,'Protista')
+        self.assertEqual(search(self.data,'นอสทอก').iloc[0].Kingdom,'Monera')
+        self.assertEqual(len(self.data[self.data.scientific_name=='Saccharomyces cerevisiae']),1)
+        self.assertEqual(len(self.data[self.data.scientific_name=='Bacillus subtilis']),1)
+        self.assertEqual(len(self.data[self.data.scientific_name=='Volvariella volvacea']),1)
+        self.assertEqual(len(self.data[self.data.scientific_name=='Lentinula edodes']),1)
+        for name in ['ตะขาบ','มด','ฟองน้ำ','งู','ไดอะตอม','ราเพนิซิลเลียม','ถั่งเช่าสีทอง','หมัด','เหา']:
+            self.assertFalse(search(self.data,name).empty,name)
+        self.assertEqual(search(self.data,'พยาธิ').iloc[0].thai_name,'พยาธิ')
+        coverage=json.loads((BASE/'evidence/profile_coverage.json').read_text(encoding='utf8'))
+        self.assertEqual(coverage['images'],len(self.data))
+        self.assertEqual(coverage['missing_images'],[])
     def test_real_model(self):
         model,cols=self.package['model'],self.package['features']
         X=self.data.dropna(subset=cols)[cols].astype(int)
@@ -115,6 +143,8 @@ class CatalogueTests(unittest.TestCase):
         report=json.loads((BASE/'evidence/catalog_audit/row_report.json').read_text(encoding='utf8'))
         before=json.dumps(rows,sort_keys=True)
         apply_requested(rows,report)
+        from catalog_updates import apply_updates
+        apply_updates(rows,report)
         self.assertEqual(before,json.dumps(rows,sort_keys=True))
     def test_ui(self):
         def app_for(view='home', **state):

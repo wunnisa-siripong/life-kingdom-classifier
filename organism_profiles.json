@@ -254,40 +254,42 @@
   },
   "train-09": {
     "id": "train-09",
-    "description": "ยีสต์ เป็นราในระบบ 5 อาณาจักรของโครงงาน อยู่ในวงศ์ Saccharomycetaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+    "description": "ยีสต์ Saccharomyces cerevisiae เป็นราเซลล์เดียวที่เพิ่มจำนวนโดยการแตกหน่อและหมักน้ำตาลได้ เป็นหนึ่งในยีสต์ที่มีรายงานในลูกแป้งข้าวหมาก ลูกแป้งอาจมีราและยีสต์หลายชนิดร่วมกัน จึงไม่ใช้ภาพหรือคุณลักษณะของยีสต์ชนิดนี้แทนจุลินทรีย์ทั้งหมดในข้าวหมาก",
     "facts": [
-      "ข้อมูลระดับกลุ่ม",
-      "วงศ์ Saccharomycetaceae",
+      "ยีสต์ (ยีสต์ข้าวหมาก)",
+      "ชื่อวิทยาศาสตร์ Saccharomyces cerevisiae",
       "อาณาจักร Fungi"
     ],
     "source": "https://www.gbif.org/species/7440012",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพตัวอย่างยีสต์ Saccharomyces cerevisiae; รายการนี้เป็นรูปแบบการเจริญ ไม่ได้ระบุยีสต์ทุกชนิดเป็นชนิดนี้ · ชื่อในแหล่งภาพ: Saccharomyces cerevisiae (Desm.) Meyen",
-    "review_status": "source-matched image; visual review pending",
-    "verified_on": "2026-10-29",
-    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/405966087/original.jpeg",
-    "image_source": "https://www.gbif.org/occurrence/4909092718",
-    "credit": "Ashwin A",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "image_caption": "ภาพ ยีสต์ (ยีสต์ข้าวหมาก) (Saccharomyces cerevisiae)",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://mushroomobserver.org/images/1280/1955882.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6231228773",
+    "credit": "MO Observers",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
     "image_taxon": "Saccharomyces cerevisiae (Desm.) Meyen",
     "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=7440012&media_type=StillImage&occurrence_status=PRESENT&limit=30",
-    "occurrence_id": 4909092718,
+    "occurrence_id": 6231228773,
     "image_description": "",
-    "image_local": "assets/species/train-09.jpg",
+    "image_local": "assets/species/thai-saccharomyces-cerevisiae.jpg",
     "image_size": [
       675,
       900
     ],
-    "alt": "ภาพตัวอย่างยีสต์ Saccharomyces cerevisiae; รายการนี้เป็นรูปแบบการเจริญ ไม่ได้ระบุยีสต์ทุกชนิดเป็นชนิดนี้",
+    "alt": "ภาพ ยีสต์ (ยีสต์ข้าวหมาก) (Saccharomyces cerevisiae)",
     "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
-    "review_locked": true,
-    "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification.",
+    "species_description_th": "ยีสต์ Saccharomyces cerevisiae เป็นราเซลล์เดียวที่เพิ่มจำนวนโดยการแตกหน่อและหมักน้ำตาลได้ เป็นหนึ่งในยีสต์ที่มีรายงานในลูกแป้งข้าวหมาก ลูกแป้งอาจมีราและยีสต์หลายชนิดร่วมกัน จึงไม่ใช้ภาพหรือคุณลักษณะของยีสต์ชนิดนี้แทนจุลินทรีย์ทั้งหมดในข้าวหมาก",
     "biology_sources": [
+      "https://libdoc.dpu.ac.th/thesis/Chonlatid.Prap.pdf",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
     ],
-    "image_sha256": "34edfb7c1afbc1a2ca5c82427215c2f25f6a7441fe5c8a76032820c17f830888"
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "07aaa06ec8b12e97f4a75071dcb1c5a6bca7aa144ee40de02fbe414fd44c0cce"
   },
   "train-10": {
     "id": "train-10",
@@ -1453,39 +1455,41 @@
   },
   "train-43": {
     "id": "train-43",
-    "description": "Bacillus sp เป็นแบคทีเรียในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Bacillus sp. เป็นโพรคาริโอต ไม่มีนิวเคลียสที่มีเยื่อหุ้มและไม่มีคลอโรพลาสต์ แบคทีเรียบางกลุ่ม เช่น ไซยาโนแบคทีเรีย สังเคราะห์แสงได้โดยไม่ใช้คลอโรพลาสต์",
+    "description": "Bacillus subtilis เป็นแบคทีเรียรูปแท่งที่สร้างเอนโดสปอร์ได้ มีบทบาทสำคัญในการหมักถั่วเน่าตามข้อมูลสถาบันอาหาร ไม่ใช่ Lactobacillus การหมักพื้นบ้านอาจมีจุลินทรีย์หลายชนิดร่วมกัน รายการนี้ใช้เซลล์ระยะเจริญเป็นขอบเขตคุณลักษณะ",
     "facts": [
-      "ข้อมูลระดับกลุ่ม",
+      "แบคทีเรียบาซิลลัส (จุลินทรีย์ถั่วเน่า)",
+      "ชื่อวิทยาศาสตร์ Bacillus subtilis",
       "อาณาจักร Monera"
     ],
-    "source": "https://ncbi.nlm.nih.gov/sites/books/NBK7699/",
-    "source_label": "แหล่งอ้างอิงชื่อและชีววิทยาของรายการ",
-    "image_caption": "ภาพตัวอย่างในกลุ่ม Bacillus sp. · ชื่อในแหล่งภาพ: Bacillus",
-    "review_status": "source-matched image; visual review pending",
-    "verified_on": "2026-10-29",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bacillus_subtilis_Gram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "image_source": "https://commons.wikimedia.org/wiki/File:Bacillus_subtilis_Gram.jpg",
-    "credit": "Y tambe (original uploader)",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "image_taxon": "Bacillus",
-    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ABacillus_subtilis_Gram.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
-    "encyclopedia_url": "https://en.wikipedia.org/wiki/Bacillus",
-    "encyclopedia_excerpt": "Bacillus, from Latin \"bacillus\", meaning \"little staff, wand\", is a genus of Gram-positive, rod-shaped bacteria, a member of the phylum Bacillota, with 266 named species. The term is also used to describe the shape (rod) of other so-shaped bacteria; and the plural Bacilli is the name of the class of bacteria to which this genus belongs. Bacillus species can be either obligate aerobes which are dependent on oxygen, or facultative anaerobes which can survive in the absence of oxygen. Cultured Bacillus species test positive for the enzyme catalase if oxygen has been used or is present.",
-    "image_description": "microscopic image of Bacillus subtilis (ATCC 6633). Gram staining, magnification:1,000. The oval unstained structures are spores.",
-    "image_local": "assets/species/train-43.jpg",
+    "source": "https://www.gbif.org/species/10826006",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ แบคทีเรียบาซิลลัส (จุลินทรีย์ถั่วเน่า) (Bacillus subtilis)",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/329776973/original.jpeg",
+    "image_source": "https://www.gbif.org/occurrence/4436374269",
+    "credit": "Róbert Ívar",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Bacillus subtilis G",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=10826006&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 4436374269,
+    "image_description": "",
+    "image_local": "assets/species/thai-bacillus-subtilis.jpg",
     "image_size": [
-      500,
-      375
+      675,
+      900
     ],
-    "alt": "ภาพตัวอย่างในกลุ่ม Bacillus sp.",
+    "alt": "ภาพ แบคทีเรียบาซิลลัส (จุลินทรีย์ถั่วเน่า) (Bacillus subtilis)",
     "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
-    "review_locked": true,
-    "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification.",
+    "species_description_th": "Bacillus subtilis เป็นแบคทีเรียรูปแท่งที่สร้างเอนโดสปอร์ได้ มีบทบาทสำคัญในการหมักถั่วเน่าตามข้อมูลสถาบันอาหาร ไม่ใช่ Lactobacillus การหมักพื้นบ้านอาจมีจุลินทรีย์หลายชนิดร่วมกัน รายการนี้ใช้เซลล์ระยะเจริญเป็นขอบเขตคุณลักษณะ",
     "biology_sources": [
+      "https://fic.nfi.or.th/knowledge-detail.php?id=866",
       "https://openstax.org/books/microbiology/pages/4-3-nonproteobacteria-gram-negative-bacteria-and-phototrophic-bacteria"
     ],
-    "image_sha256": "86783f365b27777e2d9f3ad1c0c7f5b41f247ae81fcb99f6e108a8682fc7136d"
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "27ea7a17b2392fc347ee4bf534c8e082387cf828a3c5ba2235403595ff7c93b3"
   },
   "train-44": {
     "id": "train-44",
@@ -3959,7 +3963,7 @@
   },
   "gbif-1868664": {
     "id": "gbif-1868664",
-    "description": "ผีเสื้อไหม เป็นแมลงในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Bombyx mori อยู่ในวงศ์ Bombycidae แมลงระยะตัวเต็มวัยมีขา 3 คู่ และแบ่งลำตัวเป็นหัว อก และท้อง เซลล์ของตัวสัตว์ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์ ไม่รวมสิ่งมีชีวิตร่วมอาศัย",
+    "description": "หนอนไหมเป็นระยะตัวอ่อนของผีเสื้อไหม Bombyx mori กินใบหม่อนและลอกคราบระหว่างการเจริญเติบโต เมื่อพร้อมเข้าดักแด้จะชักใยห่อหุ้มตัวเป็นรังไหม ต่อมาจึงเปลี่ยนเป็นผีเสื้อเต็มวัย ทั้งระยะหนอนและผีเสื้อเป็นสัตว์ชนิดเดียวกัน คำว่าหนอนเป็นชื่อเรียกรูปร่างหรือระยะชีวิต ไม่ใช่ชื่ออาณาจักร",
     "facts": [
       "ข้อมูลระดับชนิด",
       "วงศ์ Bombycidae",
@@ -3967,31 +3971,33 @@
     ],
     "source": "https://www.gbif.org/species/1868664",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Bombyx mori",
+    "image_caption": "หนอนไหม ระยะตัวอ่อนของ Bombyx mori",
     "review_status": "source-matched image; visual review pending",
     "verified_on": "2026-10-29",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Pairedmoths.jpg",
-    "image_local": "assets/species/gbif-1868664.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Bombyx_mori_larvae%2C_Bornholms_Sommerfuglepark_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_local": "assets/species/silkworm-larva.jpg",
     "image_size": [
-      540,
-      405
+      900,
+      678
     ],
-    "image_source": "https://commons.wikimedia.org/wiki/File:Pairedmoths.jpg",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Bombyx_mori_larvae,_Bornholms_Sommerfuglepark_21.jpg",
     "image_taxon": "Bombyx mori",
-    "alt": "ภาพ Bombyx mori",
-    "credit": "Oakenking at en.wikipedia",
-    "license": "CC BY-SA 2.5",
-    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
-    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAnabaena_sperica2.jpg%7CFile%3AHydra-Foto.jpg%7CFile%3ASinosauropteryxfossil.jpg%7CFile%3ACyanidioschyzon_merolae_10D.jpg%7CFile%3ATrichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg%7CFile%3ACladiella.JPG%7CFile%3AChthamalus_stellatus.jpg%7CFile%3APairedmoths.jpg%7CFile%3AHeterocarpus_ensifer.jpg%7CFile%3AAraneus_diadematus_%28Clerck%2C_1757%29.JPG%7CFile%3ABalantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg%7CFile%3ATWC_Wildlife_Centre%E2%80%A2_Stewart_Nimmo_%E2%80%A2_MRD_8910.jpg%7CFile%3AMold_on_a_strawberry.jpg%7CFile%3AGreen_algae.png&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "alt": "หนอนไหม Bombyx mori ระยะตัวอ่อน",
+    "credit": "Ole Palnatoke Andersen",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ABombyx+mori+larvae%2C+Bornholms+Sommerfuglepark+21.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
     "image_description": "Bombycoidea",
     "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน ไม่ครอป",
     "review_locked": true,
     "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification.",
+    "species_description_th": "หนอนไหมเป็นระยะตัวอ่อนของผีเสื้อไหม Bombyx mori กินใบหม่อนและลอกคราบระหว่างการเจริญเติบโต เมื่อพร้อมเข้าดักแด้จะชักใยห่อหุ้มตัวเป็นรังไหม ต่อมาจึงเปลี่ยนเป็นผีเสื้อเต็มวัย ทั้งระยะหนอนและผีเสื้อเป็นสัตว์ชนิดเดียวกัน คำว่าหนอนเป็นชื่อเรียกรูปร่างหรือระยะชีวิต ไม่ใช่ชื่ออาณาจักร",
     "biology_sources": [
-      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
-      "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom"
+      "https://food.fda.moph.go.th/database-food/category/alternative-protein",
+      "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
     ],
-    "image_sha256": "3ffe7ad37251df4ac9e3b1464914b859566fba6369f8128f54f4b34e5d6f51f2"
+    "image_sha256": "8f8109c338dbebea47dbe6ef2c4c825475ed0ac705bf552699db5af80be7fe71"
   },
   "gbif-5073713": {
     "id": "gbif-5073713",
@@ -8083,60 +8089,43 @@
     ],
     "image_sha256": "e8f9f1c40afb1ff90185801d576951a0cc774cb245451ab567ea3b0727e0fb74"
   },
-  "gbif-1650497": {
-    "id": "gbif-1650497",
-    "description": "Anopheles vagus เป็นแมลงในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Anopheles vagus อยู่ในวงศ์ Culicidae แมลงระยะตัวเต็มวัยมีขา 3 คู่ และแบ่งลำตัวเป็นหัว อก และท้อง เซลล์ของตัวสัตว์ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์ ไม่รวมสิ่งมีชีวิตร่วมอาศัย",
+  "thai-anopheles-stephensi": {
+    "id": "thai-anopheles-stephensi",
+    "description": "ยุงก้นปล่อง เป็นยุงในสกุล Anopheles วงศ์ Culicidae รายการนี้ระบุชนิด Anopheles stephensi เพื่อให้ภาพและข้อมูลตรงกัน ไม่ใช้ชื่อวิทยาศาสตร์ Anopheles vagus กำกับภาพของยุงอีกชนิด จัดอยู่ในอาณาจักรสัตว์ ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Culicidae",
+      "ยุงก้นปล่อง",
+      "ชื่อวิทยาศาสตร์ Anopheles stephensi",
       "อาณาจักร Animalia"
     ],
-    "source": "https://www.gbif.org/species/1650497",
+    "source": "https://www.gbif.org/species/1650441",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพโคโลนีหรือโครงสร้างของ Anopheles vagus จากบทความวิจัย (ดูชื่อและแผงภาพในต้นฉบับ)",
-    "review_status": "missing after visual rejection; do not use a graph as an organism image",
-    "verified_on": "2026-10-29",
-    "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8695257/#fig4",
-    "credit": "Gunathilaka U. M. T. M.; de Silva W. A. P. P.; Dunuweera S. P.; Rajapakse R. M. G.",
-    "license": "CC BY 3.0",
-    "license_url": "https://creativecommons.org/licenses/by/3.0/",
-    "image_taxon": "Anopheles vagus",
-    "source_api": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8695257.1/PMC8695257.1.xml?md5=70c218e4d8ecdfe9ed4541b69bee1828",
-    "occurrence_id": 2433875365,
-    "image_description": "Comparison of LC 50 values of four different morphologies of zinc oxide nanoparticles against larvae of Aedes albopictus and Anopheles vagus mosquitoes.",
-    "alt": "ภาพวิจัยของ Anopheles vagus",
-    "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน แสดงทั้งภาพ ไม่ครอปแผงภาพ",
-    "paper_title": "Effect of morphology on larvicidal activity of chemically synthesized zinc oxide nanoparticles against mosquito vectors",
-    "paper_doi": "10.1039/d1ra00014d",
-    "paper_caption": "Comparison of LC 50 values of four different morphologies of zinc oxide nanoparticles against larvae of Aedes albopictus and Anopheles vagus mosquitoes.",
-    "image_mime": "image/jpeg",
-    "research_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8695257/",
-    "searched_taxon_names": [
-      "Anopheles vagus",
-      "Anopheles albino",
-      "Anopheles immaculata",
-      "Anopheles immaculatus",
-      "Anopheles javanensis",
-      "Myzomyia flava"
+    "image_caption": "ภาพ Anopheles stephensi",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/322690851/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/4875365183",
+    "credit": "Jugal Patel",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Anopheles stephensi Liston, 1901",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=1650441&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 4875365183,
+    "image_description": "",
+    "image_local": "assets/species/thai-anopheles-stephensi.jpg",
+    "image_size": [
+      900,
+      885
     ],
-    "rejected_image": {
-      "image_local": "assets/species/gbif-1650497.jpg",
-      "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8695257/#fig4",
-      "image_taxon": "Anopheles vagus",
-      "credit": "Gunathilaka U. M. T. M.; de Silva W. A. P. P.; Dunuweera S. P.; Rajapakse R. M. G.",
-      "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0/",
-      "paper_caption": "Comparison of LC 50 values of four different morphologies of zinc oxide nanoparticles against larvae of Aedes albopictus and Anopheles vagus mosquitoes."
-    },
-    "rejection_reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "alt": "ภาพ Anopheles stephensi",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "ยุงก้นปล่อง เป็นยุงในสกุล Anopheles วงศ์ Culicidae รายการนี้ระบุชนิด Anopheles stephensi เพื่อให้ภาพและข้อมูลตรงกัน ไม่ใช้ชื่อวิทยาศาสตร์ Anopheles vagus กำกับภาพของยุงอีกชนิด จัดอยู่ในอาณาจักรสัตว์ ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์",
     "biology_sources": [
-      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "https://thbif.onep.go.th/taxons/detail/2532",
       "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8695257/",
-      "https://doi.org/10.1039/d1ra00014d"
-    ]
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ],
+    "review_locked": true,
+    "image_sha256": "dcd4b62217427f8bf4d3faea45c2dafe177b5c29e851e2fb16ca17e3a3394d98"
   },
   "gbif-1427804": {
     "id": "gbif-1427804",
@@ -13160,57 +13149,43 @@
     ],
     "image_sha256": "914934a1747cb1b0bb200a79ace0ac7f4d7ab1096e35cfc53eeefe83326a1336"
   },
-  "gbif-9739824": {
-    "id": "gbif-9739824",
-    "description": "Saitozyma podzolica เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Saitozyma podzolica อยู่ในวงศ์ Trimorphomycetaceae อยู่ในไฟลัม Basidiomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์บนเบซิเดีย ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-schizophyllum-commune": {
+    "id": "thai-schizophyllum-commune",
+    "description": "เห็ดแครง (Schizophyllum commune) ดอกขนาดเล็กมีรูปพัด ผิวมีขนสีขาวถึงเทา มักขึ้นเป็นกลุ่มบนไม้และมีก้านสั้นหรือไม่เห็นก้าน เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Trimorphomycetaceae",
+      "เห็ดแครง",
+      "ชื่อวิทยาศาสตร์ Schizophyllum commune",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/9739824",
+    "source": "https://www.gbif.org/species/5241128",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพโคโลนีหรือโครงสร้างของ Saitozyma podzolica จากบทความวิจัย (ดูชื่อและแผงภาพในต้นฉบับ)",
-    "review_status": "missing after visual rejection; do not use a graph as an organism image",
-    "verified_on": "2026-10-29",
-    "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8466774/#jof-07-00758-f001",
-    "credit": "Aliyu Habibu; Gorte Olga; Neumann Anke; Ochsenreither Katrin; Amillis Sotiris",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "image_taxon": "Saitozyma podzolica",
-    "alt": "ภาพวิจัยของ Saitozyma podzolica",
-    "source_api": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8466774.1/PMC8466774.1.xml?md5=3e3f9b6d456f4eec2c1b5920b3028428",
-    "paper_title": "Global Transcriptome Profile of the Oleaginous Yeast Saitozyma podzolica DSM 27192 Cultivated in Glucose and Xylose",
-    "paper_doi": "10.3390/jof7090758",
-    "paper_caption": "Overview of Saitozyma podzolica DSM 27192 cultivation on ( a ) glucose and ( b ) xylose. A batch-fed process was established at ~48 h for both sugars under nitrogen limitation. Grey cells indicate sampling points at which the yeast was harvested for RNA sequencing and subsequent analyses.",
-    "image_description": "Overview of Saitozyma podzolica DSM 27192 cultivation on ( a ) glucose and ( b ) xylose. A batch-fed process was established at ~48 h for both sugars under nitrogen limitation. Grey cells indicate sampling points at which the yeast was harvested for RNA sequencing and subsequent analyses.",
-    "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน แสดงทั้งภาพ ไม่ครอปแผงภาพ",
-    "image_mime": "image/jpeg",
-    "research_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8466774/",
-    "searched_taxon_names": [
-      "Saitozyma podzolica",
-      "Apiotrichum podzolicum",
-      "Candida podzolica",
-      "Cryptococcus podzolicus"
+    "image_caption": "ภาพ Schizophyllum commune",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/605508414/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938054566",
+    "credit": "jude_ramos",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Schizophyllum commune Fr.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5241128&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938054566,
+    "image_description": "",
+    "image_local": "assets/species/thai-schizophyllum-commune.jpg",
+    "image_size": [
+      405,
+      900
     ],
-    "rejected_image": {
-      "image_local": "assets/species/gbif-9739824.jpg",
-      "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8466774/#jof-07-00758-f001",
-      "image_taxon": "Saitozyma podzolica",
-      "credit": "Aliyu Habibu; Gorte Olga; Neumann Anke; Ochsenreither Katrin; Amillis Sotiris",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "paper_caption": "Overview of Saitozyma podzolica DSM 27192 cultivation on ( a ) glucose and ( b ) xylose. A batch-fed process was established at ~48 h for both sugars under nitrogen limitation. Grey cells indicate sampling points at which the yeast was harvested for RNA sequencing and subsequent analyses."
-    },
-    "rejection_reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "alt": "ภาพ Schizophyllum commune",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดแครง (Schizophyllum commune) ดอกขนาดเล็กมีรูปพัด ผิวมีขนสีขาวถึงเทา มักขึ้นเป็นกลุ่มบนไม้และมีก้านสั้นหรือไม่เห็นก้าน เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://bacmushbase.sci.ku.ac.th/details.php?MushID=3",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
-      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8466774/",
-      "https://doi.org/10.3390/jof7090758"
-    ]
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "review_locked": true,
+    "image_sha256": "b4efced39f609bc2c24891a9b5752a44dd6f87ac957ddf9237f09522348ad86b"
   },
   "gbif-5252216": {
     "id": "gbif-5252216",
@@ -13567,45 +13542,81 @@
     ],
     "image_sha256": "873d1fd362edeae5893aaef8b0f2766a6c5326de3ad7a7c0bfa01497b456b225"
   },
-  "gbif-11738943": {
-    "id": "gbif-11738943",
-    "description": "Russula pseudocyanoxantha เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Russula pseudocyanoxantha อยู่ในวงศ์ Russulaceae อยู่ในไฟลัม Basidiomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์บนเบซิเดีย ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-tremella-fuciformis": {
+    "id": "thai-tremella-fuciformis",
+    "description": "เห็ดหูหนูขาว (Tremella fuciformis) ดอกเป็นวุ้นสีขาวโปร่งแสง แตกเป็นแผ่นหยักย่นรวมกันเป็นกระจุก เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Russulaceae",
+      "เห็ดหูหนูขาว",
+      "ชื่อวิทยาศาสตร์ Tremella fuciformis",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/11738943",
+    "source": "https://www.gbif.org/species/5237434",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Russula pseudocyanoxantha",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "image_caption": "ภาพ Tremella fuciformis",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/604647731/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938030346",
+    "credit": "Oscar",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Tremella fuciformis Berk.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5237434&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938030346,
+    "image_description": "",
+    "image_local": "assets/species/thai-tremella-fuciformis.jpg",
+    "image_size": [
+      900,
+      506
+    ],
+    "alt": "ภาพ Tremella fuciformis",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดหูหนูขาว (Tremella fuciformis) ดอกเป็นวุ้นสีขาวโปร่งแสง แตกเป็นแผ่นหยักย่นรวมกันเป็นกระจุก เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://thbif.onep.go.th/minisite/hkk/taxons/detail/24523",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "review_locked": true,
+    "image_sha256": "45152ef4d13870a8e2c3f70217472587347578ff3c814856a54401c292669908"
   },
-  "gbif-10742558": {
-    "id": "gbif-10742558",
-    "description": "Lactifluus gerardiellus เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Lactifluus gerardiellus อยู่ในวงศ์ Russulaceae อยู่ในไฟลัม Basidiomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์บนเบซิเดีย ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-lentinus-squarrosulus": {
+    "id": "thai-lentinus-squarrosulus",
+    "description": "เห็ดขอนขาว (Lentinus squarrosulus) หมวกสีขาวถึงครีม มีเกล็ดละเอียด กลางหมวกบุ๋มเมื่อโต มักขึ้นบนขอนไม้ เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Russulaceae",
+      "เห็ดขอนขาว",
+      "ชื่อวิทยาศาสตร์ Lentinus squarrosulus",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/10742558",
+    "source": "https://www.gbif.org/species/2545536",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Lactifluus gerardiellus",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "image_caption": "ภาพ Lentinus squarrosulus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/618678863/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6171102461",
+    "credit": "yokemoyliew",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Lentinus squarrosulus Mont.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2545536&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6171102461,
+    "image_description": "",
+    "image_local": "assets/species/thai-lentinus-squarrosulus.jpg",
+    "image_size": [
+      900,
+      599
+    ],
+    "alt": "ภาพ Lentinus squarrosulus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดขอนขาว (Lentinus squarrosulus) หมวกสีขาวถึงครีม มีเกล็ดละเอียด กลางหมวกบุ๋มเมื่อโต มักขึ้นบนขอนไม้ เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://sm.mju.ac.th/Search_Detail.aspx?CODE=0012",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "review_locked": true,
+    "image_sha256": "bf1ba46d1daca773fae1363d9252bf65c5bce7811cadcd13b1321738c7e2a251"
   },
   "gbif-7554445": {
     "id": "gbif-7554445",
@@ -13687,25 +13698,43 @@
     ],
     "image_sha256": "5d1d83cd800a1c10d78671378b4824247bba83e8fe3a2a7cec1c29c0da38c581"
   },
-  "gbif-11581860": {
-    "id": "gbif-11581860",
-    "description": "Russula byssina เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Russula byssina อยู่ในวงศ์ Russulaceae อยู่ในไฟลัม Basidiomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์บนเบซิเดีย ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-pleurotus-ostreatus": {
+    "id": "thai-pleurotus-ostreatus",
+    "description": "เห็ดนางรม (Pleurotus ostreatus) หมวกรูปพัดหรือเปลือกหอย มีครีบทอดลงมาตามก้านด้านข้าง เจริญเป็นกลุ่มบนเนื้อไม้ เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Russulaceae",
+      "เห็ดนางรม",
+      "ชื่อวิทยาศาสตร์ Pleurotus ostreatus",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/11581860",
+    "source": "https://www.gbif.org/species/2526530",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Russula byssina",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "image_caption": "ภาพ Pleurotus ostreatus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/605179412/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938048318",
+    "credit": "Dan Vickers",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "image_taxon": "Pleurotus ostreatus (Jacq.) P.Kumm.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2526530&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938048318,
+    "image_description": "",
+    "image_local": "assets/species/thai-pleurotus-ostreatus.jpg",
+    "image_size": [
+      900,
+      900
+    ],
+    "alt": "ภาพ Pleurotus ostreatus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดนางรม (Pleurotus ostreatus) หมวกรูปพัดหรือเปลือกหอย มีครีบทอดลงมาตามก้านด้านข้าง เจริญเป็นกลุ่มบนเนื้อไม้ เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://doi.nrct.go.th/ListDoi/Download/250125?Resolve_DOI=10.14457%2FMSU.res.2012.2",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "review_locked": true,
+    "image_sha256": "ab86d543b63d861066e181cee99be518e20217c643f6f5943d33e4d4b9ec4199"
   },
   "gbif-3360190": {
     "id": "gbif-3360190",
@@ -13861,24 +13890,45 @@
     ],
     "image_sha256": "93e13bf9911da7a303286ed47a07b40233058ec64fc9742e186638c8bb79f989"
   },
-  "gbif-9791807": {
-    "id": "gbif-9791807",
-    "description": "Bifiguratus adelaidae เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Bifiguratus adelaidae รามีทั้งรูปแบบยีสต์และเส้นใย ต้องแยกชนิดและระยะชีวิตเมื่อพิจารณาจำนวนเซลล์ ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-pleurotus-eryngii": {
+    "id": "thai-pleurotus-eryngii",
+    "description": "เห็ดออรินจิ (Pleurotus eryngii) มีก้านหนาอวบ หมวกสีน้ำตาลและครีบสีอ่อน เป็นเห็ดที่มีการเพาะเลี้ยงเพื่อใช้เป็นอาหาร เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
+      "เห็ดออรินจิ",
+      "ชื่อวิทยาศาสตร์ Pleurotus eryngii",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/9791807",
+    "source": "https://www.gbif.org/species/9075265",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Bifiguratus adelaidae",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "image_caption": "ภาพ Pleurotus eryngii",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Seta_de_cardo_%28Pleurotus_eryngii%29%2C_2012-10-03%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Seta_de_cardo_(Pleurotus_eryngii),_2012-10-03,_DD_01.JPG",
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "image_taxon": "Pleurotus eryngii",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ASeta_de_cardo_%28Pleurotus_eryngii%29%2C_2012-10-03%2C_DD_01.JPG&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "occurrence_id": 6185247451,
+    "image_description": "King trumpet mushroom ( Pleurotus eryngii )",
+    "image_local": "assets/species/thai-pleurotus-eryngii.jpg",
+    "image_size": [
+      900,
+      562
+    ],
+    "alt": "ภาพ Pleurotus eryngii",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดออรินจิ (Pleurotus eryngii) มีก้านหนาอวบ หมวกสีน้ำตาลและครีบสีอ่อน เป็นเห็ดที่มีการเพาะเลี้ยงเพื่อใช้เป็นอาหาร เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://ph03.tci-thaijo.org/index.php/ahstr/article/view/1917",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "encyclopedia_url": "https://en.wikipedia.org/wiki/Pleurotus_eryngii",
+    "encyclopedia_excerpt": "Pleurotus eryngii is an Old World species of fungus.",
+    "review_locked": true,
+    "image_sha256": "1bd89a12e1fe95eff49415d1921926b1a1e2ba41be334b552db6146b067d67db"
   },
   "gbif-2559369": {
     "id": "gbif-2559369",
@@ -14040,44 +14090,45 @@
     ],
     "image_sha256": "f4c17c11789585cbf944b7b53ccbc3b0cf4b75b48985527bf0d6cbd2f2270b3f"
   },
-  "gbif-8296805": {
-    "id": "gbif-8296805",
-    "description": "Basidioascus magus เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Basidioascus magus อยู่ในวงศ์ Geminibasidiaceae อยู่ในไฟลัม Basidiomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์บนเบซิเดีย ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-hypsizygus-marmoreus": {
+    "id": "thai-hypsizygus-marmoreus",
+    "description": "เห็ดชิเมจิ (Hypsizygus marmoreus) มักเพาะให้ดอกขึ้นรวมเป็นกระจุก ก้านเรียวยาว หมวกค่อนข้างกลม มีสายพันธุ์เพาะสีขาวและสีน้ำตาล เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Geminibasidiaceae",
+      "เห็ดชิเมจิ",
+      "ชื่อวิทยาศาสตร์ Hypsizygus marmoreus",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/8296805",
+    "source": "https://www.gbif.org/species/2530653",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Basidioascus magus",
-    "review_status": "image missing after label-only image rejection",
-    "verified_on": "2026-10-29",
-    "image_source": "https://www.gbif.org/occurrence/4166243433",
-    "credit": "©His Majesty the King in Right of Canada, as represented by the Minister of Agriculture and Agri-Food",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "image_taxon": "Basidioascus magus H.D.T.Nguyen, N.L.Nick. & Seifert",
-    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=8296805&media_type=StillImage&occurrence_status=PRESENT&limit=30",
-    "occurrence_id": 4166243433,
-    "image_description": "",
-    "alt": "ภาพ Basidioascus magus",
+    "image_caption": "ภาพ Hypsizygus marmoreus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Hypsizygus_marmoreus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Hypsizygus_marmoreus.jpg",
+    "credit": "Akira.Sasaki",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "image_taxon": "Hypsizygus marmoreus",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AHypsizygus_marmoreus.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "occurrence_id": 5889961694,
+    "image_description": "ブナシメジ、群馬県武尊山にて撮影",
+    "image_local": "assets/species/thai-hypsizygus-marmoreus.jpg",
+    "image_size": [
+      900,
+      676
+    ],
+    "alt": "ภาพ Hypsizygus marmoreus",
     "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
-    "rejected_image": {
-      "image_local": "assets/species/gbif-8296805.jpg",
-      "image_source": "https://www.gbif.org/occurrence/4166243433",
-      "image_taxon": "Basidioascus magus H.D.T.Nguyen, N.L.Nick. & Seifert",
-      "credit": "©His Majesty the King in Right of Canada, as represented by the Minister of Agriculture and Agri-Food",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    "rejection_reason": "Visually checked: label or specimen envelope only, no organism visible. Not shown as an organism photograph.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "species_description_th": "เห็ดชิเมจิ (Hypsizygus marmoreus) มักเพาะให้ดอกขึ้นรวมเป็นกระจุก ก้านเรียวยาว หมวกค่อนข้างกลม มีสายพันธุ์เพาะสีขาวและสีน้ำตาล เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://saranukromthai.or.th/oldchild/1978",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "encyclopedia_url": "https://en.wikipedia.org/wiki/Hypsizygus_tessulatus",
+    "encyclopedia_excerpt": "Hypsizygus tessulatus, the beech mushroom, is a species of gilled mushroom. It grows on hardwood in the wild and is also cultivated as an edible mushroom.",
+    "review_locked": true,
+    "image_sha256": "a36a9bd02d789d43202f0518ed64b914af73dea9e272446ef1672e4c4023b181"
   },
   "gbif-10706167": {
     "id": "gbif-10706167",
@@ -14322,105 +14373,83 @@
     ],
     "image_sha256": "c77428b3899d2a021bb41a5de2b6ee6f2496a62427dfb68bf51f0a491a400a71"
   },
-  "gbif-9755839": {
-    "id": "gbif-9755839",
-    "description": "Solicoccozyma terricola เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Solicoccozyma terricola อยู่ในวงศ์ Piskurozymaceae อยู่ในไฟลัม Basidiomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์บนเบซิเดีย ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-hericium-erinaceus": {
+    "id": "thai-hericium-erinaceus",
+    "description": "เห็ดหัวลิง (Hericium erinaceus) ดอกเป็นก้อนสีขาว มีส่วนสร้างสปอร์เป็นหนามยาวห้อยลง คล้ายขนหรือพู่ ไม่เป็นครีบใต้หมวกแบบเห็ดทั่วไป เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Piskurozymaceae",
+      "เห็ดหัวลิง",
+      "ชื่อวิทยาศาสตร์ Hericium erinaceus",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/9755839",
+    "source": "https://www.gbif.org/species/5248508",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพโคโลนีหรือโครงสร้างของ Solicoccozyma terricola จากบทความวิจัย (ดูชื่อและแผงภาพในต้นฉบับ)",
-    "review_status": "missing after visual rejection; do not use a graph as an organism image",
-    "verified_on": "2026-10-29",
-    "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3998020/#f1",
-    "credit": "Tanimura Ayumi; Takashima Masako; Sugita Takashi; Endoh Rikiya; Kikukawa Minako และคณะ",
-    "license": "CC BY-NC-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-    "image_taxon": "Solicoccozyma terricola",
-    "alt": "ภาพวิจัยของ Solicoccozyma terricola",
-    "source_api": "https://pmc-oa-opendata.s3.amazonaws.com/PMC3998020.1/PMC3998020.1.xml?md5=41501cfc13172b788af611fca63c3f38",
-    "paper_title": "Cryptococcus terricola is a promising oleaginous yeast for biodiesel production from starch through consolidated bioprocessing",
-    "paper_doi": "10.1038/srep04776",
-    "paper_caption": "(a) Screening flow scheme. (b) Comparison of the lipid contents of nine selected C. terricola after a 6-day culture. The sole carbon source was 5% starch. Data are the means ± standard deviation (error bars) of three assays.",
-    "image_description": "(a) Screening flow scheme. (b) Comparison of the lipid contents of nine selected C. terricola after a 6-day culture. The sole carbon source was 5% starch. Data are the means ± standard deviation (error bars) of three assays.",
-    "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน แสดงทั้งภาพ ไม่ครอปแผงภาพ",
-    "image_mime": "image/jpeg",
-    "research_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3998020/",
-    "searched_taxon_names": [
-      "Solicoccozyma terricola",
-      "Cryptococcus terricola"
+    "image_caption": "ภาพ Hericium erinaceus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/605724540/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938076732",
+    "credit": "Lee Hall",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Hericium erinaceus (Bull.) Pers.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5248508&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938076732,
+    "image_description": "",
+    "image_local": "assets/species/thai-hericium-erinaceus.jpg",
+    "image_size": [
+      675,
+      900
     ],
-    "rejected_image": {
-      "image_local": "assets/species/gbif-9755839.jpg",
-      "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3998020/#f1",
-      "image_taxon": "Solicoccozyma terricola",
-      "credit": "Tanimura Ayumi; Takashima Masako; Sugita Takashi; Endoh Rikiya; Kikukawa Minako และคณะ",
-      "license": "CC BY-NC-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-      "paper_caption": "(a) Screening flow scheme. (b) Comparison of the lipid contents of nine selected C. terricola after a 6-day culture. The sole carbon source was 5% starch. Data are the means ± standard deviation (error bars) of three assays."
-    },
-    "rejection_reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "alt": "ภาพ Hericium erinaceus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดหัวลิง (Hericium erinaceus) ดอกเป็นก้อนสีขาว มีส่วนสร้างสปอร์เป็นหนามยาวห้อยลง คล้ายขนหรือพู่ ไม่เป็นครีบใต้หมวกแบบเห็ดทั่วไป เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://food.fda.moph.go.th/database-food/category/positivelists2?kw=&page=57&ppp=10",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
-      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3998020/",
-      "https://doi.org/10.1038/srep04776"
-    ]
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "review_locked": true,
+    "image_sha256": "80f597f5377b007267377c0cb98b04ff1e7c4ab4cba46476ec970a2d3d71669a"
   },
-  "gbif-5252097": {
-    "id": "gbif-5252097",
-    "description": "Fusarium buharicum เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Fusarium buharicum อยู่ในวงศ์ Nectriaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-grifola-frondosa": {
+    "id": "thai-grifola-frondosa",
+    "description": "เห็ดไมตาเกะ (Grifola frondosa) ดอกประกอบด้วยหมวกย่อยรูปพัดจำนวนมากแตกแขนงรวมเป็นกระจุก บริเวณใต้หมวกมีรูสร้างสปอร์ เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Nectriaceae",
+      "เห็ดไมตาเกะ",
+      "ชื่อวิทยาศาสตร์ Grifola frondosa",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/5252097",
+    "source": "https://www.gbif.org/species/2540800",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพโคโลนีหรือโครงสร้างของ Fusarium buharicum จากบทความวิจัย (ดูชื่อและแผงภาพในต้นฉบับ)",
-    "review_status": "missing after visual rejection; do not use a graph as an organism image",
-    "verified_on": "2026-10-29",
-    "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6048573/#F1",
-    "credit": "Waalwijk Cees; Taga Masatoki; Zheng Song-Lin; Proctor Robert H.; Vaughan Martha M. และคณะ",
-    "license": "CC 3.0 legalcode",
-    "license_url": "https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode",
-    "image_taxon": "Fusarium buharicum",
-    "alt": "ภาพวิจัยของ Fusarium buharicum",
-    "source_api": "https://pmc-oa-opendata.s3.amazonaws.com/PMC6048573.1/PMC6048573.1.xml?md5=2865dbb6b5c06c0926aee3661b68604b",
-    "paper_title": "Karyotype evolution in Fusarium",
-    "paper_doi": "10.5598/imafungus.2018.09.01.02",
-    "paper_caption": "One of eight most-parsimonious phylograms, 12 982 steps in length, inferred from 3383 bp of aligned partial RPB1 and RPB2 sequences from 104 fusaria comprising 20 species complexes. The phylogram was rooted on outgroup sequences of Neonectria and Ilyonectria based on prior analyses ( O’Donnell et al. 2013 ). ARS Culture Collection strains are identified by the 4-5 digit NRRL number. Thickened black nodes received ≥90 % ML-BS/MP-BS support, whereas the eight nodes in red received <70 % ML-BS/MP-BS. The chromosome number (CN) traced in the left panel for 31 species representing 11 species complexes was determined by the germ tube burst method and DAPI staining ( Taga et al. 1998 ). Putative supernumerary chromosomes in 19 species spanning 11 species complexes are identified by a yellow arrowhead and the number following the + sign. A red arrowhead is used to specify NOR (rDNA), which is identifiable by the protrusion of chromatin from the apex of one of the chromosomes. A green trace line and green arrowheads are used to present an alternative interpretation of the karyotype of Fusarium buharicum and F. sublunatum . Bar = 2 μm",
-    "image_description": "One of eight most-parsimonious phylograms, 12 982 steps in length, inferred from 3383 bp of aligned partial RPB1 and RPB2 sequences from 104 fusaria comprising 20 species complexes. The phylogram was rooted on outgroup sequences of Neonectria and Ilyonectria based on prior analyses ( O’Donnell et al. 2013 ). ARS Culture Collection strains are identified by the 4-5 digit NRRL number. Thickened black nodes received ≥90 % ML-BS/MP-BS support, whereas the eight nodes in red received <70 % ML-BS/MP-BS. The chromosome number (CN) traced in the left panel for 31 species representing 11 species complexes was determined by the germ tube burst method and DAPI staining ( Taga et al. 1998 ). Putative supernumerary chromosomes in 19 species spanning 11 species complexes are identified by a yellow arrowhead and the number following the + sign. A red arrowhead is used to specify NOR (rDNA), which is identifiable by the protrusion of chromatin from the apex of one of the chromosomes. A green trace line and green arrowheads are used to present an alternative interpretation of the karyotype of Fusarium buharicum and F. sublunatum . Bar = 2 μm",
-    "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน แสดงทั้งภาพ ไม่ครอปแผงภาพ",
-    "image_mime": "image/jpeg",
-    "research_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6048573/",
-    "searched_taxon_names": [
-      "Fusarium buharicum",
-      "Fusarium buharicum"
+    "image_caption": "ภาพ Grifola frondosa",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Grifola_frondosa_%2829715305790%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Grifola_frondosa_(29715305790).jpg",
+    "credit": "Lukas from London, England",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "image_taxon": "Grifola frondosa",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AGrifola_frondosa_%2829715305790%29.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "occurrence_id": 6130647178,
+    "image_description": "Growing in the Isabella Plantation, Richmond Park.",
+    "image_local": "assets/species/thai-grifola-frondosa.jpg",
+    "image_size": [
+      900,
+      640
     ],
-    "rejected_image": {
-      "image_local": "assets/species/gbif-5252097.jpg",
-      "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6048573/#F1",
-      "image_taxon": "Fusarium buharicum",
-      "credit": "Waalwijk Cees; Taga Masatoki; Zheng Song-Lin; Proctor Robert H.; Vaughan Martha M. และคณะ",
-      "license": "CC 3.0 legalcode",
-      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode",
-      "paper_caption": "One of eight most-parsimonious phylograms, 12 982 steps in length, inferred from 3383 bp of aligned partial RPB1 and RPB2 sequences from 104 fusaria comprising 20 species complexes. The phylogram was rooted on outgroup sequences of Neonectria and Ilyonectria based on prior analyses ( O’Donnell et al. 2013 ). ARS Culture Collection strains are identified by the 4-5 digit NRRL number. Thickened black nodes received ≥90 % ML-BS/MP-BS support, whereas the eight nodes in red received <70 % ML-BS/MP-BS. The chromosome number (CN) traced in the left panel for 31 species representing 11 species complexes was determined by the germ tube burst method and DAPI staining ( Taga et al. 1998 ). Putative supernumerary chromosomes in 19 species spanning 11 species complexes are identified by a yellow arrowhead and the number following the + sign. A red arrowhead is used to specify NOR (rDNA), which is identifiable by the protrusion of chromatin from the apex of one of the chromosomes. A green trace line and green arrowheads are used to present an alternative interpretation of the karyotype of Fusarium buharicum and F. sublunatum . Bar = 2 μm"
-    },
-    "rejection_reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "alt": "ภาพ Grifola frondosa",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดไมตาเกะ (Grifola frondosa) ดอกประกอบด้วยหมวกย่อยรูปพัดจำนวนมากแตกแขนงรวมเป็นกระจุก บริเวณใต้หมวกมีรูสร้างสปอร์ เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://food.fda.moph.go.th/database-food/category/positivelists2?kw=&page=57&ppp=10",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
-      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6048573/",
-      "https://doi.org/10.5598/imafungus.2018.09.01.02"
-    ]
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "encyclopedia_url": "https://en.wikipedia.org/wiki/Grifola_frondosa",
+    "encyclopedia_excerpt": "Grifola frondosa, also known as hen-of-the-woods, sheep's head, ram's head, or maitake in Japanese, is a polypore mushroom that grows at the base of trees, particularly old growth oaks or maples. It is native to China, Europe, and North America.",
+    "review_locked": true,
+    "image_sha256": "b77a159eff8af30862083e5d07333931860ce4782ed66be8a680847000b4c36f"
   },
   "gbif-9658214": {
     "id": "gbif-9658214",
@@ -14511,133 +14540,159 @@
     ],
     "image_sha256": "db6b7e9b3be113675ac3b62290fc98edc71cabc9c47b494bf79f784e13144cf6"
   },
-  "gbif-3545360": {
-    "id": "gbif-3545360",
-    "description": "Gymnostellatospora japonica เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Gymnostellatospora japonica อยู่ในวงศ์ Pseudeurotiaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-agaricus-bisporus": {
+    "id": "thai-agaricus-bisporus",
+    "description": "เห็ดแชมปิญอง (Agaricus bisporus) หมวกอ่อนกลมคล้ายกระดุม สีขาวถึงน้ำตาล ครีบเปลี่ยนจากสีอ่อนอมชมพูเป็นน้ำตาลเข้มเมื่อแก่ เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Pseudeurotiaceae",
+      "เห็ดแชมปิญอง",
+      "ชื่อวิทยาศาสตร์ Agaricus bisporus",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/3545360",
+    "source": "https://www.gbif.org/species/5243447",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Gymnostellatospora japonica",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
-    "biology_sources": [
-      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
-      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
-  },
-  "gbif-5251371": {
-    "id": "gbif-5251371",
-    "description": "Trichoderma pubescens เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Trichoderma pubescens อยู่ในวงศ์ Hypocreaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
-    "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Hypocreaceae",
-      "อาณาจักร Fungi"
+    "image_caption": "ภาพ Agaricus bisporus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/ChampignonMushroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:ChampignonMushroom.jpg",
+    "credit": "chris_73",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "image_taxon": "Agaricus bisporus",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AChampignonMushroom.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "occurrence_id": 6184979626,
+    "image_description": "White mushroom",
+    "image_local": "assets/species/thai-agaricus-bisporus.jpg",
+    "image_size": [
+      800,
+      570
     ],
-    "source": "https://www.gbif.org/species/5251371",
-    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพโคโลนีหรือโครงสร้างของ Trichoderma pubescens จากบทความวิจัย (ดูชื่อและแผงภาพในต้นฉบับ)",
-    "review_status": "missing after visual rejection; do not use a graph as an organism image",
-    "verified_on": "2026-10-29",
-    "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7565533/#microorganisms-08-01337-f001",
-    "credit": "Zúñiga-Silgado Dorcas; Rivera-Leyva Julio C.; Coleman Jeffrey J.; Sánchez-Reyez Ayixon; Valencia-Díaz Susana และคณะ",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "image_taxon": "Trichoderma pubescens",
-    "alt": "ภาพวิจัยของ Trichoderma pubescens",
-    "source_api": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7565533.1/PMC7565533.1.xml?md5=5015d6200b94e0f6cb38f93053595798",
-    "paper_title": "Soil Type Affects Organic Acid Production and Phosphorus Solubilization Efficiency Mediated by Several Native Fungal Strains from Mexico",
-    "paper_doi": "10.3390/microorganisms8091337",
-    "paper_caption": "Phylogenetic tree generated by FastTree analysis using a MAFFT alignment of ITS2-4 nucleotide sequences obtained from the type material. The tree includes strains related to ( a ) Strain BMH-0059 (left) is identified as T. crassum . ( b ) Strain BMH-0060 (left) is identified as related to A. awamori . ( c ) Strain BMH-0061 (left) is identified as Trichoderma sp. ( d ) Strain BMH-0062 (left) is identified as closely related to T. pubescens . Bootstrap values (>50%) are labeled in color on the branch nodes. A representative image of the colony is shown on the right side of each alignment. The bar indicates 4 percent of changes per site.",
-    "image_description": "Phylogenetic tree generated by FastTree analysis using a MAFFT alignment of ITS2-4 nucleotide sequences obtained from the type material. The tree includes strains related to ( a ) Strain BMH-0059 (left) is identified as T. crassum . ( b ) Strain BMH-0060 (left) is identified as related to A. awamori . ( c ) Strain BMH-0061 (left) is identified as Trichoderma sp. ( d ) Strain BMH-0062 (left) is identified as closely related to T. pubescens . Bootstrap values (>50%) are labeled in color on the branch nodes. A representative image of the colony is shown on the right side of each alignment. The bar indicates 4 percent of changes per site.",
-    "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน แสดงทั้งภาพ ไม่ครอปแผงภาพ",
-    "image_mime": "image/jpeg",
-    "research_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7565533/",
-    "searched_taxon_names": [
-      "Trichoderma pubescens"
-    ],
-    "rejected_image": {
-      "image_local": "assets/species/gbif-5251371.jpg",
-      "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7565533/#microorganisms-08-01337-f001",
-      "image_taxon": "Trichoderma pubescens",
-      "credit": "Zúñiga-Silgado Dorcas; Rivera-Leyva Julio C.; Coleman Jeffrey J.; Sánchez-Reyez Ayixon; Valencia-Díaz Susana และคณะ",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "paper_caption": "Phylogenetic tree generated by FastTree analysis using a MAFFT alignment of ITS2-4 nucleotide sequences obtained from the type material. The tree includes strains related to ( a ) Strain BMH-0059 (left) is identified as T. crassum . ( b ) Strain BMH-0060 (left) is identified as related to A. awamori . ( c ) Strain BMH-0061 (left) is identified as Trichoderma sp. ( d ) Strain BMH-0062 (left) is identified as closely related to T. pubescens . Bootstrap values (>50%) are labeled in color on the branch nodes. A representative image of the colony is shown on the right side of each alignment. The bar indicates 4 percent of changes per site."
-    },
-    "rejection_reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
-    "biology_sources": [
-      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
-      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7565533/",
-      "https://doi.org/10.3390/microorganisms8091337"
-    ]
-  },
-  "gbif-2614118": {
-    "id": "gbif-2614118",
-    "description": "Didymella exigua เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Didymella exigua อยู่ในวงศ์ Didymellaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
-    "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Didymellaceae",
-      "อาณาจักร Fungi"
-    ],
-    "source": "https://www.gbif.org/species/2614118",
-    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Didymella exigua",
-    "review_status": "image missing after label-only image rejection",
-    "verified_on": "2026-10-29",
-    "image_source": "https://www.gbif.org/occurrence/5839057674",
-    "credit": "Royal Botanic Gardens, Kew",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "image_taxon": "Didymella exigua (Niessl) Sacc.",
-    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2614118&media_type=StillImage&occurrence_status=PRESENT&limit=30",
-    "occurrence_id": 5839057674,
-    "image_description": "",
-    "alt": "ภาพ Didymella exigua",
+    "alt": "ภาพ Agaricus bisporus",
     "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
-    "rejected_image": {
-      "image_local": "assets/species/gbif-2614118.jpg",
-      "image_source": "https://www.gbif.org/occurrence/5839057674",
-      "image_taxon": "Didymella exigua (Niessl) Sacc.",
-      "credit": "Royal Botanic Gardens, Kew",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/"
-    },
-    "rejection_reason": "Visually checked: label or specimen envelope only, no organism visible. Not shown as an organism photograph.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "species_description_th": "เห็ดแชมปิญอง (Agaricus bisporus) หมวกอ่อนกลมคล้ายกระดุม สีขาวถึงน้ำตาล ครีบเปลี่ยนจากสีอ่อนอมชมพูเป็นน้ำตาลเข้มเมื่อแก่ เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://sm.mju.ac.th/Search_Detail.aspx?CODE=0003",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "encyclopedia_url": "https://en.wikipedia.org/wiki/Agaricus_bisporus",
+    "encyclopedia_excerpt": "Agaricus bisporus, the cultivated mushroom, is a basidiomycete mushroom native to grasslands in Eurasia and North America. It is cultivated in more than 70 countries and is one of the most commonly and widely consumed mushrooms in the world. It has two color states while immature – white and brown – both of which have various names, with additional names for the mature state, such as chestnut, portobello, portabellini, button, cremini, and champignon de Paris.",
+    "review_locked": true,
+    "image_sha256": "8b37614caf9ef8b503efb92270d3a876f87bd79a1ed7f43521b21a25b39e29cf"
   },
-  "gbif-9814473": {
-    "id": "gbif-9814473",
-    "description": "Apiotrichum dehoogii เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Apiotrichum dehoogii อยู่ในวงศ์ Trichosporonaceae อยู่ในไฟลัม Basidiomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์บนเบซิเดีย ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-flammulina-velutipes": {
+    "id": "thai-flammulina-velutipes",
+    "description": "เห็ดเข็มเงิน (Flammulina velutipes) เป็นเห็ดสกุล Flammulina ที่มีชื่อเห็ดเข็มเงินในแหล่งอ้างอิงไทย รายการนี้ใช้ F. velutipes ตามชื่อวิทยาศาสตร์ ไม่เหมารวมเห็ดเข็มทองเพาะเลี้ยงทุกชนิด เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Trichosporonaceae",
+      "เห็ดเข็มเงิน",
+      "ชื่อวิทยาศาสตร์ Flammulina velutipes",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/9814473",
+    "source": "https://www.gbif.org/species/3341441",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Apiotrichum dehoogii",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "image_caption": "ภาพ Flammulina velutipes",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/607350027/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6129992220",
+    "credit": "rkluzco",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Flammulina velutipes (Curtis) Singer",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=3341441&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6129992220,
+    "image_description": "",
+    "image_local": "assets/species/thai-flammulina-velutipes.jpg",
+    "image_size": [
+      900,
+      621
+    ],
+    "alt": "ภาพ Flammulina velutipes",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดเข็มเงิน (Flammulina velutipes) เป็นเห็ดสกุล Flammulina ที่มีชื่อเห็ดเข็มเงินในแหล่งอ้างอิงไทย รายการนี้ใช้ F. velutipes ตามชื่อวิทยาศาสตร์ ไม่เหมารวมเห็ดเข็มทองเพาะเลี้ยงทุกชนิด เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://saranukromthai.or.th/oldchild/1978",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "review_locked": true,
+    "image_sha256": "7e208ff4f0af66a455e65827d9ba8ba039cb660c509931e1e17a5d1e63d32833"
+  },
+  "thai-cyclocybe-cylindracea": {
+    "id": "thai-cyclocybe-cylindracea",
+    "description": "เห็ดยานางิ (Cyclocybe cylindracea) เห็ดที่เพาะเลี้ยงเป็นกระจุก หมวกสีน้ำตาลและก้านยาว แหล่งข้อมูลไทยเดิมใช้ชื่อ Agrocybe cylindracea ซึ่งเป็นชื่อพ้อง เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
+    "facts": [
+      "เห็ดยานางิ",
+      "ชื่อวิทยาศาสตร์ Cyclocybe cylindracea",
+      "อาณาจักร Fungi"
+    ],
+    "source": "https://www.gbif.org/species/8138987",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Cyclocybe cylindracea",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/605712970/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938528343",
+    "credit": "patriciafurtado-pt",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Cyclocybe cylindracea (DC.) Vizzini & Angelini",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=8138987&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938528343,
+    "image_description": "",
+    "image_local": "assets/species/thai-cyclocybe-cylindracea.jpg",
+    "image_size": [
+      900,
+      675
+    ],
+    "alt": "ภาพ Cyclocybe cylindracea",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดยานางิ (Cyclocybe cylindracea) เห็ดที่เพาะเลี้ยงเป็นกระจุก หมวกสีน้ำตาลและก้านยาว แหล่งข้อมูลไทยเดิมใช้ชื่อ Agrocybe cylindracea ซึ่งเป็นชื่อพ้อง เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
+    "biology_sources": [
+      "https://saranukromthai.or.th/oldchild/1978",
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "review_locked": true,
+    "image_sha256": "2ea55990e37317c50ca45a0a3283dbce91825f71b35674878e0e317f794af2c9"
+  },
+  "thai-coprinopsis-cinerea": {
+    "id": "thai-coprinopsis-cinerea",
+    "description": "เห็ดโคนน้อย (Coprinopsis cinerea) ดอกอ่อนมีหมวกทรงกระสวยสีอ่อน เมื่อโตหมวกแผ่ออก ครีบและหมวกเสื่อมสลายอย่างรวดเร็ว แหล่งเดิมใช้ชื่อ Coprinus cinereus เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
+    "facts": [
+      "เห็ดโคนน้อย",
+      "ชื่อวิทยาศาสตร์ Coprinopsis cinerea",
+      "อาณาจักร Fungi"
+    ],
+    "source": "https://www.gbif.org/species/5242754",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Coprinopsis cinerea",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://www.artsobservasjoner.no/MediaLibrary/2026/3/40915c88-de49-4c04-b4a3-6ca33983c68d_image.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6176649780",
+    "credit": "Morten Pettersen",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "image_taxon": "Coprinopsis cinerea (Schaeff.) Redhead, Vilgalys & Moncalvo",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5242754&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6176649780,
+    "image_description": "",
+    "image_local": "assets/species/thai-coprinopsis-cinerea.jpg",
+    "image_size": [
+      750,
+      563
+    ],
+    "alt": "ภาพ Coprinopsis cinerea",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดโคนน้อย (Coprinopsis cinerea) ดอกอ่อนมีหมวกทรงกระสวยสีอ่อน เมื่อโตหมวกแผ่ออก ครีบและหมวกเสื่อมสลายอย่างรวดเร็ว แหล่งเดิมใช้ชื่อ Coprinus cinereus เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
+    "biology_sources": [
+      "https://saranukromthai.or.th/oldchild/1978",
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "review_locked": true,
+    "image_sha256": "311128bb4e8245844ca383d75ee3e142bd2e7d05fd337d7b61d7beb4ee36e65c"
   },
   "gbif-2535466": {
     "id": "gbif-2535466",
@@ -14676,44 +14731,45 @@
     ],
     "image_sha256": "af60d44f2358aa07acea1d3eebff5ee09527bf906046cdbecd4d03f399cc387a"
   },
-  "gbif-7713104": {
-    "id": "gbif-7713104",
-    "description": "Lactifluus pseudoluteopus เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Lactifluus pseudoluteopus อยู่ในวงศ์ Russulaceae อยู่ในไฟลัม Basidiomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์บนเบซิเดีย ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-auricularia-cornea": {
+    "id": "thai-auricularia-cornea",
+    "description": "เห็ดหูหนู (Auricularia cornea) ดอกเป็นแผ่นวุ้นยืดหยุ่นคล้ายใบหู มักขึ้นบนไม้ รายการนี้ระบุ A. cornea ไม่ใช้แทนเห็ดหูหนูทุกชนิด เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Russulaceae",
+      "เห็ดหูหนู",
+      "ชื่อวิทยาศาสตร์ Auricularia cornea",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/7713104",
+    "source": "https://www.gbif.org/species/5249287",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Lactifluus pseudoluteopus",
-    "review_status": "image missing after label-only image rejection",
-    "verified_on": "2026-10-29",
-    "image_source": "https://www.gbif.org/occurrence/5069150948",
-    "credit": "San Francisco State University, Harry D. Thiers Herbarium (SFSU-)",
-    "license": "CC0 1.0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "image_taxon": "Lactifluus pseudoluteopus (X.H.Wang & Verbeken) X.H.Wang",
-    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=7713104&media_type=StillImage&occurrence_status=PRESENT&limit=30",
-    "occurrence_id": 5069150948,
-    "image_description": "",
-    "alt": "ภาพ Lactifluus pseudoluteopus",
+    "image_caption": "ภาพ Auricularia cornea",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Auricularia_cornea_%28Wellington%2C_New_Zealand%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Auricularia_cornea_(Wellington,_New_Zealand).jpg",
+    "credit": "Tony Wills",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "image_taxon": "Auricularia cornea",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAuricularia_cornea_%28Wellington%2C_New_Zealand%29.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "occurrence_id": 5938085995,
+    "image_description": "Auricularia cornea growing on mahoe tree in Karori, Wellington 6012, New Zealand.",
+    "image_local": "assets/species/thai-auricularia-cornea.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Auricularia cornea",
     "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
-    "rejected_image": {
-      "image_local": "assets/species/gbif-7713104.jpg",
-      "image_source": "https://www.gbif.org/occurrence/5069150948",
-      "image_taxon": "Lactifluus pseudoluteopus (X.H.Wang & Verbeken) X.H.Wang",
-      "credit": "San Francisco State University, Harry D. Thiers Herbarium (SFSU-)",
-      "license": "CC0 1.0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
-    },
-    "rejection_reason": "Visually checked: label or specimen envelope only, no organism visible. Not shown as an organism photograph.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "species_description_th": "เห็ดหูหนู (Auricularia cornea) ดอกเป็นแผ่นวุ้นยืดหยุ่นคล้ายใบหู มักขึ้นบนไม้ รายการนี้ระบุ A. cornea ไม่ใช้แทนเห็ดหูหนูทุกชนิด เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://eresearch.rbru.ac.th/pdf-uploads/thesis-2103-file11-2024-01-25-16-26-21.pdf",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "encyclopedia_url": "https://en.wikipedia.org/wiki/Auricularia_cornea",
+    "encyclopedia_excerpt": "Auricularia cornea, also known as hairy wood ear, is a species of fungus in the order Auriculariales. It is commercially cultivated in China, being a popular ingredient in many Chinese dishes and used in traditional Chinese medicine.",
+    "review_locked": true,
+    "image_sha256": "c0683c1fda8207dcb9c3783a9225d90e722a69d879d7ed110253bf1565f7eaa4"
   },
   "gbif-2559325": {
     "id": "gbif-2559325",
@@ -14834,7 +14890,7 @@
   },
   "gbif-2597681": {
     "id": "gbif-2597681",
-    "description": "Penicillium citrinum เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Penicillium citrinum อยู่ในวงศ์ Aspergillaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+    "description": "ราเพนิซิลเลียม เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Penicillium citrinum อยู่ในวงศ์ Aspergillaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
     "facts": [
       "ข้อมูลระดับชนิด",
       "วงศ์ Aspergillaceae",
@@ -14989,55 +15045,43 @@
     ],
     "image_sha256": "820d3dad29330a3743261b6b64699954c8dd4ec0581a4b6877af1a0aeeb19116"
   },
-  "gbif-2573550": {
-    "id": "gbif-2573550",
-    "description": "Humicola nigrescens เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Humicola nigrescens อยู่ในวงศ์ Chaetomiaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-lentinus-polychrous": {
+    "id": "thai-lentinus-polychrous",
+    "description": "เห็ดบด (Lentinus polychrous) เป็นเห็ดเส้นใยที่สร้างดอกบนเนื้อไม้ รู้จักในไทยว่าเห็ดบด รายการนี้ประเมินระยะเส้นใยและดอกเห็ด เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Chaetomiaceae",
+      "เห็ดบด",
+      "ชื่อวิทยาศาสตร์ Lentinus polychrous",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/2573550",
+    "source": "https://www.gbif.org/species/2545452",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพโคโลนีหรือโครงสร้างของ Humicola nigrescens จากบทความวิจัย (ดูชื่อและแผงภาพในต้นฉบับ)",
-    "review_status": "missing after visual rejection; do not use a graph as an organism image",
-    "verified_on": "2026-10-29",
-    "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11221984/#fig2",
-    "credit": "Urgessa Olyad Erba; Koyamo Rufael; Dinka Hunduma; Tafess Ketema; Gemeda Mesfin Tafesse",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-    "image_taxon": "Humicola nigrescens",
-    "source_api": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11221984.1/PMC11221984.1.xml?md5=11bfa6efdeedc45842cc8711f9e765e7",
-    "occurrence_id": 5236208354,
-    "image_description": "Phytase partial purification steps: (a) phytase of Humicola nigrescens BJ8 was extracted by mixing 50 mL of distilled water containing 0.1%Tween-80 with solid-state fermented substrate. The mixture was shaken at 200 rpm for 60 min and filtered through a double-layer muslin cloth. The filtrate obtained was centrifuged and administered to ammonium sulphate precipitation followed by desalting [ 28 ]. (b) Culture broth of Serratia sp. PBS-15 and E. cloacae PBS-45 was centrifuged and administered to ammonium sulphate precipitation followed by desalting [ 12 ]. (c) The spent culture media obtained from A. foetidus MTCC 11682 culture were harvested, filtered, and the filtrates were subjected sequentially to ammonium sulphate precipitation, desalting, and gelfiltration [ 29 ].",
-    "alt": "ภาพวิจัยของ Humicola nigrescens",
-    "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน แสดงทั้งภาพ ไม่ครอปแผงภาพ",
-    "paper_title": "Review on Desirable Microbial Phytases as a Poultry Feed Additive: Their Sources, Production, Enzymatic Evaluation, Market Size, and Regulation",
-    "paper_doi": "10.1155/2024/9400374",
-    "paper_caption": "Phytase partial purification steps: (a) phytase of Humicola nigrescens BJ8 was extracted by mixing 50 mL of distilled water containing 0.1%Tween-80 with solid-state fermented substrate. The mixture was shaken at 200 rpm for 60 min and filtered through a double-layer muslin cloth. The filtrate obtained was centrifuged and administered to ammonium sulphate precipitation followed by desalting [ 28 ]. (b) Culture broth of Serratia sp. PBS-15 and E. cloacae PBS-45 was centrifuged and administered to ammonium sulphate precipitation followed by desalting [ 12 ]. (c) The spent culture media obtained from A. foetidus MTCC 11682 culture were harvested, filtered, and the filtrates were subjected sequentially to ammonium sulphate precipitation, desalting, and gelfiltration [ 29 ].",
-    "image_mime": "image/jpeg",
-    "research_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11221984/",
-    "searched_taxon_names": [
-      "Humicola nigrescens"
+    "image_caption": "ภาพ Lentinus polychrous",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/270084482/original.jpeg",
+    "image_source": "https://www.gbif.org/occurrence/5167437513",
+    "credit": "Joseph Pallante",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Lentinus polychrous Lév.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2545452&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5167437513,
+    "image_description": "",
+    "image_local": "assets/species/thai-lentinus-polychrous.jpg",
+    "image_size": [
+      900,
+      675
     ],
-    "rejected_image": {
-      "image_local": "assets/species/gbif-2573550.jpg",
-      "image_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11221984/#fig2",
-      "image_taxon": "Humicola nigrescens",
-      "credit": "Urgessa Olyad Erba; Koyamo Rufael; Dinka Hunduma; Tafess Ketema; Gemeda Mesfin Tafesse",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "paper_caption": "Phytase partial purification steps: (a) phytase of Humicola nigrescens BJ8 was extracted by mixing 50 mL of distilled water containing 0.1%Tween-80 with solid-state fermented substrate. The mixture was shaken at 200 rpm for 60 min and filtered through a double-layer muslin cloth. The filtrate obtained was centrifuged and administered to ammonium sulphate precipitation followed by desalting [ 28 ]. (b) Culture broth of Serratia sp. PBS-15 and E. cloacae PBS-45 was centrifuged and administered to ammonium sulphate precipitation followed by desalting [ 12 ]. (c) The spent culture media obtained from A. foetidus MTCC 11682 culture were harvested, filtered, and the filtrates were subjected sequentially to ammonium sulphate precipitation, desalting, and gelfiltration [ 29 ]."
-    },
-    "rejection_reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "alt": "ภาพ Lentinus polychrous",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดบด (Lentinus polychrous) เป็นเห็ดเส้นใยที่สร้างดอกบนเนื้อไม้ รู้จักในไทยว่าเห็ดบด รายการนี้ประเมินระยะเส้นใยและดอกเห็ด เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://doi.nrct.go.th/ListDoi/Download/250125?Resolve_DOI=10.14457%2FMSU.res.2012.2",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
-      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi",
-      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11221984/",
-      "https://doi.org/10.1155/2024/9400374"
-    ]
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "review_locked": true,
+    "image_sha256": "2ec0f774ccdfd92036732644f5e94c19ed40da05bc16fdd17387ec174f4c8e68"
   },
   "gbif-8050025": {
     "id": "gbif-8050025",
@@ -15235,65 +15279,122 @@
     ],
     "image_sha256": "2555c033748e78dd6adada0034796cc99fbacc24ba4e2310071937cc0d9f4715"
   },
-  "gbif-3473983": {
-    "id": "gbif-3473983",
-    "description": "Exophiala nishimurae เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Exophiala nishimurae อยู่ในวงศ์ Herpotrichiellaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-macrocybe-crassa": {
+    "id": "thai-macrocybe-crassa",
+    "description": "เห็ดตีนแรด (Macrocybe crassa) เป็นเห็ดที่สร้างดอกขนาดใหญ่ ก้านหนาอวบ รายการนี้ใช้ชื่อชนิด Macrocybe crassa ตามงานกรมวิชาการเกษตร เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Herpotrichiellaceae",
+      "เห็ดตีนแรด",
+      "ชื่อวิทยาศาสตร์ Macrocybe crassa",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/3473983",
+    "source": "https://www.gbif.org/species/2531670",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Exophiala nishimurae",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "image_caption": "ภาพ Macrocybe crassa",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/738619415/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6567344023",
+    "credit": "ronnaphon engchuan",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Macrocybe crassa (Sacc.) Pegler & Lodge",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2531670&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6567344023,
+    "image_description": "",
+    "image_local": "assets/species/thai-macrocybe-crassa.jpg",
+    "image_size": [
+      900,
+      675
+    ],
+    "alt": "ภาพ Macrocybe crassa",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดตีนแรด (Macrocybe crassa) เป็นเห็ดที่สร้างดอกขนาดใหญ่ ก้านหนาอวบ รายการนี้ใช้ชื่อชนิด Macrocybe crassa ตามงานกรมวิชาการเกษตร เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://info.doa.go.th/research/pdf/2563/112_2563.pdf",
+      "https://doaplant.doa.go.th/RecFront/PlantDetailPdf/479",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "review_locked": true,
+    "image_sha256": "bf7a2edc384e7e7c56b95f3acd224cfb282982eaf4c44db7ae7cd96703953e37"
   },
-  "gbif-10711232": {
-    "id": "gbif-10711232",
-    "description": "Niesslia ligustica เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Niesslia ligustica อยู่ในวงศ์ Niessliaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-phallus-indusiatus": {
+    "id": "thai-phallus-indusiatus",
+    "description": "เห็ดเยื่อไผ่ (Phallus indusiatus) ดอกโตมีก้านยาวและเยื่อร่างแหห้อยลงจากใต้หมวกคล้ายกระโปรง เรียกอีกชื่อว่าเห็ดร่างแหกระโปรงยาวสีขาว เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Niessliaceae",
+      "เห็ดเยื่อไผ่",
+      "ชื่อวิทยาศาสตร์ Phallus indusiatus",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/10711232",
+    "source": "https://www.gbif.org/species/2524108",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Niesslia ligustica",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "image_caption": "ภาพ Phallus indusiatus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/604309730/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938427578",
+    "credit": "mmpro",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Phallus indusiatus Vent.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2524108&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938427578,
+    "image_description": "",
+    "image_local": "assets/species/thai-phallus-indusiatus.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Phallus indusiatus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดเยื่อไผ่ (Phallus indusiatus) ดอกโตมีก้านยาวและเยื่อร่างแหห้อยลงจากใต้หมวกคล้ายกระโปรง เรียกอีกชื่อว่าเห็ดร่างแหกระโปรงยาวสีขาว เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://www.thaifarmer.lib.ku.ac.th/news/608bb68e3c349d06158fddc1",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "review_locked": true,
+    "image_sha256": "fdd36f1d78a724182358abe64616b45467f54fd2599555df58a787605b92537f"
   },
-  "gbif-11987476": {
-    "id": "gbif-11987476",
-    "description": "Scolecobasidium cordanae เป็นราในระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Scolecobasidium cordanae อยู่ในวงศ์ Sympoventuriaceae อยู่ในไฟลัม Ascomycota ซึ่งมีระยะสืบพันธุ์แบบอาศัยเพศสร้างสปอร์ในถุงแอสคัส ราไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง รับสารอาหารโดยดูดซึมสารอินทรีย์",
+  "thai-coprinus-comatus": {
+    "id": "thai-coprinus-comatus",
+    "description": "เห็ดถั่วฝรั่ง (Coprinus comatus) หมวกอ่อนยาวคล้ายทรงกระบอก ผิวมีเกล็ดสีขาวคล้ายขน เมื่อแก่ส่วนหมวกและครีบเปลี่ยนเป็นสีดำและสลายตัว เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "facts": [
-      "ข้อมูลระดับชนิด",
-      "วงศ์ Sympoventuriaceae",
+      "เห็ดถั่วฝรั่ง",
+      "ชื่อวิทยาศาสตร์ Coprinus comatus",
       "อาณาจักร Fungi"
     ],
-    "source": "https://www.gbif.org/species/11987476",
+    "source": "https://www.gbif.org/species/7987658",
     "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
-    "image_caption": "ภาพ Scolecobasidium cordanae",
-    "review_status": "image missing",
-    "verified_on": "2026-10-29",
-    "review_locked": true,
-    "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used.",
+    "image_caption": "ภาพ Coprinus comatus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Coprinus_comatus%2C_the_shaggy_ink_cap%2C_lawyer%27s_wig%2C_or_shaggy_mane_mushroom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Coprinus_comatus,_the_shaggy_ink_cap,_lawyer%27s_wig,_or_shaggy_mane_mushroom.jpg",
+    "credit": "Bigredwine1",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "image_taxon": "Coprinus comatus",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ACoprinus_comatus%2C_the_shaggy_ink_cap%2C_lawyer%27s_wig%2C_or_shaggy_mane_mushroom.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "occurrence_id": 5938031941,
+    "image_description": "This is the 'Shaggy Mane' mushroom in its inky phase.",
+    "image_local": "assets/species/thai-coprinus-comatus.jpg",
+    "image_size": [
+      900,
+      898
+    ],
+    "alt": "ภาพ Coprinus comatus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดถั่วฝรั่ง (Coprinus comatus) หมวกอ่อนยาวคล้ายทรงกระบอก ผิวมีเกล็ดสีขาวคล้ายขน เมื่อแก่ส่วนหมวกและครีบเปลี่ยนเป็นสีดำและสลายตัว เป็นเชื้อราในอาณาจักร Fungi ไม่มีคลอโรพลาสต์และไม่สังเคราะห์แสง ค่าหลายเซลล์หมายถึงระยะเส้นใยและดอกเห็ด ไม่ใช่สปอร์เดี่ยว",
     "biology_sources": [
+      "https://doaplant.doa.go.th/RecFront/PlantDetail/479",
       "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
       "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
-    ]
+    ],
+    "encyclopedia_url": "https://en.wikipedia.org/wiki/Coprinus_comatus",
+    "encyclopedia_excerpt": "Coprinus comatus, commonly known as the shaggy ink cap, lawyer's wig, or shaggy mane, is a species of fungus. The young fruit bodies first appear as white cylinders emerging from the ground, then the bell-shaped caps open out. The white caps are covered with scales, the origin of its common names. The gills beneath the cap are white, then pink, then turn black. This mushroom is unusual because it will turn black and dissolve itself in a matter of hours after being picked or depositing spores.",
+    "review_locked": true,
+    "image_sha256": "b33ab49f56ca0ff0bf5b0ded51a6ff5e6f7ba3a746e782938d617313f59ad11d"
   },
   "gbif-2562709": {
     "id": "gbif-2562709",
@@ -15464,7 +15565,7 @@
   },
   "request-worms": {
     "id": "request-worms",
-    "description": "พยาธิ (หนอนปรสิต) เป็นสัตว์ในระบบ 5 อาณาจักรของโครงงาน สัตว์เป็นยูคาริโอตหลายเซลล์ เซลล์ร่างกายไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์ จึงรับสารอินทรีย์จากสิ่งแวดล้อมหรือสิ่งมีชีวิตอื่น ไม่รวมคุณลักษณะของสาหร่ายร่วมอาศัย",
+    "description": "พยาธิ เป็นสัตว์ในระบบ 5 อาณาจักรของโครงงาน สัตว์เป็นยูคาริโอตหลายเซลล์ เซลล์ร่างกายไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์ จึงรับสารอินทรีย์จากสิ่งแวดล้อมหรือสิ่งมีชีวิตอื่น ไม่รวมคุณลักษณะของสาหร่ายร่วมอาศัย",
     "facts": [
       "ข้อมูลระดับกลุ่ม",
       "อาณาจักร Animalia"
@@ -16691,5 +16792,853 @@
       "https://openstax.org/books/microbiology/pages/4-3-nonproteobacteria-gram-negative-bacteria-and-phototrophic-bacteria"
     ],
     "image_sha256": "ac16227d03ed7e684511684976291dede9024012a40dfcfeacbc2fbf04b9cb73"
+  },
+  "thai-escherichia-coli": {
+    "id": "thai-escherichia-coli",
+    "description": "อีโคไลเป็นแบคทีเรียรูปแท่ง พบได้ในลำไส้คนและสัตว์หลายชนิด แต่ละสายพันธุ์มีคุณสมบัติต่างกัน ไม่ใช่อีโคไลทุกสายพันธุ์ก่อโรค ไม่มีนิวเคลียสที่มีเยื่อหุ้มและไม่มีคลอโรพลาสต์",
+    "facts": [
+      "แบคทีเรียอีโคไล",
+      "ชื่อวิทยาศาสตร์ Escherichia coli",
+      "อาณาจักร Monera"
+    ],
+    "source": "https://www.gbif.org/species/232209463",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Escherichia coli",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/611014243/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6130014851",
+    "credit": "Ansel Oommen",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Escherichia coli E",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=11286021&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6130014851,
+    "image_description": "",
+    "image_local": "assets/species/thai-escherichia-coli.jpg",
+    "image_size": [
+      900,
+      506
+    ],
+    "alt": "ภาพ Escherichia coli",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "อีโคไลเป็นแบคทีเรียรูปแท่ง พบได้ในลำไส้คนและสัตว์หลายชนิด แต่ละสายพันธุ์มีคุณสมบัติต่างกัน ไม่ใช่อีโคไลทุกสายพันธุ์ก่อโรค ไม่มีนิวเคลียสที่มีเยื่อหุ้มและไม่มีคลอโรพลาสต์",
+    "biology_sources": [
+      "https://pharmacy.mahidol.ac.th/knowledge/files/0052.pdf",
+      "https://openstax.org/books/microbiology/pages/4-3-nonproteobacteria-gram-negative-bacteria-and-phototrophic-bacteria"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "98f60d951da3d9085c8d81e2bba79d6ab6194121e6b419523db66e1ba8786caf"
+  },
+  "thai-streptomyces-coelicolor": {
+    "id": "thai-streptomyces-coelicolor",
+    "description": "แอคติโนมัยซีสเป็นกลุ่มแบคทีเรียที่บางชนิดสร้างเส้นใยแตกแขนงคล้ายรา รายการนี้ใช้ Streptomyces coelicolor เป็นตัวอย่าง จัดใน Monera ของโครงงาน ไม่ใช่พืชและไม่สังเคราะห์แสง ส่วนจำนวนเซลล์ขึ้นกับระยะเส้นใยหรือสปอร์ จึงไม่กำหนดค่ารวมโดยไม่ระบุระยะ",
+    "facts": [
+      "แอคติโนมัยซีส",
+      "ชื่อวิทยาศาสตร์ Streptomyces coelicolor",
+      "อาณาจักร Monera"
+    ],
+    "source": "https://www.gbif.org/species/336114786",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "โคโลนี Streptomyces coelicolor",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "species_description_th": "แอคติโนมัยซีสเป็นกลุ่มแบคทีเรียที่บางชนิดสร้างเส้นใยแตกแขนงคล้ายรา รายการนี้ใช้ Streptomyces coelicolor เป็นตัวอย่าง จัดใน Monera ของโครงงาน ไม่ใช่พืชและไม่สังเคราะห์แสง ส่วนจำนวนเซลล์ขึ้นกับระยะเส้นใยหรือสปอร์ จึงไม่กำหนดค่ารวมโดยไม่ระบุระยะ",
+    "biology_sources": [
+      "https://li01.tci-thaijo.org/index.php/tjf/article/view/250264",
+      "https://openstax.org/books/microbiology/pages/4-3-nonproteobacteria-gram-negative-bacteria-and-phototrophic-bacteria",
+      "https://www.lpsn.dsmz.de/species/streptomyces-coelicolor"
+    ],
+    "reviewed_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Streptomyces_coelicolor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Streptomyces_coelicolor.jpg",
+    "credit": "LunMa4",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "image_taxon": "Streptomyces coelicolor",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AStreptomyces+coelicolor.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "image_local": "assets/species/thai-streptomyces-coelicolor.jpg",
+    "image_size": [
+      437,
+      616
+    ],
+    "alt": "โคโลนี Streptomyces coelicolor",
+    "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "review_locked": true,
+    "image_sha256": "9422165780ba08ab61a6718d60a2b03c6296b03a32ed31cf6c8df7d16631fde5"
+  },
+  "thai-porphyra-umbilicalis": {
+    "id": "thai-porphyra-umbilicalis",
+    "description": "สาหร่ายสีแดงชนิด Porphyra umbilicalis มีทัลลัสเป็นแผ่นบาง อาศัยในทะเลและสังเคราะห์แสงได้ คุณลักษณะในหน้านี้ประเมินระยะแผ่นหลายเซลล์ โครงงานจัดใน Protista ตามระบบ 5 อาณาจักร ซึ่งอาจต่างจากฐานอนุกรมวิธานสมัยใหม่ที่จัดสาหร่ายสีแดงใน Plantae",
+    "facts": [
+      "สาหร่ายสีแดง",
+      "ชื่อวิทยาศาสตร์ Porphyra umbilicalis",
+      "อาณาจักร Protista"
+    ],
+    "source": "https://www.gbif.org/species/5275705",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Porphyra umbilicalis",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://www.artsobservasjoner.no/MediaLibrary/2026/4/188262f8-c88d-415f-879b-3e3cd201a8c3_image.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6187504436",
+    "credit": "Terje O. Nordvik",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "image_taxon": "Porphyra umbilicalis Kütz.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5275705&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6187504436,
+    "image_description": "",
+    "image_local": "assets/species/thai-porphyra-umbilicalis.jpg",
+    "image_size": [
+      900,
+      675
+    ],
+    "alt": "ภาพ Porphyra umbilicalis",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "สาหร่ายสีแดงชนิด Porphyra umbilicalis มีทัลลัสเป็นแผ่นบาง อาศัยในทะเลและสังเคราะห์แสงได้ คุณลักษณะในหน้านี้ประเมินระยะแผ่นหลายเซลล์ โครงงานจัดใน Protista ตามระบบ 5 อาณาจักร ซึ่งอาจต่างจากฐานอนุกรมวิธานสมัยใหม่ที่จัดสาหร่ายสีแดงใน Plantae",
+    "biology_sources": [
+      "https://seaweed.algaebase.org/descriptions/Poprhyra_umbilicalis.html",
+      "https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "c4efc70271bdf1be4685ec49e0d86df7115bccfdb635a7cc65e5c026eecb3241"
+  },
+  "thai-navicula-tripunctata": {
+    "id": "thai-navicula-tripunctata",
+    "description": "ไดอะตอมเป็นสาหร่ายเซลล์เดียวที่มีเปลือกหรือผนังซิลิกาประกบกันและมีคลอโรพลาสต์ รายการนี้ใช้ Navicula tripunctata เป็นตัวอย่าง ไม่ได้หมายความว่าไดอะตอมทุกชนิดมีรูปร่างเหมือนกัน จัดใน Protista ของโครงงาน",
+    "facts": [
+      "ไดอะตอม",
+      "ชื่อวิทยาศาสตร์ Navicula tripunctata",
+      "อาณาจักร Protista"
+    ],
+    "source": "https://www.gbif.org/species/5269343",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Navicula tripunctata",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/607177379/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6159192081",
+    "credit": "David Bird",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "image_taxon": "Navicula tripunctata (O.F.Müller) Bory",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5269343&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6159192081,
+    "image_description": "",
+    "image_local": "assets/species/thai-navicula-tripunctata.jpg",
+    "image_size": [
+      900,
+      527
+    ],
+    "alt": "ภาพ Navicula tripunctata",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "ไดอะตอมเป็นสาหร่ายเซลล์เดียวที่มีเปลือกหรือผนังซิลิกาประกบกันและมีคลอโรพลาสต์ รายการนี้ใช้ Navicula tripunctata เป็นตัวอย่าง ไม่ได้หมายความว่าไดอะตอมทุกชนิดมีรูปร่างเหมือนกัน จัดใน Protista ของโครงงาน",
+    "biology_sources": [
+      "https://www.nstda.or.th/brt/images/book/T541071.pdf",
+      "https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "1562902e93b5a3ef378845164f17f43139b19f5ce567ed9e1954673d254ca2a2"
+  },
+  "thai-plasmodium-falciparum": {
+    "id": "thai-plasmodium-falciparum",
+    "description": "พลาสโมเดียมเป็นปรสิตเซลล์เดียวที่ทำให้เกิดมาลาเรีย รายการนี้ระบุ Plasmodium falciparum ไม่ใช่เชื้อมาลาเรียทุกชนิด มีนิวเคลียส ไม่สังเคราะห์แสง และไม่มีคลอโรพลาสต์ ออร์แกเนลล์ apicoplast ไม่ใช่คลอโรพลาสต์ที่ใช้สังเคราะห์แสง",
+    "facts": [
+      "พลาสโมเดียม (เชื้อมาลาเรีย)",
+      "ชื่อวิทยาศาสตร์ Plasmodium falciparum",
+      "อาณาจักร Protista"
+    ],
+    "source": "https://www.gbif.org/species/10540993",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Plasmodium falciparum",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Plasmodium_falciparum_01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Plasmodium_falciparum_01.png",
+    "credit": "Photo Credit: Content Providers(s): CDC/Dr. Mae Melvin Transwiki approved by: w:en:User:Dmcdevit",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "image_taxon": "Plasmodium falciparum",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3APlasmodium_falciparum_01.png&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "occurrence_id": 4400351415,
+    "image_description": "This photomicrograph of a blood smear contains a macro- and microgametocyte of the Plasmodium falciparum parasite. Both macro- and microgametocytes are products of the erythrocytic life cycle. Within a few minutes after the Anopheles sp. vector ingests the gametocytes, microgametocytes develop into microgametes, which are able to fertilize gametes.",
+    "image_local": "assets/species/thai-plasmodium-falciparum.jpg",
+    "image_size": [
+      710,
+      476
+    ],
+    "alt": "ภาพ Plasmodium falciparum",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "พลาสโมเดียมเป็นปรสิตเซลล์เดียวที่ทำให้เกิดมาลาเรีย รายการนี้ระบุ Plasmodium falciparum ไม่ใช่เชื้อมาลาเรียทุกชนิด มีนิวเคลียส ไม่สังเคราะห์แสง และไม่มีคลอโรพลาสต์ ออร์แกเนลล์ apicoplast ไม่ใช่คลอโรพลาสต์ที่ใช้สังเคราะห์แสง",
+    "biology_sources": [
+      "https://www.cdc.gov/dpdx/malaria/index.html",
+      "https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists"
+    ],
+    "reviewed_on": "2026-10-30",
+    "encyclopedia_url": "https://en.wikipedia.org/wiki/Plasmodium_falciparum",
+    "encyclopedia_excerpt": "Plasmodium falciparum is a unicellular protozoan parasite of humans and is the deadliest species of Plasmodium that causes malaria in humans. The parasite is transmitted through the bite of a female Anopheles mosquito and causes the disease's most dangerous form, falciparum malaria. P. falciparum is therefore regarded as the deadliest parasite in humans. It is also associated with the development of blood cancer and is classified as a Group 2A (probable) carcinogen.",
+    "review_locked": true,
+    "image_sha256": "091753b5f4a76609aa62a25f808848737eb17f70fe93da64cf33bdf69130ffc5"
+  },
+  "thai-rosa-chinensis": {
+    "id": "thai-rosa-chinensis",
+    "description": "กุหลาบชนิด Rosa chinensis เป็นไม้พุ่มวงศ์ Rosaceae ใบประกอบและขอบใบจัก ดอกมีหลายสีตามพันธุ์ รายการนี้ประเมินต้นระยะมีใบสีเขียว ไม่ใช้แทนกุหลาบทุกชนิดหรือกุหลาบลูกผสมทั้งหมด",
+    "facts": [
+      "กุหลาบ",
+      "ชื่อวิทยาศาสตร์ Rosa chinensis",
+      "อาณาจักร Plantae"
+    ],
+    "source": "https://www.gbif.org/species/3005039",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Rosa chinensis",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/711610339/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6499316621",
+    "credit": "Sophia Bruce",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Rosa chinensis Jacq.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=3005039&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6499316621,
+    "image_description": "",
+    "image_local": "assets/species/thai-rosa-chinensis.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Rosa chinensis",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "กุหลาบชนิด Rosa chinensis เป็นไม้พุ่มวงศ์ Rosaceae ใบประกอบและขอบใบจัก ดอกมีหลายสีตามพันธุ์ รายการนี้ประเมินต้นระยะมีใบสีเขียว ไม่ใช้แทนกุหลาบทุกชนิดหรือกุหลาบลูกผสมทั้งหมด",
+    "biology_sources": [
+      "https://crspg.sut.ac.th/plant/living_plants_detail.php?id=71",
+      "https://openstax.org/books/biology-2e/pages/25-1-early-plant-life",
+      "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "2431c801d17ba8e9a21b47759f3db12f747628add2db53ac82b5cf57544defd1"
+  },
+  "thai-amanita-phalloides": {
+    "id": "thai-amanita-phalloides",
+    "description": "เห็ดไข่ตายซาก Amanita phalloides เป็นตัวอย่างเห็ดพิษในสกุล Amanita ไม่ใช่ชื่อรวมของเห็ดพิษทุกชนิด สร้างดอกเห็ดจากเส้นใย มีผนังเซลล์ ไม่มีคลอโรพลาสต์ และไม่สังเคราะห์แสง ภาพนี้ใช้ประกอบการเรียนรู้ ไม่ใช้ยืนยันว่าเห็ดที่เก็บจากธรรมชาติกินได้",
+    "facts": [
+      "เห็ดพิษ (เห็ดไข่ตายซาก)",
+      "ชื่อวิทยาศาสตร์ Amanita phalloides",
+      "อาณาจักร Fungi"
+    ],
+    "source": "https://www.gbif.org/species/5240325",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Amanita phalloides",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/604897838/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938055097",
+    "credit": "ashlee2009",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Amanita phalloides (Vaill. ex Fr.) Link",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5240325&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938055097,
+    "image_description": "",
+    "image_local": "assets/species/thai-amanita-phalloides.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Amanita phalloides",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดไข่ตายซาก Amanita phalloides เป็นตัวอย่างเห็ดพิษในสกุล Amanita ไม่ใช่ชื่อรวมของเห็ดพิษทุกชนิด สร้างดอกเห็ดจากเส้นใย มีผนังเซลล์ ไม่มีคลอโรพลาสต์ และไม่สังเคราะห์แสง ภาพนี้ใช้ประกอบการเรียนรู้ ไม่ใช้ยืนยันว่าเห็ดที่เก็บจากธรรมชาติกินได้",
+    "biology_sources": [
+      "https://www.rama.mahidol.ac.th/poisoncenter/sites/default/files/public/pdf/bulletin/bul2013/bul2013No2.pdf",
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "b0e652d19c34520a21cd25f77bd6a01b7a484b0c404cb7e6e38702aebf99d600"
+  },
+  "thai-rhizopus-stolonifer": {
+    "id": "thai-rhizopus-stolonifer",
+    "description": "ราดำบนขนมปัง Rhizopus stolonifer สร้างเส้นใยและอับสปอร์สีเข้ม รับสารอาหารโดยย่อยและดูดซึมจากวัสดุอินทรีย์ ไม่สังเคราะห์แสง เส้นใยส่วนใหญ่ไม่มีผนังกั้นและมีหลายนิวเคลียส จึงไม่เหมารวมว่าการเห็นเส้นใยเท่ากับหลายเซลล์ตามนิยามไบนารีของโมเดล",
+    "facts": [
+      "ราดำบนขนมปัง",
+      "ชื่อวิทยาศาสตร์ Rhizopus stolonifer",
+      "อาณาจักร Fungi"
+    ],
+    "source": "https://www.gbif.org/species/2558944",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Rhizopus stolonifer",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/605867790/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6130165439",
+    "credit": "S.R.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "image_taxon": "Rhizopus stolonifer (Ehrenb.) Vuill.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2558944&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6130165439,
+    "image_description": "",
+    "image_local": "assets/species/thai-rhizopus-stolonifer.jpg",
+    "image_size": [
+      900,
+      900
+    ],
+    "alt": "ภาพ Rhizopus stolonifer",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "ราดำบนขนมปัง Rhizopus stolonifer สร้างเส้นใยและอับสปอร์สีเข้ม รับสารอาหารโดยย่อยและดูดซึมจากวัสดุอินทรีย์ ไม่สังเคราะห์แสง เส้นใยส่วนใหญ่ไม่มีผนังกั้นและมีหลายนิวเคลียส จึงไม่เหมารวมว่าการเห็นเส้นใยเท่ากับหลายเซลล์ตามนิยามไบนารีของโมเดล",
+    "biology_sources": [
+      "https://sciplanet.org/content/15861/",
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "fc870301e59213308c42a786256ecc174ac9a501015910b7a41b110720cc0ed3"
+  },
+  "thai-pediculus-humanus": {
+    "id": "thai-pediculus-humanus",
+    "description": "เหาเป็นแมลงขนาดเล็กไม่มีปีก อาศัยเกาะบนร่างกายเจ้าบ้าน รายการนี้ใช้ Pediculus humanus ซึ่งมีการแยกรูปแบบเหาหัวและเหาตัว ไม่ใช่หมัดหรือไรฝุ่น",
+    "facts": [
+      "เหา",
+      "ชื่อวิทยาศาสตร์ Pediculus humanus",
+      "อาณาจักร Animalia"
+    ],
+    "source": "https://www.gbif.org/species/4987991",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Pediculus humanus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/604736487/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938409685",
+    "credit": "henriok",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Pediculus humanus Linnaeus, 1758",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=4987991&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938409685,
+    "image_description": "",
+    "image_local": "assets/species/thai-pediculus-humanus.jpg",
+    "image_size": [
+      722,
+      722
+    ],
+    "alt": "ภาพ Pediculus humanus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เหาเป็นแมลงขนาดเล็กไม่มีปีก อาศัยเกาะบนร่างกายเจ้าบ้าน รายการนี้ใช้ Pediculus humanus ซึ่งมีการแยกรูปแบบเหาหัวและเหาตัว ไม่ใช่หมัดหรือไรฝุ่น",
+    "biology_sources": [
+      "https://www.cdc.gov/lice/about/head-lice.html",
+      "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "0822a95c42ec885007ce8282fe480150e74ae7a52745af7a94574d1dfd34404f"
+  },
+  "thai-ctenocephalides-felis": {
+    "id": "thai-ctenocephalides-felis",
+    "description": "หมัดแมวเป็นแมลงขนาดเล็กไม่มีปีก ลำตัวแบนด้านข้างและมีขาหลังเหมาะกับการกระโดด เป็นคนละกลุ่มกับเหาและไร รายการนี้ระบุ Ctenocephalides felis ไม่ใช่หมัดทุกชนิด",
+    "facts": [
+      "หมัด (หมัดแมว)",
+      "ชื่อวิทยาศาสตร์ Ctenocephalides felis",
+      "อาณาจักร Animalia"
+    ],
+    "source": "https://www.gbif.org/species/1419472",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Ctenocephalides felis",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/608691645/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6130232812",
+    "credit": "Chaym Turak",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "image_taxon": "Ctenocephalides felis (Bouché, 1835)",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=1419472&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6130232812,
+    "image_description": "",
+    "image_local": "assets/species/thai-ctenocephalides-felis.jpg",
+    "image_size": [
+      900,
+      600
+    ],
+    "alt": "ภาพ Ctenocephalides felis",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "หมัดแมวเป็นแมลงขนาดเล็กไม่มีปีก ลำตัวแบนด้านข้างและมีขาหลังเหมาะกับการกระโดด เป็นคนละกลุ่มกับเหาและไร รายการนี้ระบุ Ctenocephalides felis ไม่ใช่หมัดทุกชนิด",
+    "biology_sources": [
+      "https://www.cdc.gov/fleas/about/index.html",
+      "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "27a286524323fd181f10ea0f33ed3ebc0135af8853eebb0d801a3e9e3e5b9f1e"
+  },
+  "thai-wolffia-globosa": {
+    "id": "thai-wolffia-globosa",
+    "description": "ผำหรือไข่น้ำเป็นพืชดอกน้ำจืดขนาดจิ๋วในวงศ์ Araceae ลอยอยู่บนผิวน้ำ ไม่มีราก และสังเคราะห์แสงได้ แม้มีขนาดเล็กแต่ประกอบด้วยหลายเซลล์ ไม่ใช่สไปรูลิน่าหรือไซยาโนแบคทีเรีย มีการบริโภคเป็นอาหารพื้นบ้านในไทย",
+    "facts": [
+      "ผำ (ไข่น้ำ)",
+      "ชื่อวิทยาศาสตร์ Wolffia globosa",
+      "อาณาจักร Plantae"
+    ],
+    "source": "https://www.gbif.org/species/5330098",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Wolffia globosa",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/622619573/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6179569354",
+    "credit": "coconwang",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Wolffia globosa (Roxb.) Hartog & Plas",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5330098&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6179569354,
+    "image_description": "",
+    "image_local": "assets/species/thai-wolffia-globosa.jpg",
+    "image_size": [
+      900,
+      599
+    ],
+    "alt": "ภาพ Wolffia globosa",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "ผำหรือไข่น้ำเป็นพืชดอกน้ำจืดขนาดจิ๋วในวงศ์ Araceae ลอยอยู่บนผิวน้ำ ไม่มีราก และสังเคราะห์แสงได้ แม้มีขนาดเล็กแต่ประกอบด้วยหลายเซลล์ ไม่ใช่สไปรูลิน่าหรือไซยาโนแบคทีเรีย มีการบริโภคเป็นอาหารพื้นบ้านในไทย",
+    "biology_sources": [
+      "https://www.jircas.go.jp/ja/database/thaivege/105",
+      "https://openstax.org/books/biology-2e/pages/25-1-early-plant-life",
+      "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "9554182fe99362ff9a10091449cfdac4486bcfae979b9d3ce403adb0db4ae748"
+  },
+  "thai-cladophora-glomerata": {
+    "id": "thai-cladophora-glomerata",
+    "description": "สาหร่ายไกเป็นสาหร่ายสีเขียวแบบเส้นสายที่ประกอบด้วยหลายเซลล์ รายการนี้ใช้ Cladophora glomerata มีรายงานการใช้เป็นอาหารในพื้นที่แม่น้ำน่านและแม่น้ำโขง ไม่ใช่ผำ โครงงานจัดใน Protista ตามระบบ 5 อาณาจักร ซึ่งต่างจากอนุกรมวิธานสมัยใหม่บางฐาน",
+    "facts": [
+      "สาหร่ายไก (ไกหรือลอน)",
+      "ชื่อวิทยาศาสตร์ Cladophora glomerata",
+      "อาณาจักร Protista"
+    ],
+    "source": "https://www.gbif.org/species/5272770",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Cladophora glomerata",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/604489263/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938647425",
+    "credit": "Sergio López Castelo",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Cladophora glomerata (L.) Kütz.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5272770&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938647425,
+    "image_description": "",
+    "image_local": "assets/species/thai-cladophora-glomerata.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Cladophora glomerata",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "สาหร่ายไกเป็นสาหร่ายสีเขียวแบบเส้นสายที่ประกอบด้วยหลายเซลล์ รายการนี้ใช้ Cladophora glomerata มีรายงานการใช้เป็นอาหารในพื้นที่แม่น้ำน่านและแม่น้ำโขง ไม่ใช่ผำ โครงงานจัดใน Protista ตามระบบ 5 อาณาจักร ซึ่งต่างจากอนุกรมวิธานสมัยใหม่บางฐาน",
+    "biology_sources": [
+      "https://www.nstda.or.th/sci2pub/cladophora-glomerata1/",
+      "https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "64135d5ee06e34e28a456691dc32db7a9f985d4c40706d07019c8d57a2a45f56"
+  },
+  "thai-astraeus-odoratus": {
+    "id": "thai-astraeus-odoratus",
+    "description": "เห็ดเผาะหรือเห็ดถอบเป็นชื่อที่ใช้กับเห็ดสกุล Astraeus หลายชนิด รายการนี้ระบุเห็ดเผาะหนัง Astraeus odoratus สร้างดอกกลมในระยะอ่อนและอาศัยสัมพันธ์กับรากไม้ ไม่เหมารวมเห็ดเผาะฝ้ายเป็นชนิดเดียวกัน และไม่จำเป็นต้องเผาป่าเพื่อให้เกิดเห็ด",
+    "facts": [
+      "เห็ดเผาะ (เห็ดถอบหนัง)",
+      "ชื่อวิทยาศาสตร์ Astraeus odoratus",
+      "อาณาจักร Fungi"
+    ],
+    "source": "https://www.gbif.org/species/5239765",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Astraeus odoratus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://iiif.rbge.org.uk/herb/iiif/E00159386/full/1600,/0/default.jpg",
+    "image_source": "https://www.gbif.org/occurrence/574647239",
+    "credit": "Royal Botanic Garden Edinburgh",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "image_taxon": "Astraeus odoratus Phosri, Watling, M.P.Martín & Whalley",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=5239765&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 574647239,
+    "image_description": "JPEG Image of specimen E00159386",
+    "image_local": "assets/species/thai-astraeus-odoratus.jpg",
+    "image_size": [
+      746,
+      900
+    ],
+    "alt": "ภาพ Astraeus odoratus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดเผาะหรือเห็ดถอบเป็นชื่อที่ใช้กับเห็ดสกุล Astraeus หลายชนิด รายการนี้ระบุเห็ดเผาะหนัง Astraeus odoratus สร้างดอกกลมในระยะอ่อนและอาศัยสัมพันธ์กับรากไม้ ไม่เหมารวมเห็ดเผาะฝ้ายเป็นชนิดเดียวกัน และไม่จำเป็นต้องเผาป่าเพื่อให้เกิดเห็ด",
+    "biology_sources": [
+      "https://pr.moph.go.th/online/index/news/217685online/index/event",
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "4317b37bc8855b2f466838a17a8d727054c0a760b53ddab55b58e9485d59a3b6"
+  },
+  "thai-fragaria-×-ananassa": {
+    "id": "thai-fragaria-×-ananassa",
+    "description": "สตรอว์เบอร์รีสวนเป็นพืชลูกผสมในสกุล Fragaria วงศ์ Rosaceae มีใบประกอบและไหลสำหรับขยายพันธุ์ ส่วนสีแดงที่นิยมเรียกผลเกิดจากฐานรองดอกที่ขยายตัว เมล็ดที่เห็นบนผิวเป็นผลย่อย รายการนี้ประเมินต้นที่มีใบสีเขียว",
+    "facts": [
+      "สตรอว์เบอร์รี",
+      "ชื่อวิทยาศาสตร์ Fragaria ananassa",
+      "อาณาจักร Plantae"
+    ],
+    "source": "https://www.gbif.org/species/3029912",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Fragaria × ananassa",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/612492890/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6133410893",
+    "credit": "sakiboubiao",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Fragaria × ananassa (Weston) Rozier",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=3029912&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6133410893,
+    "image_description": "",
+    "image_local": "assets/species/thai-fragaria-×-ananassa.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Fragaria × ananassa",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "สตรอว์เบอร์รีสวนเป็นพืชลูกผสมในสกุล Fragaria วงศ์ Rosaceae มีใบประกอบและไหลสำหรับขยายพันธุ์ ส่วนสีแดงที่นิยมเรียกผลเกิดจากฐานรองดอกที่ขยายตัว เมล็ดที่เห็นบนผิวเป็นผลย่อย รายการนี้ประเมินต้นที่มีใบสีเขียว",
+    "biology_sources": [
+      "https://www.rhs.org.uk/plants/strawberries/growing-guide",
+      "https://openstax.org/books/biology-2e/pages/25-1-early-plant-life",
+      "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "0ccff1b044a0bc838e4b7161c0f65d6b5e2bc305404cbf31508464d7eef5be5d"
+  },
+  "thai-cordyceps-militaris": {
+    "id": "thai-cordyceps-militaris",
+    "description": "ถั่งเช่าสีทอง Cordyceps militaris เป็นราแมลงในอาณาจักร Fungi สร้างส่วนสืบพันธุ์สีส้มถึงส้มแดง และสามารถเพาะเลี้ยงได้ ไม่ใช่พืชและไม่ใช่ถั่งเช่าทุกชนิด ค่าหลายเซลล์ใช้ระยะเส้นใยและส่วนสร้างสปอร์ ไม่กล่าวอ้างสรรพคุณรักษาโรค",
+    "facts": [
+      "ราถั่งเช่าสีทอง",
+      "ชื่อวิทยาศาสตร์ Cordyceps militaris",
+      "อาณาจักร Fungi"
+    ],
+    "source": "https://www.gbif.org/species/7567077",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Cordyceps militaris",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/605718210/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938096451",
+    "credit": "Dr. Fabio Mao Valletta",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Cordyceps militaris (L.) Fr.",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=7567077&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938096451,
+    "image_description": "",
+    "image_local": "assets/species/thai-cordyceps-militaris.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Cordyceps militaris",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "ถั่งเช่าสีทอง Cordyceps militaris เป็นราแมลงในอาณาจักร Fungi สร้างส่วนสืบพันธุ์สีส้มถึงส้มแดง และสามารถเพาะเลี้ยงได้ ไม่ใช่พืชและไม่ใช่ถั่งเช่าทุกชนิด ค่าหลายเซลล์ใช้ระยะเส้นใยและส่วนสร้างสปอร์ ไม่กล่าวอ้างสรรพคุณรักษาโรค",
+    "biology_sources": [
+      "https://www.nstda.or.th/nac/2021/2021/03/09/biodiversity02-discovery-of-a-new-insect-fungus-in-the-world/index.html",
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "6766d15457d8c44f981ed9ede1aa5ced6e5dffefedc6a1cf0e6bc9721a9bc0d2"
+  },
+  "thai-lactobacillus-acidophilus": {
+    "id": "thai-lactobacillus-acidophilus",
+    "description": "แลคโตบาซิลลัสเป็นแบคทีเรียกลุ่มผลิตกรดแลกติก รายการนี้ใช้ Lactobacillus acidophilus เป็นตัวอย่าง ไม่ใช่พืชหรือเชื้อรา และไม่เหมารวมว่าเป็นเชื้อหลักของถั่วเน่าทุกตัวอย่าง จุลินทรีย์ที่มีบทบาทหลักในการหมักถั่วเน่าตามแหล่งอาหารไทยคือ Bacillus subtilis",
+    "facts": [
+      "แลคโตบาซิลลัส",
+      "ชื่อวิทยาศาสตร์ Lactobacillus acidophilus",
+      "อาณาจักร Monera"
+    ],
+    "source": "https://www.gbif.org/species/7485397",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Lactobacillus acidophilus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Lactobacilli_%28Gram_stain%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Lactobacilli_(Gram_stain).jpg",
+    "credit": "Dr Graham Beards",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "image_taxon": "Lactobacillus acidophilus",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ALactobacilli_%28Gram_stain%29.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "encyclopedia_url": "https://en.wikipedia.org/wiki/Lactobacillus_acidophilus",
+    "encyclopedia_excerpt": "Lactobacillus acidophilus is a rod-shaped, Gram-positive, homofermentative, anaerobic microbe first isolated from infant feces in the year 1900. The species is commonly found in humans, specifically the gastrointestinal tract and oral cavity as well as some speciality fermented foods such as fermented milk or yogurt, though it is not the most common species for this. The species most readily grows at low pH levels, and has an optimum growth temperature of 37 °C. Certain strains of L. acidophilus show strong probiotic effects, and are commercially used in dairy production. The genome of L. acidophilus has been sequenced.",
+    "image_description": "Gram stain of lactobacilli and squamous epithelial cells in vaginal swab. Original magnification = 1,000",
+    "image_local": "assets/species/thai-lactobacillus-acidophilus.jpg",
+    "image_size": [
+      900,
+      598
+    ],
+    "alt": "ภาพ Lactobacillus acidophilus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "แลคโตบาซิลลัสเป็นแบคทีเรียกลุ่มผลิตกรดแลกติก รายการนี้ใช้ Lactobacillus acidophilus เป็นตัวอย่าง ไม่ใช่พืชหรือเชื้อรา และไม่เหมารวมว่าเป็นเชื้อหลักของถั่วเน่าทุกตัวอย่าง จุลินทรีย์ที่มีบทบาทหลักในการหมักถั่วเน่าตามแหล่งอาหารไทยคือ Bacillus subtilis",
+    "biology_sources": [
+      "https://lpsn.dsmz.de/species/lactobacillus-acidophilus",
+      "https://openstax.org/books/microbiology/pages/4-3-nonproteobacteria-gram-negative-bacteria-and-phototrophic-bacteria"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "a5ca2aa96f581e66533e8d35954bbb621f4543eaf61870b098d021f3e796ff6d"
+  },
+  "thai-termitomyces-clypeatus": {
+    "id": "thai-termitomyces-clypeatus",
+    "description": "เห็ดโคนเป็นเห็ดสกุล Termitomyces ที่มีความสัมพันธ์ร่วมกับปลวกเพาะเห็ด รายการนี้ระบุ Termitomyces clypeatus หรือเห็ดปลวกจิก ไม่ใช้แทนเห็ดโคนทุกชนิด เห็ดช่วยย่อยวัสดุพืชในสวนเห็ดของปลวก และสร้างดอกขึ้นเมื่อสภาพแวดล้อมเหมาะสม",
+    "facts": [
+      "เห็ดโคน (เห็ดปลวกจิก)",
+      "ชื่อวิทยาศาสตร์ Termitomyces clypeatus",
+      "อาณาจักร Fungi"
+    ],
+    "source": "https://www.gbif.org/species/2530598",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Termitomyces clypeatus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://mushroomobserver.org/images/1280/1735414.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6231268968",
+    "credit": "MO Observers",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Termitomyces clypeatus R.Heim",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2530598&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6231268968,
+    "image_description": "",
+    "image_local": "assets/species/thai-termitomyces-clypeatus.jpg",
+    "image_size": [
+      900,
+      675
+    ],
+    "alt": "ภาพ Termitomyces clypeatus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "เห็ดโคนเป็นเห็ดสกุล Termitomyces ที่มีความสัมพันธ์ร่วมกับปลวกเพาะเห็ด รายการนี้ระบุ Termitomyces clypeatus หรือเห็ดปลวกจิก ไม่ใช้แทนเห็ดโคนทุกชนิด เห็ดช่วยย่อยวัสดุพืชในสวนเห็ดของปลวก และสร้างดอกขึ้นเมื่อสภาพแวดล้อมเหมาะสม",
+    "biology_sources": [
+      "https://bacmushbase.sci.ku.ac.th/details.php?MushID=18",
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "https://openstax.org/books/biology-2e/pages/24-2-classifications-of-fungi"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "6aa9956ed05ccb113c3e91c6ed8976cf64172db63fb6bfb72e3e749457b67c61"
+  },
+  "thai-physarum-polycephalum": {
+    "id": "thai-physarum-polycephalum",
+    "description": "ราเมือก Physarum polycephalum ในระยะพลาสโมเดียมเป็นมวลเซลล์ขนาดใหญ่ที่มีหลายนิวเคลียส เคลื่อนที่ช้าและกินจุลินทรีย์ได้ แม้มีคำว่าราในชื่อ แต่โครงงานจัดใน Protista ไม่ใช่ Fungi ค่าคุณลักษณะใช้ระยะกินอาหารที่ไม่มีผนังเซลล์ ไม่ใช้ระยะสร้างสปอร์",
+    "facts": [
+      "ราเมือก",
+      "ชื่อวิทยาศาสตร์ Physarum polycephalum",
+      "อาณาจักร Protista"
+    ],
+    "source": "https://www.gbif.org/species/3214606",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ราเมือก Physarum polycephalum ระยะพลาสโมเดียม",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Physarum_polycephalum_plasmodium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Physarum_polycephalum_plasmodium.jpg",
+    "credit": "frankenstoen",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "image_taxon": "Physarum polycephalum",
+    "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3APhysarum+polycephalum+plasmodium.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+    "occurrence_id": 6231382949,
+    "image_description": "",
+    "image_local": "assets/species/thai-physarum-polycephalum.jpg",
+    "image_size": [
+      900,
+      675
+    ],
+    "alt": "ราเมือกสีเหลืองระยะพลาสโมเดียม",
+    "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "ราเมือก Physarum polycephalum ในระยะพลาสโมเดียมเป็นมวลเซลล์ขนาดใหญ่ที่มีหลายนิวเคลียส เคลื่อนที่ช้าและกินจุลินทรีย์ได้ แม้มีคำว่าราในชื่อ แต่โครงงานจัดใน Protista ไม่ใช่ Fungi ค่าคุณลักษณะใช้ระยะกินอาหารที่ไม่มีผนังเซลล์ ไม่ใช้ระยะสร้างสปอร์",
+    "biology_sources": [
+      "https://openstax.org/books/biology-2e/pages/23-3-groups-of-protists",
+      "https://doi.org/10.1038/npre.2011.5985.1"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "6324fec9216d38d7748263ecb0734eb8382d0a80ead0d367516e0ef43913ba39"
+  },
+  "thai-micrococcus-luteus": {
+    "id": "thai-micrococcus-luteus",
+    "description": "Micrococcus luteus เป็นแบคทีเรียเซลล์รูปกลม พบได้ในสิ่งแวดล้อมและมีโคโลนีสีเหลือง จัดใน Monera ของโครงงาน ไม่ใช่แบคทีเรียกรดแลกติกที่ใช้เป็นตัวแทนการทำให้แหนมเปรี้ยว และไม่ยืนยันว่ามีเชื้อชนิดนี้ในแคบหมูหรือแหนมทุกตัวอย่าง",
+    "facts": [
+      "ไมโครค็อกคัส",
+      "ชื่อวิทยาศาสตร์ Micrococcus luteus",
+      "อาณาจักร Monera"
+    ],
+    "source": "https://www.gbif.org/species/9096291",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Micrococcus luteus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/190973874/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5104251632",
+    "credit": "agrove",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Micrococcus luteus (Schroeter, 1872) Cohn, 1872",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=9096291&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5104251632,
+    "image_description": "",
+    "image_local": "assets/species/thai-micrococcus-luteus.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Micrococcus luteus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "Micrococcus luteus เป็นแบคทีเรียเซลล์รูปกลม พบได้ในสิ่งแวดล้อมและมีโคโลนีสีเหลือง จัดใน Monera ของโครงงาน ไม่ใช่แบคทีเรียกรดแลกติกที่ใช้เป็นตัวแทนการทำให้แหนมเปรี้ยว และไม่ยืนยันว่ามีเชื้อชนิดนี้ในแคบหมูหรือแหนมทุกตัวอย่าง",
+    "biology_sources": [
+      "https://lpsn.dsmz.de/species/micrococcus-luteus",
+      "https://openstax.org/books/microbiology/pages/4-3-nonproteobacteria-gram-negative-bacteria-and-phototrophic-bacteria"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "68a3f80e39122c9606788e8333bf68ff05630b14ddbdbb7a0341c28c74bbd6a1"
+  },
+  "thai-nostoc-commune": {
+    "id": "thai-nostoc-commune",
+    "description": "นอสทอก Nostoc commune เป็นไซยาโนแบคทีเรียที่เซลล์เรียงเป็นสายอยู่ในเมือก เมื่อมีน้ำอาจพองเป็นก้อนวุ้น สังเคราะห์แสงได้แต่ไม่มีนิวเคลียสที่มีเยื่อหุ้มและไม่มีคลอโรพลาสต์ ค่าหลายเซลล์ในหน้านี้ใช้เส้นสายที่มีเซลล์แยกกัน ไม่ใช่การระบุว่าสาหร่ายสีเขียวแกมน้ำเงินทุกชนิดมีรูปร่างนี้",
+    "facts": [
+      "นอสทอก",
+      "ชื่อวิทยาศาสตร์ Nostoc commune",
+      "อาณาจักร Monera"
+    ],
+    "source": "https://www.gbif.org/species/8225325",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Nostoc commune",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/604788063/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938031490",
+    "credit": "Rodney Haynes",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Nostoc commune Vaucher ex Bornet & Flahault",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=8225325&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938031490,
+    "image_description": "",
+    "image_local": "assets/species/thai-nostoc-commune.jpg",
+    "image_size": [
+      675,
+      900
+    ],
+    "alt": "ภาพ Nostoc commune",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "นอสทอก Nostoc commune เป็นไซยาโนแบคทีเรียที่เซลล์เรียงเป็นสายอยู่ในเมือก เมื่อมีน้ำอาจพองเป็นก้อนวุ้น สังเคราะห์แสงได้แต่ไม่มีนิวเคลียสที่มีเยื่อหุ้มและไม่มีคลอโรพลาสต์ ค่าหลายเซลล์ในหน้านี้ใช้เส้นสายที่มีเซลล์แยกกัน ไม่ใช่การระบุว่าสาหร่ายสีเขียวแกมน้ำเงินทุกชนิดมีรูปร่างนี้",
+    "biology_sources": [
+      "https://openstax.org/books/microbiology/pages/4-3-nonproteobacteria-gram-negative-bacteria-and-phototrophic-bacteria"
+    ],
+    "reviewed_on": "2026-10-30",
+    "review_locked": true,
+    "image_sha256": "ac16227d03ed7e684511684976291dede9024012a40dfcfeacbc2fbf04b9cb73"
+  },
+  "thai-dermatophagoides-pteronyssinus": {
+    "id": "thai-dermatophagoides-pteronyssinus",
+    "description": "ไรฝุ่น ไรฝุ่นเป็นสัตว์ขาข้อขนาดเล็กในกลุ่มอะแรคนิด ตัวเต็มวัยมีขา 4 คู่ อาศัยในฝุ่นและเครื่องนอน กินเศษผิวหนังและรังแค ไม่ได้กินเม็ดฝุ่นทุกประเภท รายการนี้ระบุชนิด Dermatophagoides pteronyssinus ซึ่งพบในประเทศไทย จัดอยู่ในอาณาจักรสัตว์ ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์",
+    "facts": [
+      "ไรฝุ่น",
+      "ชื่อวิทยาศาสตร์ Dermatophagoides pteronyssinus",
+      "อาณาจักร Animalia"
+    ],
+    "source": "https://www.gbif.org/species/2181959",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Dermatophagoides pteronyssinus",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/344457209/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/6195358376",
+    "credit": "Gilles San Martin",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "image_taxon": "Dermatophagoides pteronyssinus (Trouessart, 1897)",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=2181959&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 6195358376,
+    "image_description": "",
+    "image_local": "assets/species/thai-dermatophagoides-pteronyssinus.jpg",
+    "image_size": [
+      900,
+      602
+    ],
+    "alt": "ภาพ Dermatophagoides pteronyssinus",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "ไรฝุ่น ไรฝุ่นเป็นสัตว์ขาข้อขนาดเล็กในกลุ่มอะแรคนิด ตัวเต็มวัยมีขา 4 คู่ อาศัยในฝุ่นและเครื่องนอน กินเศษผิวหนังและรังแค ไม่ได้กินเม็ดฝุ่นทุกประเภท รายการนี้ระบุชนิด Dermatophagoides pteronyssinus ซึ่งพบในประเทศไทย จัดอยู่ในอาณาจักรสัตว์ ไม่มีผนังเซลล์และไม่มีคลอโรพลาสต์",
+    "biology_sources": [
+      "https://www.dmsc.moph.go.th/th/download/1226/nw/511",
+      "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ],
+    "review_locked": true,
+    "image_sha256": "c3a2bed0e73ef9e848b7851d1cb9c8ce5e6f7f9e3fbe09ccb687296961f737a8"
+  },
+  "thai-phereoeca-uterella": {
+    "id": "thai-phereoeca-uterella",
+    "description": "หนอนปลอกเป็นตัวอ่อนของผีเสื้อกลางคืนวงศ์ Tineidae ตัวหนอนสร้างปลอกแบนจากเส้นใยและเศษวัสดุ มีช่องเปิดที่ปลอกเพื่อยื่นส่วนหัวออกมาคลานและกินอาหาร มักพบตามผนังบ้าน อาหารรวมถึงใยแมงมุมเก่าและเศษวัสดุอินทรีย์ รายการนี้ระบุ Phereoeca uterella ตามแหล่งอ้างอิง ไม่ใช่ไรฝุ่น และไม่เหมารวมหนอนปลอกศัตรูพืชทุกชนิด",
+    "facts": [
+      "หนอนปลอก",
+      "ชื่อวิทยาศาสตร์ Phereoeca uterella",
+      "อาณาจักร Animalia"
+    ],
+    "source": "https://www.gbif.org/species/1858283",
+    "source_label": "GBIF · อนุกรมวิธานอ้างอิง",
+    "image_caption": "ภาพ Phereoeca uterella",
+    "review_status": "Taxon/credit and displayed organism visually reviewed 2026-10-30",
+    "verified_on": "2026-10-30",
+    "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/605268004/original.jpg",
+    "image_source": "https://www.gbif.org/occurrence/5938130771",
+    "credit": "Theo Simons",
+    "license": "CC BY-NC 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "image_taxon": "Phereoeca uterella (Walsingham, 1897)",
+    "source_api": "https://api.gbif.org/v1/occurrence/search?taxon_key=1858283&media_type=StillImage&occurrence_status=PRESENT&limit=30",
+    "occurrence_id": 5938130771,
+    "image_description": "",
+    "image_local": "assets/species/thai-phereoeca-uterella.jpg",
+    "image_size": [
+      507,
+      900
+    ],
+    "alt": "ภาพ Phereoeca uterella",
+    "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+    "species_description_th": "หนอนปลอกเป็นตัวอ่อนของผีเสื้อกลางคืนวงศ์ Tineidae ตัวหนอนสร้างปลอกแบนจากเส้นใยและเศษวัสดุ มีช่องเปิดที่ปลอกเพื่อยื่นส่วนหัวออกมาคลานและกินอาหาร มักพบตามผนังบ้าน อาหารรวมถึงใยแมงมุมเก่าและเศษวัสดุอินทรีย์ รายการนี้ระบุ Phereoeca uterella ตามแหล่งอ้างอิง ไม่ใช่ไรฝุ่น และไม่เหมารวมหนอนปลอกศัตรูพืชทุกชนิด",
+    "biology_sources": [
+      "https://ask.ifas.ufl.edu/publication/IN129",
+      "https://hub.mnre.go.th/th/knowledge/detail/64509",
+      "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ],
+    "review_locked": true,
+    "image_sha256": "31e6b53a34f82cac45d90eb9d475dfae9a9c46d599c04633f5c6790d63efb65d"
   }
 }

@@ -1,27 +1,27 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "baseline": 117,
-  "total": 452,
-  "new": 335,
+  "total": 474,
+  "new": 357,
   "added_by_kingdom": {
-    "Animalia": 146,
-    "Fungi": 64,
-    "Monera": 1,
-    "Plantae": 123,
-    "Protista": 1
+    "Animalia": 147,
+    "Fungi": 51,
+    "Monera": 5,
+    "Plantae": 126,
+    "Protista": 6
   },
   "thai_filled_existing": 30,
-  "thai_total": 258,
-  "thai_blank": 194,
+  "thai_total": 300,
+  "thai_blank": 174,
   "existing_unresolved": 15,
-  "unknown_cells": 307,
+  "unknown_cells": 292,
   "legacy_traits_not_independently_reverified": 117,
   "limitations": [
     "GBIF occurrence reports are not a native checklist or province-level confirmation.",
     "GBIF accepted taxonomy is a reference backbone assertion, not universal taxonomic consensus.",
-    "No new photographs; existing licensed profiles and kingdom icons retained.",
     "Legacy trait evidence preserved and flagged for further independent review.",
     "Requested broad groups are not species or northern-Thai occurrence claims; variable traits remain unknown.",
     "Suk sun is Scorias sp. following CMU thesis p.77; septate vegetative mycelium is multicellular, conidia are not the scoped stage."
-  ]
+  ],
+  "catalogue_changes": "18 missing-photo records replaced with Thai-named examples; requested taxa deduplicated. No model retraining."
 }

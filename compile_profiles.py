@@ -62,7 +62,7 @@ def build():
         if tax.get('key'):
             info['source']=f'https://www.gbif.org/species/{tax["key"]}'
             info['source_label']='GBIF · อนุกรมวิธานอ้างอิง'
-        info['biology_sources']=list(dict.fromkeys(refs+([info['research_source']] if info.get('research_source') else [])+(['https://doi.org/'+info['paper_doi']] if info.get('paper_doi') else [])))
+        info['biology_sources']=list(dict.fromkeys(info.get('biology_sources',[])+refs+([info['research_source']] if info.get('research_source') else [])+(['https://doi.org/'+info['paper_doi']] if info.get('paper_doi') else [])))
         if info.get('image_local'):
             image=BASE/info['image_local']
             with Image.open(image) as im: im.verify()

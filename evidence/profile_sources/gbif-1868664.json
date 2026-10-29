@@ -48,27 +48,32 @@
     "issues": [],
     "class": "Insecta"
   },
-  "image_caption": "ภาพ Bombyx mori",
+  "image_caption": "หนอนไหม ระยะตัวอ่อนของ Bombyx mori",
   "errors": [
     "commons: HTTP Error 429: Too Many Requests"
   ],
   "review_status": "source-matched image; visual review pending",
   "verified_on": "2026-10-29",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Pairedmoths.jpg",
-  "image_local": "assets/species/gbif-1868664.jpg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Bombyx_mori_larvae%2C_Bornholms_Sommerfuglepark_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "image_local": "assets/species/silkworm-larva.jpg",
   "image_size": [
-    540,
-    405
+    900,
+    678
   ],
-  "image_source": "https://commons.wikimedia.org/wiki/File:Pairedmoths.jpg",
+  "image_source": "https://commons.wikimedia.org/wiki/File:Bombyx_mori_larvae,_Bornholms_Sommerfuglepark_21.jpg",
   "image_taxon": "Bombyx mori",
-  "alt": "ภาพ Bombyx mori",
-  "credit": "Oakenking at en.wikipedia",
-  "license": "CC BY-SA 2.5",
-  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
-  "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAnabaena_sperica2.jpg%7CFile%3AHydra-Foto.jpg%7CFile%3ASinosauropteryxfossil.jpg%7CFile%3ACyanidioschyzon_merolae_10D.jpg%7CFile%3ATrichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg%7CFile%3ACladiella.JPG%7CFile%3AChthamalus_stellatus.jpg%7CFile%3APairedmoths.jpg%7CFile%3AHeterocarpus_ensifer.jpg%7CFile%3AAraneus_diadematus_%28Clerck%2C_1757%29.JPG%7CFile%3ABalantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg%7CFile%3ATWC_Wildlife_Centre%E2%80%A2_Stewart_Nimmo_%E2%80%A2_MRD_8910.jpg%7CFile%3AMold_on_a_strawberry.jpg%7CFile%3AGreen_algae.png&prop=imageinfo&iiprop=url%7Cextmetadata",
+  "alt": "หนอนไหม Bombyx mori ระยะตัวอ่อน",
+  "credit": "Ole Palnatoke Andersen",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ABombyx+mori+larvae%2C+Bornholms+Sommerfuglepark+21.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
   "image_description": "Bombycoidea",
   "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน ไม่ครอป",
   "review_locked": true,
-  "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification."
+  "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification.",
+  "species_description_th": "หนอนไหมเป็นระยะตัวอ่อนของผีเสื้อไหม Bombyx mori กินใบหม่อนและลอกคราบระหว่างการเจริญเติบโต เมื่อพร้อมเข้าดักแด้จะชักใยห่อหุ้มตัวเป็นรังไหม ต่อมาจึงเปลี่ยนเป็นผีเสื้อเต็มวัย ทั้งระยะหนอนและผีเสื้อเป็นสัตว์ชนิดเดียวกัน คำว่าหนอนเป็นชื่อเรียกรูปร่างหรือระยะชีวิต ไม่ใช่ชื่ออาณาจักร",
+  "biology_sources": [
+    "https://food.fda.moph.go.th/database-food/category/alternative-protein",
+    "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom"
+  ]
 }

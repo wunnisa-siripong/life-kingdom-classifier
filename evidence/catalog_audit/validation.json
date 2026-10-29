@@ -1,7 +1,7 @@
 {
   "structural_validation": "passed",
-  "total": 452,
-  "new": 335,
+  "total": 474,
+  "new": 357,
   "protected_files": {
     "organisms.csv": "53311374e7c0787131df5e81446564d0d1a5815a",
     "life_kingdom_model.joblib": "3aeef574a4c65a3de51a07b47fbd4ee4de15f2de"
@@ -68,6 +68,11 @@
       "reference": "Protozoa"
     },
     {
+      "id": "train-43",
+      "project": "Monera",
+      "reference": "Bacteria"
+    },
+    {
       "id": "train-44",
       "project": "Monera",
       "reference": "Bacteria"
@@ -76,13 +81,67 @@
       "id": "train-46",
       "project": "Monera",
       "reference": "Bacteria"
+    },
+    {
+      "id": "thai-escherichia-coli",
+      "project": "Monera",
+      "reference": "Bacteria"
+    },
+    {
+      "id": "thai-streptomyces-coelicolor",
+      "project": "Monera",
+      "reference": "Bacteria"
+    },
+    {
+      "id": "thai-porphyra-umbilicalis",
+      "project": "Protista",
+      "reference": "Plantae"
+    },
+    {
+      "id": "thai-navicula-tripunctata",
+      "project": "Protista",
+      "reference": "Chromista"
+    },
+    {
+      "id": "thai-plasmodium-falciparum",
+      "project": "Protista",
+      "reference": "Chromista"
+    },
+    {
+      "id": "thai-cladophora-glomerata",
+      "project": "Protista",
+      "reference": "Plantae"
+    },
+    {
+      "id": "thai-lactobacillus-acidophilus",
+      "project": "Monera",
+      "reference": "Bacteria"
+    },
+    {
+      "id": "thai-physarum-polycephalum",
+      "project": "Protista",
+      "reference": "Protozoa"
+    },
+    {
+      "id": "thai-micrococcus-luteus",
+      "project": "Monera",
+      "reference": "Bacteria"
+    },
+    {
+      "id": "thai-nostoc-commune",
+      "project": "Monera",
+      "reference": "Bacteria"
     }
   ],
-  "shared_names": {},
+  "shared_names": {
+    "nostoc": [
+      "thai-nostoc-commune",
+      "train-45"
+    ]
+  },
   "text_warnings": [],
   "unresolved_taxonomy": [
     "train-02",
-    "train-09",
     "train-11",
     "train-17",
     "train-18",
@@ -92,12 +151,11 @@
     "train-28",
     "train-32",
     "train-37",
-    "train-43",
     "train-45",
     "train-48",
     "train-50"
   ],
   "biological_verification": "Partial: legacy traits not independently reverified; new traits explicitly group-inferred or unknown",
-  "source_url_count": 903,
+  "source_url_count": 945,
   "live_link_check": "not run"
 }

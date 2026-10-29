@@ -25,7 +25,7 @@ F = ['Ribosome','Photosynthesis','Nucleus','Cell wall','Chloroplast','Multicellu
 # slug, Thai name, English name, scientific group (blank when informal), rank, source, aliases
 ANIMALS = [
  ('crabs','ปู (กลุ่มปูแท้)','True crabs','Brachyura','infraorder',ARTH,'ปู'),
- ('worms','พยาธิ (หนอนปรสิต)','Parasitic worms','','informal group',FLAT,'พยาธิ|หนอนปรสิต'),
+ ('worms','พยาธิ','Parasitic worms','','informal group',FLAT,'พยาธิ|หนอนปรสิต'),
  ('jellyfish','แมงกะพรุน (กลุ่มทั่วไป)','Jellyfish','','informal group',CNID,'แมงกะพรุน'),
  ('corals','ปะการัง (กลุ่มทั่วไป)','Corals','','informal group',CNID,'ปะการัง'),
  ('tapeworms','พยาธิตัวตืด','Tapeworms','Cestoda','class',FLAT,''),

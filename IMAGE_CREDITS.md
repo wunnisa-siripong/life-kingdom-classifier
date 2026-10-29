@@ -11,7 +11,7 @@
 | train-05 | en:User:Anilocra | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Botulus_microporus.jpg) |
 | train-06 | Saryu Mae 前 朝琉 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6234498130) |
 | train-07 | Павлик Лисицын | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938350748) |
-| train-09 | Ashwin A | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/4909092718) |
+| train-09 | MO Observers | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6231228773) |
 | train-10 | Atsushi Nakajima | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6131599759) |
 | train-11 | Paul Cook | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938027922) |
 | train-12 | Yves Bas | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938031684) |
@@ -44,7 +44,7 @@
 | train-40 | Kai Squires | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/4600185853) |
 | train-41 | Stuart | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938027810) |
 | train-42 | Pattavina, Pete | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Isoetes_tegetiformans.jpg) |
-| train-43 | Y tambe (original uploader) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Bacillus_subtilis_Gram.jpg) |
+| train-43 | Róbert Ívar | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/4436374269) |
 | train-44 | Nr387241 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:M._haemofelis_IP2011.jpg) |
 | train-45 | YAMAMAYA | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Nostoc_commune.jpg) |
 | train-46 | Kristian Peters http://www.korseby.net/outer/flora/algae/index.html | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Oscillatoria_princeps.jpeg) |
@@ -112,7 +112,7 @@
 | gbif-4285694 | kary | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938338039) |
 | gbif-4286975 | Julie Lang | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938150076) |
 | gbif-1341976 | Hope Abercrombie | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938027989) |
-| gbif-1868664 | Oakenking at en.wikipedia | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Pairedmoths.jpg) |
+| gbif-1868664 | Ole Palnatoke Andersen | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Bombyx_mori_larvae,_Bornholms_Sommerfuglepark_21.jpg) |
 | gbif-5073713 | Anita Sable | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6333878641) |
 | gbif-5133088 | Dwight Bohlmeyer | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938032778) |
 | gbif-1651891 | Ruan Booysen | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938280348) |
@@ -224,6 +224,7 @@
 | gbif-5130521 | skworl_e | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938049845) |
 | gbif-1341974 | big-simonchan | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938032717) |
 | gbif-1910629 | Arpita Pradhan | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938061446) |
+| thai-anopheles-stephensi | Jugal Patel | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/4875365183) |
 | gbif-1427804 | indianaisaac | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938465519) |
 | gbif-1650474 | Dr D.A. Turkhud (1863-?) | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Anopheles_culicifacies.jpg) |
 | gbif-1428645 | Jai Walesby | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938063553) |
@@ -360,6 +361,7 @@
 | gbif-7368771 | NaturemanThaimountain | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6422418393) |
 | gbif-2705733 | 蔡美慧 | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6130040790) |
 | gbif-2755489 | Samantha Hagler | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938478595) |
+| thai-schizophyllum-commune | jude_ramos | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938054566) |
 | gbif-5252216 | Thomas Everest | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/4028801908) |
 | gbif-3501878 | Zalar P.; de Hoog G.S.; Schroers H.-J.; Crous P.W.; Groenewald J.Z. และคณะ | [CC 3.0 legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC2104741/#fig5) |
 | gbif-8301234 | Waiya Supeecha; Poapolathep Saranya; Thanakitpipattana Donnaya; Boonyuen Nattawut; Piasai Onuma และคณะ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC13348275/#fig1) |
@@ -369,25 +371,37 @@
 | gbif-3359064 | Per Marstad | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6558169568) |
 | gbif-7971541 | Morten Pettersen | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6356535525) |
 | gbif-5893383 | Ansel Oommen | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5133208038) |
+| thai-tremella-fuciformis | Oscar | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938030346) |
+| thai-lentinus-squarrosulus | yokemoyliew | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6171102461) |
 | gbif-7554445 | Yilmaz N.; Visagie C.M.; Houbraken J.; Frisvad J.C.; Samson R.A. | [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC4255554/#fig12) |
 | gbif-7635477 | Yi CHEN | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/3859960726) |
+| thai-pleurotus-ostreatus | Dan Vickers | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938048318) |
 | gbif-3360190 | kwagyoungnam | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6551824583) |
 | gbif-3359911 | Perry Gunnar Larsen | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6509522498) |
 | gbif-10831436 | Stu Pickell | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/4528182819) |
 | gbif-11617298 | Nozawa Shunsuke; Harada Yui; Takata Yoshiki; Uchida Keiko; Malonzo Mike Andre และคณะ | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC13087185/#Fig9) |
+| thai-pleurotus-eryngii | Diego Delso | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Seta_de_cardo_(Pleurotus_eryngii),_2012-10-03,_DD_01.JPG) |
 | gbif-2559369 | Jaeduk Goh; Yoosun Oh; Hye Yeon Mun | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.kjmycology.or.kr/wp-content/uploads/2024/04/KJM-5103-01.pdf#page=8) |
 | gbif-5246344 | leewm66 | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938111219) |
 | gbif-12030173 | Nguyen Thuong T. T.; Park Se Won; Pangging Monmi; Lee Hyang Burm | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC6450579/#F0005) |
 | gbif-10703565 | ciarachiampou | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/4908181019) |
+| thai-hypsizygus-marmoreus | Akira.Sasaki | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Hypsizygus_marmoreus.jpg) |
 | gbif-10706167 | Leanne Stacy Reitan | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6566655458) |
 | gbif-3517908 | Trakunyingcharoen T.; Lombard L.; Groenewald J.Z.; Cheewangkoon R.; To-anun C. และคณะ | [CC 3.0 legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC4510273/#F4) |
 | gbif-2528998 | Terje Bjerkan | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6454532438) |
 | gbif-5260095 | Teh Li Yee; Latiffah Zakaria | [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC3905133/#F1) |
 | gbif-10673716 | Zalar Polona; Gubenšek Ana; Gostincar Cene; Kostanjšek Rok; Bizjak-Mali Lilijana และคณะ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC9329069/#F6) |
 | gbif-11709501 | Bandini D.; Oertel B.; Eberhardt U. | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) | [ต้นฉบับ](https://www.inocybaceae.mykoweb.com/PDF/Bandini_MoreSmooth-sporedInocybe_2022.pdf#page=51) |
+| thai-hericium-erinaceus | Lee Hall | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938076732) |
+| thai-grifola-frondosa | Lukas from London, England | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Grifola_frondosa_(29715305790).jpg) |
 | gbif-9658214 | Monmi Pangging; Thuong Thuong Thi Nguyen; Hyang Burm Lee | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.kjmycology.or.kr/wp-content/uploads/2025/02/KJM-4903-01.pdf#page=13) |
 | gbif-10672826 | Rush Tomás A.; Wymore Ann M.; Rodríguez, Jr Miguel; Jawdy Sara; Vilgalys Rytas J. และคณะ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC11406887/#F1) |
+| thai-agaricus-bisporus | chris_73 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:ChampignonMushroom.jpg) |
+| thai-flammulina-velutipes | rkluzco | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6129992220) |
+| thai-cyclocybe-cylindracea | patriciafurtado-pt | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938528343) |
+| thai-coprinopsis-cinerea | Morten Pettersen | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6176649780) |
 | gbif-2535466 | martatischer | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6518695769) |
+| thai-auricularia-cornea | Tony Wills | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Auricularia_cornea_(Wellington,_New_Zealand).jpg) |
 | gbif-2559325 | Wagner L.; Stielow B.; Hoffmann K.; Petkovits T.; Papp T. และคณะ | [CC 3.0 legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC3734968/#F2) |
 | gbif-11979995 | Aleš Jirsa | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938136358) |
 | gbif-7472266 | maricel patino | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6551255040) |
@@ -395,11 +409,15 @@
 | gbif-5238927 | Björn Sothmann | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5716425667) |
 | gbif-11430411 | Cheng Kai-Wen; Yang Jiue-in; Srimongkol Piroonporn; Stadler Marc; Karnchanatat Aphichart และคณะ | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC12355036/#F10) |
 | gbif-2551423 | Goreti Fonseca | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6273341684) |
+| thai-lentinus-polychrous | Joseph Pallante | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5167437513) |
 | gbif-8050025 | Lee Wonjun; Kim Ji Seon; Jo Sumin; Seo Chang Wan; Lim Young Woon | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC11912256/#F0006) |
 | gbif-10867411 | Roanan DeMeyer | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6520205840) |
 | gbif-2533062 | Borja Gomez Alvarez | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6320962717) |
 | gbif-2522918 | mycojpdude | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6130778820) |
 | gbif-8067271 | James Gathany | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Penicillium_marneffei_colony.jpg) |
+| thai-macrocybe-crassa | ronnaphon engchuan | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6567344023) |
+| thai-phallus-indusiatus | mmpro | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938427578) |
+| thai-coprinus-comatus | Bigredwine1 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Coprinus_comatus,_the_shaggy_ink_cap,_lawyer%27s_wig,_or_shaggy_mane_mushroom.jpg) |
 | gbif-2562709 | Carlos Franco | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/3058804718) |
 | gbif-7676966 | Trakunyingcharoen Thippawan; Lombard Lorenzo; Groenewald Johannes Z.; Cheewangkoon Ratchadawan; To-anun Chaiwat และคณะ | [CC 3.0 legalcode](https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC4329322/#F10) |
 | gbif-2599339 | Mayra Estacio; Alberto Reino; Joaquin Rodelo; Jose Ustariz | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) | [ต้นฉบับ](https://pmc.ncbi.nlm.nih.gov/articles/PMC11957606/#fig1) |
@@ -438,3 +456,25 @@
 | request-suk-sun | betann | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938200072) |
 | request-green-algae | Michele Jones | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6251927721) |
 | request-cyanobacteria | Rodney Haynes | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938031490) |
+| thai-escherichia-coli | Ansel Oommen | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6130014851) |
+| thai-streptomyces-coelicolor | LunMa4 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Streptomyces_coelicolor.jpg) |
+| thai-porphyra-umbilicalis | Terje O. Nordvik | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6187504436) |
+| thai-navicula-tripunctata | David Bird | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6159192081) |
+| thai-plasmodium-falciparum | Photo Credit: Content Providers(s): CDC/Dr. Mae Melvin Transwiki approved by: w:en:User:Dmcdevit | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Plasmodium_falciparum_01.png) |
+| thai-rosa-chinensis | Sophia Bruce | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6499316621) |
+| thai-amanita-phalloides | ashlee2009 | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938055097) |
+| thai-rhizopus-stolonifer | S.R. | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6130165439) |
+| thai-pediculus-humanus | henriok | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938409685) |
+| thai-ctenocephalides-felis | Chaym Turak | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6130232812) |
+| thai-wolffia-globosa | coconwang | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6179569354) |
+| thai-cladophora-glomerata | Sergio López Castelo | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938647425) |
+| thai-astraeus-odoratus | Royal Botanic Garden Edinburgh | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/574647239) |
+| thai-fragaria-×-ananassa | sakiboubiao | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6133410893) |
+| thai-cordyceps-militaris | Dr. Fabio Mao Valletta | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938096451) |
+| thai-lactobacillus-acidophilus | Dr Graham Beards | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Lactobacilli_(Gram_stain).jpg) |
+| thai-termitomyces-clypeatus | MO Observers | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6231268968) |
+| thai-physarum-polycephalum | frankenstoen | [CC BY 2.5](https://creativecommons.org/licenses/by/2.5) | [ต้นฉบับ](https://commons.wikimedia.org/wiki/File:Physarum_polycephalum_plasmodium.jpg) |
+| thai-micrococcus-luteus | agrove | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5104251632) |
+| thai-nostoc-commune | Rodney Haynes | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938031490) |
+| thai-dermatophagoides-pteronyssinus | Gilles San Martin | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/6195358376) |
+| thai-phereoeca-uterella | Theo Simons | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | [ต้นฉบับ](https://www.gbif.org/occurrence/5938130771) |

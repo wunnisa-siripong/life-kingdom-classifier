@@ -1,0 +1,23 @@
+{
+  "url": "https://life-kingdom-wunnisa.streamlit.app/",
+  "branch": "main",
+  "deployed_code_commit": "276c169a325bb5cd8f367902f283b99f4e3a613c",
+  "push_status": "confirmed",
+  "checked_at": "2026-10-29T15:20:52.823826+07:00",
+  "live_status": "verified",
+  "observed_catalog_count": 417,
+  "checks": [
+    "Homepage displays 417 catalogue entries",
+    "Scientific-name search Pterocarpus macrocarpus returns new Thai-labelled entry",
+    "Selected profile shows unknown Photosynthesis and Chloroplast",
+    "Unknown profile displays prediction-withheld message",
+    "Live 319px-wide viewport visually checked; unknown feature text wraps inside cards after CSS fix"
+  ],
+  "mobile_scope": "Narrow browser viewport 319px; not a physical-device test",
+  "limitations": [
+    "Legacy per-trait evidence not fully independently reverified",
+    "15 existing taxonomy records remain unresolved",
+    "No new Protista/Monera entries",
+    "Some source URLs remain inaccessible to automated link checking"
+  ]
+}

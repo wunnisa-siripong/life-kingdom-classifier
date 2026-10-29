@@ -16,5 +16,5 @@
     "search and navigation",
     "Spirogyra model/reference mismatch"
   ],
-  "mobile_browser": "not verified; localhost timeout and file URL policy rejection"
+  "mobile_browser": "Live 319px viewport visually verified after unknown-label wrap fix; physical devices not tested"
 }

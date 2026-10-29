@@ -30,7 +30,7 @@ import streamlit.components.v1 as components
 import importlib
 import ui
 importlib.reload(ui)
-from ui import CSS, LABELS, QUESTIONS, KINGDOM_TH, KINGDOM_ICONS, BOOK_ICON, profile, prediction, evidence, manual_feature_label
+from ui import CSS, LABELS, QUESTIONS, KINGDOM_TH, KINGDOM_ICONS, BOOK_ICON, profile, prediction, evidence, manual_feature_label, about_model
 st.markdown(CSS,unsafe_allow_html=True)
 try:
     model,model_columns=load_model()
@@ -64,13 +64,7 @@ def detail(row):
     evidence(row,model_columns)
 
 def about():
-    with st.expander('เกี่ยวกับโมเดลและชุดข้อมูล'):
-        st.write(f'Decision Tree เดิม · ข้อมูลฝึก {len(training)} แถว · แค็ตตาล็อกค้นหา {len(catalog)} รายการ')
-        st.write('ใช้ระบบห้าอาณาจักรของโครงงาน: Monera, Protista, Fungi, Plantae และ Animalia ไม่ใช่การจัดอนุกรมวิธานสมัยใหม่จาก GBIF')
-        st.write('ใช้คุณลักษณะ 6 ข้อและแสดงเส้นทางที่โมเดลใช้จริง คุณลักษณะเดียวกันอาจพบได้ต่างอาณาจักร จึงแยกสิ่งมีชีวิตไม่ได้ทุกกรณี เช่น Spirogyra')
-        st.caption('ไม่ได้ฝึกโมเดลใหม่หรือแก้ข้อมูลฝึกเดิม · ยังไม่มีผลประเมินความแม่นยำกับแค็ตตาล็อกใหม่ จึงไม่แสดงคะแนนที่ตรวจสอบไม่ได้')
-        st.caption('ค่าอ้างอิงใช้ระยะชีวิตและชนิดเซลล์ที่ระบุ ค่าที่ไม่ทราบไม่แทนด้วย 0 และไม่ส่งทำนาย คุณลักษณะของรายการใหม่บางส่วนเป็นการอนุมานระดับกลุ่มโดยมีแหล่งอ้างอิง')
-        st.caption(f'Python {platform.python_version()} · scikit-learn {sklearn.__version__} · Streamlit {st.__version__}')
+    about_model(len(training),len(catalog),platform.python_version(),sklearn.__version__,st.__version__)
 
 def catalog_link():
     with st.container(key='catalog_link'):

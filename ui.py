@@ -125,14 +125,30 @@ a{color:#B7D7BA!important} [data-testid="stCaptionContainer"]{color:#b5c4b2}
 [data-testid="stBaseButton-pillsActive"]{background:#e5ede2;color:#223428;border-color:#e5ede2}
 [class*="st-key-catalog_item_"]{margin-bottom:12px}
 @media(max-width:600px){.lk-profile{padding:18px}.lk-profile-top{gap:14px}.lk-photo{flex-basis:100px;width:100px;height:112px}.lk-profile h2{font-size:1.9rem}.lk-profile .lk-placeholder{flex-basis:86px;height:112px}.lk-feature{padding:14px 10px;gap:12px}.lk-feature strong{font-size:.86rem}.lk-profile .lk-grid{gap:10px}.lk-catalog-row{padding:14px;gap:14px}.lk-catalog-symbol{flex-basis:50px;width:50px;height:50px;border-radius:14px}.lk-catalog-symbol svg{width:28px;height:28px}.lk-catalog-row strong{font-size:1rem}.lk-catalog-row small{font-size:.82rem}.lk-flow li{gap:14px}.lk-path{padding:16px}.lk-nav-card{padding:16px}.lk-nav-card strong{font-size:1rem}.lk-path-heading{font-size:.72rem}.lk-manual-label{font-size:.9rem}.lk-manual-label>span:last-child{overflow-wrap:anywhere}}
+
+/* Final polish is scoped to biological states and result details. */
+.lk-feature.lk-present{background:#34483A;color:#F1F7F0}.lk-present .lk-icon{color:#B9E0C0;opacity:1}
+.lk-feature.lk-absent{background:#2C3730;color:#D0D9D1}.lk-absent .lk-icon{color:#94A89A;opacity:1}
+.lk-feature.lk-unknown{background:#303A35;color:#D9E1D9}.lk-unknown .lk-icon{color:#ABB9AF;opacity:1}
+.lk-feature strong{color:inherit;white-space:nowrap}
+.lk-path-result{padding:12px 64px 12px 16px;border-radius:14px}.lk-path-result h2{font-size:1.55rem;line-height:1.2;padding:3px 0}.lk-path-result small{font-size:.78rem}.lk-path-result p{font-size:.88rem}.lk-path-result .lk-result-icon{width:28px;height:28px;top:50%;right:18px;transform:translateY(-50%)}
+.lk-references{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:12px}.lk-reference{display:flex;align-items:flex-start;gap:10px;padding:14px 12px;border:1px solid #405346;border-radius:14px;background:#26332b;min-width:0}.lk-reference-icon{display:flex;flex:0 0 24px;width:24px;height:24px;color:#B7D7BA}.lk-reference-icon svg{width:100%;height:100%}.lk-reference>div{min-width:0}.lk-reference strong{display:block;font-size:.9rem;margin-bottom:7px}.lk-reference a{display:block;font-size:.8rem;line-height:1.6;overflow-wrap:anywhere;margin:4px 0}.lk-reference small{display:block;color:#c2cec1;font-size:.76rem;line-height:1.6}
+.lk-model-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:14px}.lk-model-fact{display:flex;gap:10px;align-items:center;background:#2c3c30;border:1px solid #405346;border-radius:14px;padding:12px 10px;min-width:0}.lk-model-fact>span{display:flex;flex:0 0 24px;width:24px;height:24px;color:#B7D7BA}.lk-model-fact svg{width:100%;height:100%}.lk-model-fact>div{min-width:0}.lk-model-fact small{display:block;color:#bacbb9;font-size:.74rem}.lk-model-fact strong{display:block;font-size:.86rem;margin-top:4px;overflow-wrap:anywhere}
+@media(max-width:600px){.lk-references{grid-template-columns:1fr}.lk-model-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.lk-reference{padding:12px}.lk-feature{padding:14px 6px;gap:6px}.lk-feature .lk-icon{flex-basis:20px;width:20px;height:20px}.lk-feature svg{width:20px;height:20px}.lk-feature strong{font-size:.75rem;letter-spacing:-.015em}}
 </style>'''
+
+def feature_text(row, feature):
+    value=row[feature]
+    if pd.isna(value): return LABELS[feature]+' · ไม่ทราบ'
+    if feature=='Photosynthesis': return 'สังเคราะห์แสงได้' if value else 'สังเคราะห์แสงไม่ได้'
+    if feature=='Multicellular organisms': return 'มีหลายเซลล์' if value else 'ไม่มีหลายเซลล์'
+    return ('มี' if value else 'ไม่มี')+LABELS[feature]
 
 def feature_html(row):
     cards=[]
     for f in FEATURES:
-        unknown=pd.isna(row[f])
-        text=(LABELS[f]+' · ไม่ทราบ') if unknown else (('สังเคราะห์แสงได้' if row[f] else 'สังเคราะห์แสงไม่ได้') if f=='Photosynthesis' else (('มี' if row[f] else 'ไม่มี')+LABELS[f] if f!='Multicellular organisms' else ('มีหลายเซลล์' if row[f] else 'ไม่มีหลายเซลล์')))
-        cards.append(f'<div class="lk-feature{ " lk-absent" if not unknown and not row[f] else ""}"><span class="lk-icon" aria-hidden="true">{MANUAL_ICONS[f]}</span><strong>{escape(text)}</strong></div>')
+        state='unknown' if pd.isna(row[f]) else ('present' if row[f] else 'absent')
+        cards.append(f'<div class="lk-feature lk-{state}"><span class="lk-icon" aria-hidden="true">{MANUAL_ICONS[f]}</span><strong>{escape(feature_text(row,f))}</strong></div>')
     return '<div class="lk-grid">'+''.join(cards)+'</div>'
 
 def profile(row):
@@ -144,12 +160,6 @@ def profile(row):
         tags=''.join(f'<span class="lk-tag">{escape(f)}</span>' for f in info['facts'])
         bio=f'<div class="lk-profile-bio"><h3>รู้จักสิ่งมีชีวิตชนิดนี้</h3><p>{escape(info["description"])}</p><div class="lk-tags">{tags}</div></div>'
     st.markdown(f"""<section class="lk-profile" aria-label="Species Profile"><div class="lk-profile-top"><div class="lk-profile-names"><div class="lk-kicker">SPECIES PROFILE</div><h2>{escape(row['thai_name'] or row['english_name'] or row['scientific_name'])}</h2><p><i>{e('scientific_name')}</i></p><p>{e('english_name')} · อาณาจักร{escape(KINGDOM_TH[row['Kingdom']])}</p></div>{visual}</div>{bio}<h3>ลักษณะทางชีววิทยา</h3>{feature_html(row)}</section>""",unsafe_allow_html=True)
-    with st.expander('ภาพและข้อมูลพร้อมแหล่งอ้างอิง'):
-        if info:
-            st.markdown(f'ข้อมูล: [{info["source_label"]}]({info["source"]})')
-            st.markdown(f'ภาพ: [{info["credit"]}]({info["image_source"]}) · [{info["license"]}]({info["license_url"]}) · แสดงภาพต้นฉบับ ย่อให้พอดีกรอบ')
-        else: st.caption('ยังไม่มีภาพและคำอธิบายชนิดที่ตรวจสอบได้ แสดงไอคอนอาณาจักรแทนภาพถ่าย')
-        st.caption('คุณลักษณะทั้ง 6 และขอบเขตที่ใช้ประเมินแสดงพร้อมหลักฐานในส่วนข้อมูลและแหล่งอ้างอิงด้านล่าง')
 
 def feature_cards(row):
     st.markdown(feature_html(row),unsafe_allow_html=True)
@@ -177,14 +187,14 @@ def prediction(values,model,columns,reference=None):
         if not match:
             compare+='<div class="lk-note">คุณลักษณะ 6 ข้อนี้อาจเหมือนกันในต่างอาณาจักร โมเดลจึงแยกไม่ได้ทุกกรณี ผลนี้เป็นการทำนายจากโมเดล ไม่ได้เปลี่ยนข้อมูลอ้างอิงของสิ่งมีชีวิต</div>'
     st.markdown(f'<section class="lk-result" aria-label="ผลการทำนาย"><span class="lk-result-icon">{KINGDOM_ICONS.get(result, "")}</span><div class="lk-kicker">MODEL PREDICTION</div><h2>{escape(result)}</h2><div class="lk-en">อาณาจักร{escape(KINGDOM_TH.get(result,result))}</div>{compare}</section>',unsafe_allow_html=True)
-    with st.expander('ดูเส้นทางการตัดสินใจ'):
+    with st.expander('ดูเส้นทางการตัดสินใจ',expanded=False):
         steps,leaf=decision_steps(model,X,columns)
         st.markdown(f'<div class="lk-path-heading"><span>DECISION TREE EXPLANATION</span><span>{len(steps)} ขั้นตอน</span></div>',unsafe_allow_html=True)
         items=''.join(f'<li><span class="lk-step-number">{i:02d}</span><div><strong>{QUESTIONS[s["feature"]]}หรือไม่?</strong><p> {"✓ ใช่" if s["value"] else "− ไม่ใช่"}</p></div></li>' for i,s in enumerate(steps,1))
         terminal=f'<div class="lk-path-result"><small>ผลทำนายจากเส้นทางนี้</small><h2>{escape(result)}</h2><span class="lk-result-icon">{KINGDOM_ICONS.get(result, "")}</span><p>อาณาจักร{escape(KINGDOM_TH.get(result,result))}</p></div>'
         st.markdown(f'<div class="lk-path"><ol class="lk-flow" aria-label="เส้นทางการตัดสินใจ">{items}</ol>{terminal}</div>',unsafe_allow_html=True)
         st.caption('แสดงเฉพาะคำถามที่โมเดลใช้จริง ไม่ใช่กฎชีววิทยาครบทุกกรณี')
-        with st.expander('ดูรายละเอียดทางเทคนิค'):
+        with st.expander('รายละเอียดทางเทคนิค',expanded=False):
             for s in steps: st.text(f'node {s["node"]} · {s["feature"]}: {s["value"]} {s["operator"]} {s["threshold"]:g}')
             st.caption(f'ปลายทาง node {leaf} · model.decision_path')
     return result
@@ -218,37 +228,85 @@ def thai_evidence(text):
     if text.startswith(prefix): return 'อนุมานระดับกลุ่ม: '+translations.get(text[len(prefix):],text[len(prefix):])
     return text
 
+def scope_summary(row):
+    scope=str(row['scope'])
+    if scope.startswith('Mature green plant;'):
+        return 'ใช้พืชสีเขียวโตเต็มวัยและเนื้อเยื่อใบที่รับแสง ไม่ครอบคลุมทุกเซลล์ เมล็ด หรือระยะพักตัว'
+    if scope.startswith('Juvenile/adult host body'):
+        return 'ใช้ร่างกายสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมสิ่งมีชีวิตร่วมอาศัย เซลล์สืบพันธุ์ และเม็ดเลือดแดงโตเต็มวัยของสัตว์เลี้ยงลูกด้วยนม'
+    scopes={
+        'Feeding amoeboid cell; excludes cyst':'ใช้เซลล์อะมีบาระยะกินอาหาร ไม่รวมระยะซีสต์',
+        'Green photosynthetic gametophyte':'ใช้ระยะแกมีโทไฟต์สีเขียวที่สังเคราะห์แสง',
+        'Green photosynthetic multicellular gametophyte':'ใช้ระยะแกมีโทไฟต์หลายเซลล์สีเขียวที่สังเคราะห์แสง',
+        'Green photosynthetic sporophyte':'ใช้ระยะสปอโรไฟต์สีเขียวที่สังเคราะห์แสง',
+        'Green photosynthetic sporophyte representative':'ใช้ตัวแทนระยะสปอโรไฟต์สีเขียวที่สังเคราะห์แสง',
+        'Green photosynthetic sporophyte tissue':'ใช้เนื้อเยื่อระยะสปอโรไฟต์สีเขียวที่สังเคราะห์แสง',
+        'Multicellular photosynthetic thallus':'ใช้ทัลลัสหลายเซลล์ที่สังเคราะห์แสง',
+        'Multicellular photosynthetic thallus/blade representative':'ใช้ตัวแทนทัลลัสหรือแผ่นสาหร่ายหลายเซลล์ที่สังเคราะห์แสง',
+        'Multicellular photosynthetic thallus; excludes gametes':'ใช้ทัลลัสหลายเซลล์ที่สังเคราะห์แสง ไม่รวมเซลล์สืบพันธุ์',
+        'Representative animal body; cell traits inferred if referring to extinct non-avian dinosaurs':'ใช้ตัวแทนร่างกายสัตว์ หากหมายถึงไดโนเสาร์ที่สูญพันธุ์และไม่ใช่นก คุณลักษณะระดับเซลล์เป็นการอนุมาน',
+        'Representative juvenile/adult host body and normal somatic cell; excludes symbiont traits':'ใช้ตัวแทนร่างกายสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายปกติ ไม่รวมคุณลักษณะของสิ่งมีชีวิตร่วมอาศัย',
+        'Single-celled vegetative yeast form; excludes hyphal/pseudohyphal forms':'ใช้ยีสต์เซลล์เดียวระยะเจริญ ไม่รวมรูปแบบเส้นใยหรือเส้นใยเทียม',
+        'Trophozoite':'ใช้ระยะโทรโฟซอยต์ที่กำลังกินอาหารและเจริญ',
+        'Trophozoite only; excludes cyst':'ใช้เฉพาะระยะโทรโฟซอยต์ ไม่รวมซีสต์',
+        'Vegetative bacterial cell':'ใช้เซลล์แบคทีเรียระยะเจริญ',
+        'Vegetative bacterial cell; not an endospore representation':'ใช้เซลล์แบคทีเรียระยะเจริญ ไม่ใช้เอนโดสปอร์เป็นตัวแทน',
+        'Vegetative ciliate host cell; excludes algal symbiont traits':'ใช้เซลล์ซิลิเอตระยะเจริญ ไม่รวมคุณลักษณะของสาหร่ายร่วมอาศัย',
+        'Vegetative cyanobacterial filament/colony; not every specialized cell':'ใช้เส้นสายหรือโคโลนีไซยาโนแบคทีเรียระยะเจริญ ไม่ครอบคลุมเซลล์เฉพาะทางทุกเซลล์',
+        'Vegetative cyanobacterial filament; photosynthetic capability of filament, not every specialized cell':'ใช้เส้นสายไซยาโนแบคทีเรียระยะเจริญ ประเมินการสังเคราะห์แสงระดับเส้นสาย ไม่ใช่ทุกเซลล์เฉพาะทาง',
+        'Vegetative mycelium / fruiting body fungal convention':'ใช้เส้นใยระยะเจริญหรือดอกเห็ดตามขอบเขตของกลุ่มรา',
+        'Vegetative mycelium / fruiting body of shiitake; not a single spore':'ใช้เส้นใยระยะเจริญหรือดอกเห็ดหอม ไม่ใช้สปอร์เดี่ยวเป็นตัวแทน',
+        'Vegetative photosynthetic cell under light':'ใช้เซลล์ระยะเจริญที่สังเคราะห์แสงเมื่อได้รับแสง',
+        'Vegetative photosynthetic cyanobacterial filament':'ใช้เส้นสายไซยาโนแบคทีเรียระยะเจริญที่สังเคราะห์แสง',
+        'Vegetative photosynthetic diatom cell with silica frustule':'ใช้เซลล์ไดอะตอมระยะเจริญที่สังเคราะห์แสงและมีเปลือกซิลิกา',
+        'Vegetative photosynthetic filament':'ใช้เส้นสายระยะเจริญที่สังเคราะห์แสง',
+        'Vegetative photosynthetic haploid 10D culture; excludes cell-walled diploid':'ใช้เซลล์เพาะเลี้ยงแฮพลอยด์สายพันธุ์ 10D ระยะเจริญที่สังเคราะห์แสง ไม่รวมระยะดิพลอยด์ที่มีผนังเซลล์',
+        'Vegetative photosynthetic wild-type cell under light':'ใช้เซลล์สายพันธุ์ปกติระยะเจริญที่สังเคราะห์แสงเมื่อได้รับแสง',
+        'Vegetative unicellular ciliate':'ใช้ซิลิเอตเซลล์เดียวระยะเจริญ',
+        'Vegetative unicellular photosynthetic cell':'ใช้เซลล์เดียวระยะเจริญที่สังเคราะห์แสง',
+    }
+    return scopes.get(scope,'ใช้ขอบเขตระยะชีวิตและชนิดเซลล์ที่ระบุในข้อมูลอ้างอิงของรายการนี้')
+
+def reference_links(urls, label=None):
+    labels={'gbif.org':'GBIF','api.gbif.org':'GBIF','animaldiversity.org':'Animal Diversity Web · University of Michigan','ntbg.org':'National Tropical Botanical Garden','openstax.org':'OpenStax','jircas.go.jp':'JIRCAS','scimath.org':'Scimath'}
+    links=[]
+    for url in dict.fromkeys(urls):
+        if not url.startswith('https://'): continue
+        host=urlparse(url).netloc.removeprefix('www.')
+        title=escape(label or labels.get(host,host))
+        links.append(f'<a href="{escape(url,quote=True)}" target="_blank" rel="noopener noreferrer">{title} ↗</a>')
+    return ''.join(links)
+
 def evidence(row,columns):
-    with st.expander('ข้อมูลและแหล่งอ้างอิง'):
-        st.markdown('**หลักฐานคุณลักษณะทางชีววิทยา**')
-        st.markdown('**ขอบเขตที่ใช้ประเมิน**')
-        scope=row['scope']
-        if scope.startswith('Mature green plant;'):
-            scope='พืชสีเขียวโตเต็มวัย ใช้เนื้อเยื่อใบที่รับแสงและสังเคราะห์แสง ไม่ได้หมายถึงทุกเซลล์ เมล็ด หรือระยะพักตัว'
-        elif scope.startswith('Juvenile/adult host body'):
-            scope='ร่างกายสัตว์วัยอ่อนหรือโตเต็มวัย และเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมสิ่งมีชีวิตร่วมอาศัย เซลล์สืบพันธุ์ และเม็ดเลือดแดงโตเต็มวัยของสัตว์เลี้ยงลูกด้วยนม'
-        elif scope=='Vegetative photosynthetic filament':
-            scope='ระยะเส้นสายที่กำลังเจริญและสังเคราะห์แสง'
-        st.write(scope);st.write(row['uncertainty'])
-        inferred='group' in row['evidence_basis'].lower()
-        st.caption(('คุณลักษณะอนุมานระดับกลุ่มตามขอบเขตที่ระบุ ไม่ใช่ผลวัดตัวอย่างรายชนิด' if inferred else 'คุณลักษณะอ้างอิงจากการตรวจข้อมูลเดิมของโครงงาน ตามระยะชีวิตและชนิดเซลล์ที่ระบุ')+' · ตรวจหลักฐาน: '+row['verified_on'])
-        st.markdown('**หลักฐานคุณลักษณะ**')
-        for f in columns:
-            state='ไม่ทราบ' if pd.isna(row[f]) else ('มี / ทำได้' if row[f] else 'ไม่มี / ทำไม่ได้')
-            st.markdown(f'**{LABELS[f]} · {state}**')
-            st.caption(thai_evidence(row[f+'_evidence']))
-        with st.expander('ข้อความขอบเขตและหลักฐานต้นฉบับ'):
-            st.write(row['scope']);st.write(row['evidence_basis'])
-            for f in columns: st.caption(f+': '+row[f+'_evidence'])
-        for title,key in [('ชื่อและอนุกรมวิธาน','name_sources'),('คุณลักษณะและชีววิทยา','feature_sources')]:
-            st.markdown('**'+title+'**')
-            for url in dict.fromkeys(row[key].split('|')):
-                if url.startswith('https://'):
-                    st.markdown(f'<p><a href="{escape(url,quote=True)}" target="_blank" rel="noopener noreferrer">{source_label(url)} ↗</a></p>',unsafe_allow_html=True)
-        st.markdown('**ภาพประกอบและเครดิต**')
+    with st.expander('แหล่งอ้างอิงและเครดิตภาพ',expanded=False):
         info=PROFILES.get(str(row['scientific_name']))
-        if info:
-            st.markdown(f'[{info["credit"]}]({info["image_source"]}) · [{info["license"]}]({info["license_url"]}) · แสดงภาพต้นฉบับ ปรับขนาดในกรอบ')
-        else:
-            st.caption('แสดง SVG อาณาจักรแทนภาพถ่าย จนกว่าจะมีภาพตรงชนิดที่ตรวจสอบแหล่งที่มาและสิทธิ์แล้ว')
-        st.caption('Protista และ Monera เป็นป้ายตามระบบห้าอาณาจักรของโครงงาน ไม่ใช่อาณาจักรสมัยใหม่จาก GBIF; ชื่ออ้างอิงไม่ใช่การพิสูจน์ชนิดตัวอย่างจริง')
+        names=reference_links(row['name_sources'].split('|'))
+        biology=reference_links(row['feature_sources'].split('|')+([info['source']] if info else []))
+        photo=(reference_links([info['image_source']],info['credit'])+reference_links([info['license_url']],info['license'])+'<small>ครอปภาพเพื่อจัดวาง</small>') if info else '<small>ยังไม่มีภาพถ่ายที่ตรวจสอบสิทธิ์ ใช้ไอคอนอาณาจักรแทน</small>'
+        sections=[('ชื่อและอนุกรมวิธาน',names,BOOK_ICON),('ข้อมูลชีววิทยา',biology,MANUAL_ICONS['Nucleus']),('เครดิตภาพ',photo,MANUAL_ICONS['Cell wall'])]
+        st.markdown('<div class="lk-references">'+''.join(f'<section class="lk-reference"><span class="lk-reference-icon" aria-hidden="true">{icon}</span><div><strong>{title}</strong>{links}</div></section>' for title,links,icon in sections)+'</div>',unsafe_allow_html=True)
+        with st.expander('หลักฐานและขอบเขตคุณลักษณะ',expanded=False):
+            inferred='group' in str(row['evidence_basis']).lower()
+            st.write(('คุณลักษณะเป็นการอนุมานระดับกลุ่ม ไม่ใช่ผลวัดแยกรายชนิดทั้ง 6 ข้อ ' if inferred else 'คุณลักษณะอ้างอิงตามระยะชีวิตและชนิดเซลล์ที่ระบุ ')+scope_summary(row))
+            for f in columns:
+                st.markdown('**'+feature_text(row,f)+'**')
+                reason=thai_evidence(str(row[f+'_evidence'])).removeprefix('อนุมานระดับกลุ่ม: ')
+                if '�' in reason:
+                    st.caption('ตรวจรายละเอียดคุณลักษณะข้อนี้จากแหล่งข้อมูลชีววิทยาของรายการ หลักฐานต้นฉบับคงอยู่ใน CSV')
+                else:
+                    st.caption(reason)
+            st.caption('ตรวจหลักฐาน: '+str(row['verified_on'])+' · ขอบเขตและหลักฐานต้นฉบับคงอยู่ในข้อมูล CSV พร้อมแหล่งอ้างอิง')
+            if '�' in str(row['uncertainty']):
+                st.caption('ข้อความต้นฉบับบางส่วนมีอักขระผิดรูป จึงแสดงลิงก์แหล่งข้อมูลแทนโดยไม่แก้ไขต้นฉบับ')
+
+def about_model(training_count,catalog_count,python_version,sklearn_version,streamlit_version):
+    with st.expander('เกี่ยวกับโมเดลและชุดข้อมูล',expanded=False):
+        cards=[('โมเดล','Decision Tree',BOOK_ICON),('ระบบจำแนก','5 อาณาจักร',MANUAL_ICONS['Nucleus']),('ข้อมูลต้นฉบับ',f'{training_count} รายการ',MANUAL_ICONS['Multicellular organisms']),('แค็ตตาล็อกค้นหา',f'{catalog_count} รายการ',MANUAL_ICONS['Ribosome'])]
+        st.markdown('<div class="lk-model-facts">'+''.join(f'<div class="lk-model-fact"><span aria-hidden="true">{icon}</span><div><small>{label}</small><strong>{value}</strong></div></div>' for label,value,icon in cards)+'</div>',unsafe_allow_html=True)
+        st.write('โมเดลใช้คุณลักษณะทางชีววิทยา 6 ข้อเพื่อจำแนกสิ่งมีชีวิตตามระบบ 5 อาณาจักรของโครงงาน')
+        st.write('ผลทำนายอาจแตกต่างจากข้อมูลอ้างอิง และการเพิ่มรายการในแค็ตตาล็อกไม่ได้หมายถึงการฝึกโมเดลใหม่')
+        with st.expander('รายละเอียดและข้อจำกัดของโมเดล',expanded=False):
+            st.write('ระบบ 5 อาณาจักรเป็นกรอบของโครงงาน ไม่เท่ากับการจัดอนุกรมวิธานสมัยใหม่ในทุกกรณี คุณลักษณะเดียวกันอาจพบได้ต่างอาณาจักร เช่น Spirogyra')
+            st.write('ยังไม่มีผลประเมินความแม่นยำกับแค็ตตาล็อกใหม่ จึงไม่แสดงคะแนนที่ตรวจสอบไม่ได้ ไม่ได้ฝึกโมเดลใหม่หรือแก้ข้อมูลฝึกเดิม')
+            st.write('ค่าอ้างอิงใช้ระยะชีวิตและชนิดเซลล์ที่ระบุ ค่าที่ไม่ทราบไม่แทนด้วย 0 และไม่ส่งทำนาย คุณลักษณะของรายการใหม่บางส่วนเป็นการอนุมานระดับกลุ่มโดยมีแหล่งอ้างอิง')
+            st.caption(f'Python {python_version} · scikit-learn {sklearn_version} · Streamlit {streamlit_version}')

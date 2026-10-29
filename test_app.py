@@ -98,6 +98,33 @@ class CatalogueTests(unittest.TestCase):
         unknown['Cell wall']=pd.NA
         self.assertIn('ผนังเซลล์ · ไม่ทราบ',feature_html(unknown))
 
+    def test_polish(self):
+        from ui import feature_html,feature_text,scope_summary
+        cat=search(self.data,'แมว').iloc[0]
+        html=feature_html(cat)
+        self.assertEqual(html.count('lk-present'),3)
+        self.assertEqual(html.count('lk-absent'),3)
+        self.assertIn('สังเคราะห์แสงไม่ได้',html)
+        self.assertIn('ไม่มีคลอโรพลาสต์',html)
+        unknown=cat.copy(); unknown['Cell wall']=pd.NA
+        self.assertIn('lk-unknown',feature_html(unknown))
+        self.assertEqual(feature_text(unknown,'Cell wall'),'ผนังเซลล์ · ไม่ทราบ')
+        self.assertTrue(all(scope_summary(row) for _,row in self.data.iterrows()))
+        app=AppTest.from_file(str(BASE/'streamlit_app.py'),default_timeout=20)
+        app.session_state['view']='profile';app.session_state['selected_id']=cat['id']
+        app.run()
+        self.assertEqual(len(app.exception),0)
+        expanders={e.proto.label:e for e in app.get('expander')}
+        self.assertNotIn('ภาพและข้อมูลพร้อมแหล่งอ้างอิง',expanders)
+        for label in ['ดูเส้นทางการตัดสินใจ','แหล่งอ้างอิงและเครดิตภาพ','เกี่ยวกับโมเดลและชุดข้อมูล','รายละเอียดทางเทคนิค','หลักฐานและขอบเขตคุณลักษณะ','รายละเอียดและข้อจำกัดของโมเดล']:
+            self.assertIn(label,expanders)
+            self.assertFalse(expanders[label].proto.expanded)
+        self.assertEqual(len([e for e in app.get('expander') if e.proto.label=='แหล่งอ้างอิงและเครดิตภาพ']),1)
+        facts=next(m.value for m in app.markdown if 'lk-model-facts' in m.value and '<div' in m.value)
+        self.assertIn('50 รายการ',facts);self.assertIn('117 รายการ',facts)
+        credits=next(m.value for m in app.markdown if '<div class="lk-references"' in m.value)
+        self.assertIn('Clumsyninja',credits);self.assertIn('creativecommons.org/licenses/by-sa/4.0/',credits)
+
     def test_paths(self):
         from ui import decision_steps
         model,cols=self.package['model'],list(self.package['features'])

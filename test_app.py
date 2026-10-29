@@ -45,6 +45,31 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(len(model.predict(all_vectors)),64)
         with self.assertRaises(ValueError): prediction_input(dict.fromkeys(FEATURES,None),cols)
         with self.assertRaises(ValueError): prediction_input(dict.fromkeys(FEATURES,2),cols)
+
+    def test_requested_names_and_group_scope(self):
+        requested=['เห็ดหล่ม','ซุกซุ่น','หน่อ','หน่อไม้','ผักปลัง','ปู','คน','พยาธิ','ไฮดรา',
+                   'เชื้อรา','ยูกลีนา','สาหร่ายสีเขียว','สาหร่ายสีเขียว น้ำเงิน','ยีสต์','รา','พืชดอก',
+                   'แมงกะพรุน','ดอกไม้ทะเล','ปะการัง','พยาธิใบไม้','พยาธิตัวตืด','พลานาเรีย',
+                   'พยาธิไส้เดือน','พยาธิเส้นด้าย','พยาธิปากขอ','หอย','หมึก','แมลง','กุ้ง','แมงมุม',
+                   'ตะขาบ','ปลาดาว','เม่นทะเล','ปลิงทะเล','ปลา','สัตว์สะเทินน้ำสะเทินบก','กบ',
+                   'สัตว์เลื้อยคลาน','งู','จระเข้','สัตว์ปีก','นก','สัตว์เลี้ยงลูกด้วยน้ำนม','มนุษย์']
+        for q in requested:
+            with self.subTest(query=q): self.assertFalse(search(self.data,q).empty)
+        for q,expected in [('คน','Homo sapiens'),('ไฮดรา','Hydra spp.'),('ยูกลีนา','Euglena gracilis')]:
+            self.assertEqual(search(self.data,q).iloc[0].scientific_name,expected)
+        for q in ['หน่อไม้','ซุกซุ่น','เชื้อรา','รา','สาหร่ายสีเขียว','สาหร่ายสีเขียว น้ำเงิน','พืชดอก']:
+            with self.subTest(unknown_group=q):
+                row=search(self.data,q).iloc[0]
+                self.assertTrue(row[FEATURES].isna().any())
+                with self.assertRaises(ValueError): prediction_input(row,self.package['features'])
+        self.assertEqual(search(self.data,'ซุกซุ่น').iloc[0].scientific_name,'')
+        self.assertIn('ยังไม่มีหลักฐาน',search(self.data,'ซุกซุ่น').iloc[0].scope)
+        from requested_catalog import apply_requested
+        rows=json.loads((BASE/'evidence/catalog_audit/curated_catalog.json').read_text(encoding='utf8'))
+        report=json.loads((BASE/'evidence/catalog_audit/row_report.json').read_text(encoding='utf8'))
+        before=json.dumps(rows,sort_keys=True)
+        apply_requested(rows,report)
+        self.assertEqual(before,json.dumps(rows,sort_keys=True))
     def test_ui(self):
         def app_for(view='home', **state):
             app=AppTest.from_file(str(BASE/'streamlit_app.py'),default_timeout=20)

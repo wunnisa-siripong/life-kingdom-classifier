@@ -232,6 +232,8 @@ def thai_evidence(text):
 
 def scope_summary(row):
     scope=str(row['scope'])
+    if scope.startswith('ขอบเขต: '):
+        return scope.removeprefix('ขอบเขต: ')
     if scope.startswith('Representative living nucleated host cell;'):
         return 'ใช้เซลล์เจ้าบ้านที่มีชีวิตและมีนิวเคลียสเป็นตัวแทน และร่างกายโตเต็มวัยสำหรับจำนวนเซลล์ ไม่รวมสิ่งมีชีวิตร่วมอาศัย สปอร์ เซลล์สืบพันธุ์ ระยะพักตัว และเซลล์พิเศษที่ไม่มีนิวเคลียส ค่าที่ยังไม่มีหลักฐานเฉพาะชนิดแสดงว่าไม่ทราบ'
     if scope.startswith('Mature green plant;'):

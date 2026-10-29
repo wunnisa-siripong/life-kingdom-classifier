@@ -659,7 +659,7 @@
     },
     "after": {
       "id": "train-04",
-      "thai_name": "",
+      "thai_name": "ดอกไม้ทะเล",
       "english_name": "Sea Anemones",
       "scientific_name": "Actiniaria",
       "aliases": "",
@@ -995,7 +995,14 @@
         "sourceTaxonKey": 155460137,
         "preferred": false
       }
-    ]
+    ],
+    "requested_name_review": {
+      "date": "2026-10-29",
+      "basis": "Thai search labels for existing named taxon; identity and features unchanged",
+      "aliases": [
+        "ดอกไม้ทะเล"
+      ]
+    }
   },
   {
     "id": "train-05",
@@ -1033,7 +1040,7 @@
     },
     "after": {
       "id": "train-05",
-      "thai_name": "",
+      "thai_name": "พยาธิใบไม้",
       "english_name": "Trematoda",
       "scientific_name": "Trematoda",
       "aliases": "",
@@ -1271,7 +1278,14 @@
         "sourceTaxonKey": 157128068,
         "preferred": false
       }
-    ]
+    ],
+    "requested_name_review": {
+      "date": "2026-10-29",
+      "basis": "Thai search labels for existing named taxon; identity and features unchanged",
+      "aliases": [
+        "พยาธิใบไม้"
+      ]
+    }
   },
   {
     "id": "train-06",
@@ -2586,7 +2600,7 @@
     },
     "after": {
       "id": "train-09",
-      "thai_name": "",
+      "thai_name": "ยีสต์",
       "english_name": "Yeast",
       "scientific_name": "",
       "aliases": "",
@@ -2611,6 +2625,13 @@
       "Chloroplast_evidence": "รองรับ:เซลล์ตัวแทนปกติ",
       "Multicellular organisms": "0",
       "Multicellular organisms_evidence": "รองรับ:เซลล์ตัวแทนปกติ"
+    },
+    "requested_name_review": {
+      "date": "2026-10-29",
+      "basis": "Thai search labels for existing named taxon; identity and features unchanged",
+      "aliases": [
+        "ยีสต์"
+      ]
     }
   },
   {
@@ -5293,10 +5314,10 @@
     },
     "after": {
       "id": "train-23",
-      "thai_name": "",
+      "thai_name": "ยูกลีนา",
       "english_name": "Euglena gracilis",
       "scientific_name": "Euglena gracilis",
-      "aliases": "",
+      "aliases": "ยูกลีนา กราซิลิส",
       "rank": "species",
       "Kingdom": "Protista",
       "scope": "Vegetative photosynthetic wild-type cell under light",
@@ -5331,7 +5352,15 @@
         "source": "Catalogue of Life",
         "sourceTaxonKey": 283427687
       }
-    ]
+    ],
+    "requested_name_review": {
+      "date": "2026-10-29",
+      "basis": "Thai search labels for existing named taxon; identity and features unchanged",
+      "aliases": [
+        "ยูกลีนา",
+        "ยูกลีนา กราซิลิส"
+      ]
+    }
   },
   {
     "id": "train-24",
@@ -6130,7 +6159,7 @@
     },
     "after": {
       "id": "train-27",
-      "thai_name": "",
+      "thai_name": "ไฮดรา",
       "english_name": "Hydra",
       "scientific_name": "Hydra spp.",
       "aliases": "",
@@ -6156,7 +6185,14 @@
       "Multicellular organisms": "1",
       "Multicellular organisms_evidence": "รองรับ:เซลล์ตัวแทนปกติ"
     },
-    "match_url": "https://api.gbif.org/v1/species/match?name=Hydra"
+    "match_url": "https://api.gbif.org/v1/species/match?name=Hydra",
+    "requested_name_review": {
+      "date": "2026-10-29",
+      "basis": "Thai search labels for existing named taxon; identity and features unchanged",
+      "aliases": [
+        "ไฮดรา"
+      ]
+    }
   },
   {
     "id": "train-28",
@@ -53386,7 +53422,7 @@
       "thai_name": "มนุษย์",
       "english_name": "Human",
       "scientific_name": "Homo sapiens",
-      "aliases": "Humans|Modern Human|People|Person",
+      "aliases": "Humans|Modern Human|People|Person|คน",
       "rank": "species",
       "Kingdom": "Animalia",
       "scope": "Juvenile/adult host body and representative nucleated somatic cell; excludes symbionts, gametes and mature mammalian red blood cells",
@@ -54313,7 +54349,14 @@
         "sourceTaxonKey": 180179457,
         "preferred": false
       }
-    ]
+    ],
+    "requested_name_review": {
+      "date": "2026-10-29",
+      "basis": "Thai search labels for existing named taxon; identity and features unchanged",
+      "aliases": [
+        "คน"
+      ]
+    }
   },
   {
     "id": "gbif-2435035",
@@ -178188,6 +178231,1406 @@
         "source": "Catalogue of Life",
         "sourceTaxonKey": 299707027
       }
+    ]
+  },
+  {
+    "id": "request-crabs",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-crabs",
+      "thai_name": "ปู (กลุ่มปูแท้)",
+      "english_name": "True crabs",
+      "scientific_name": "Brachyura",
+      "aliases": "ปู",
+      "rank": "infraorder",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม ปู (กลุ่มปูแท้); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ]
+  },
+  {
+    "id": "request-worms",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-worms",
+      "thai_name": "พยาธิ (หนอนปรสิต)",
+      "english_name": "Parasitic worms",
+      "scientific_name": "",
+      "aliases": "พยาธิ|หนอนปรสิต",
+      "rank": "informal group",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม พยาธิ (หนอนปรสิต); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย; คำว่าพยาธิในรายการนี้หมายถึงหนอนปรสิต ไม่รวมโพรโทซัว",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+    ]
+  },
+  {
+    "id": "request-jellyfish",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-jellyfish",
+      "thai_name": "แมงกะพรุน (กลุ่มทั่วไป)",
+      "english_name": "Jellyfish",
+      "scientific_name": "",
+      "aliases": "แมงกะพรุน",
+      "rank": "informal group",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม แมงกะพรุน (กลุ่มทั่วไป); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria"
+    ]
+  },
+  {
+    "id": "request-corals",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-corals",
+      "thai_name": "ปะการัง (กลุ่มทั่วไป)",
+      "english_name": "Corals",
+      "scientific_name": "",
+      "aliases": "ปะการัง",
+      "rank": "informal group",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม ปะการัง (กลุ่มทั่วไป); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย; รวมปะการังหลายกลุ่ม ไม่ได้หมายถึงชนิดเดียว",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria"
+    ]
+  },
+  {
+    "id": "request-tapeworms",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-tapeworms",
+      "thai_name": "พยาธิตัวตืด",
+      "english_name": "Tapeworms",
+      "scientific_name": "Cestoda",
+      "aliases": "",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม พยาธิตัวตืด; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+    ]
+  },
+  {
+    "id": "request-planarians",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-planarians",
+      "thai_name": "พลานาเรีย (กลุ่มทั่วไป)",
+      "english_name": "Planarians",
+      "scientific_name": "Tricladida",
+      "aliases": "พลานาเรีย",
+      "rank": "order",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม พลานาเรีย (กลุ่มทั่วไป); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+    ]
+  },
+  {
+    "id": "request-ascaris",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-ascaris",
+      "thai_name": "พยาธิไส้เดือน",
+      "english_name": "Human roundworm",
+      "scientific_name": "Ascaris lumbricoides",
+      "aliases": "ยาธิไส้เดือน",
+      "rank": "species",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับชนิด พยาธิไส้เดือน; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/ascariasis/index.html"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://www.cdc.gov/dpdx/ascariasis/index.html"
+    ]
+  },
+  {
+    "id": "request-pinworm",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-pinworm",
+      "thai_name": "พยาธิเส้นด้าย",
+      "english_name": "Human pinworm",
+      "scientific_name": "Enterobius vermicularis",
+      "aliases": "พยาธิเข็มหมุด",
+      "rank": "species",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับชนิด พยาธิเส้นด้าย; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/enterobiasis/index.html"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://www.cdc.gov/dpdx/enterobiasis/index.html"
+    ]
+  },
+  {
+    "id": "request-hookworms",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-hookworms",
+      "thai_name": "พยาธิปากขอ (กลุ่มในลำไส้)",
+      "english_name": "Intestinal hookworms",
+      "scientific_name": "",
+      "aliases": "พยาธิปากขอ",
+      "rank": "informal group",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม พยาธิปากขอ (กลุ่มในลำไส้); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://www.cdc.gov/dpdx/hookworm/index.html",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/hookworm/index.html",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/hookworm/index.html",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/hookworm/index.html",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/hookworm/index.html",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/hookworm/index.html",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/hookworm/index.html",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://www.cdc.gov/dpdx/hookworm/index.html"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://www.cdc.gov/dpdx/hookworm/index.html"
+    ]
+  },
+  {
+    "id": "request-shellfish",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-shellfish",
+      "thai_name": "หอย (กลุ่มทั่วไป)",
+      "english_name": "Shelled mollusks",
+      "scientific_name": "",
+      "aliases": "หอย",
+      "rank": "informal group",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม หอย (กลุ่มทั่วไป); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย; หมายถึงหอยฝาเดียว หอยสองฝา และกลุ่มมีเปลือก ไม่เหมารวมว่าหอยทุกชนิดมีเปลือก",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids"
+    ]
+  },
+  {
+    "id": "request-cephalopods",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-cephalopods",
+      "thai_name": "หมึก (กลุ่มเซฟาโลพอด)",
+      "english_name": "Cephalopods",
+      "scientific_name": "Cephalopoda",
+      "aliases": "หมึก|ปลาหมึก",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม หมึก (กลุ่มเซฟาโลพอด); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids"
+    ]
+  },
+  {
+    "id": "request-insects",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-insects",
+      "thai_name": "แมลง",
+      "english_name": "Insects",
+      "scientific_name": "Insecta",
+      "aliases": "",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม แมลง; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ]
+  },
+  {
+    "id": "request-shrimps",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-shrimps",
+      "thai_name": "กุ้ง (กลุ่มทั่วไป)",
+      "english_name": "Shrimps and prawns",
+      "scientific_name": "",
+      "aliases": "กุ้ง",
+      "rank": "informal group",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม กุ้ง (กลุ่มทั่วไป); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ]
+  },
+  {
+    "id": "request-spiders",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-spiders",
+      "thai_name": "แมงมุม",
+      "english_name": "Spiders",
+      "scientific_name": "Araneae",
+      "aliases": "",
+      "rank": "order",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม แมงมุม; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ]
+  },
+  {
+    "id": "request-centipedes",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-centipedes",
+      "thai_name": "ตะขาบ",
+      "english_name": "Centipedes",
+      "scientific_name": "Chilopoda",
+      "aliases": "",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม ตะขาบ; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    ]
+  },
+  {
+    "id": "request-starfish",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-starfish",
+      "thai_name": "ปลาดาว",
+      "english_name": "Sea stars",
+      "scientific_name": "Asteroidea",
+      "aliases": "ลาดาว|ดาวทะเล",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม ปลาดาว; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia"
+    ]
+  },
+  {
+    "id": "request-urchins",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-urchins",
+      "thai_name": "เม่นทะเล",
+      "english_name": "Sea urchins",
+      "scientific_name": "Echinoidea",
+      "aliases": "",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม เม่นทะเล; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia"
+    ]
+  },
+  {
+    "id": "request-cucumbers",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-cucumbers",
+      "thai_name": "ปลิงทะเล",
+      "english_name": "Sea cucumbers",
+      "scientific_name": "Holothuroidea",
+      "aliases": "ปิงทะเล",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม ปลิงทะเล; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia"
+    ]
+  },
+  {
+    "id": "request-fishes",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-fishes",
+      "thai_name": "ปลา (กลุ่มทั่วไป)",
+      "english_name": "Fishes",
+      "scientific_name": "",
+      "aliases": "ปลา",
+      "rank": "informal group",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม ปลา (กลุ่มทั่วไป); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    ]
+  },
+  {
+    "id": "request-amphibians",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-amphibians",
+      "thai_name": "สัตว์สะเทินน้ำสะเทินบก",
+      "english_name": "Amphibians",
+      "scientific_name": "Amphibia",
+      "aliases": "",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม สัตว์สะเทินน้ำสะเทินบก; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    ]
+  },
+  {
+    "id": "request-frogs",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-frogs",
+      "thai_name": "กบ (กลุ่มกบและคางคก)",
+      "english_name": "Frogs and toads",
+      "scientific_name": "Anura",
+      "aliases": "กบ",
+      "rank": "order",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม กบ (กลุ่มกบและคางคก); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    ]
+  },
+  {
+    "id": "request-reptiles",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-reptiles",
+      "thai_name": "สัตว์เลื้อยคลาน (กลุ่มดั้งเดิม)",
+      "english_name": "Non-avian reptiles",
+      "scientific_name": "",
+      "aliases": "สัตว์เลื้อยคลาน",
+      "rank": "informal group",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม สัตว์เลื้อยคลาน (กลุ่มดั้งเดิม); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    ]
+  },
+  {
+    "id": "request-snakes",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-snakes",
+      "thai_name": "งู",
+      "english_name": "Snakes",
+      "scientific_name": "Serpentes",
+      "aliases": "",
+      "rank": "suborder",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม งู; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    ]
+  },
+  {
+    "id": "request-crocodilians",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-crocodilians",
+      "thai_name": "จระเข้ (กลุ่มคร็อกโคดิเลียน)",
+      "english_name": "Crocodilians",
+      "scientific_name": "Crocodylia",
+      "aliases": "จระเข้",
+      "rank": "order",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม จระเข้ (กลุ่มคร็อกโคดิเลียน); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    ]
+  },
+  {
+    "id": "request-birds",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-birds",
+      "thai_name": "สัตว์ปีก (นก)",
+      "english_name": "Birds",
+      "scientific_name": "Aves",
+      "aliases": "นก|สัตว์ปีก",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม สัตว์ปีก (นก); ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    ]
+  },
+  {
+    "id": "request-mammals",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-mammals",
+      "thai_name": "สัตว์เลี้ยงลูกด้วยน้ำนม",
+      "english_name": "Mammals",
+      "scientific_name": "Mammalia",
+      "aliases": "สัตว์เลี้ยงลูกด้วยน้ำนม (รวมถึงมนุษย์)",
+      "rank": "class",
+      "Kingdom": "Animalia",
+      "scope": "ขอบเขต: รายการระดับกลุ่ม สัตว์เลี้ยงลูกด้วยน้ำนม; ใช้ตัวสัตว์วัยอ่อนหรือโตเต็มวัยและเซลล์ร่างกายที่มีนิวเคลียส ไม่รวมเซลล์สืบพันธุ์ เซลล์พิเศษ และสาหร่ายหรือจุลชีพร่วมอาศัย",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่สังเคราะห์แสง ไม่รวมสิ่งมีชีวิตร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ร่างกายตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Cell wall": "0",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์สัตว์ไม่มีผนังเซลล์ เปลือกหรือคิวติเคิลไม่ใช่ผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์เจ้าบ้านไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ตัวสัตว์ระยะวัยอ่อนหรือโตเต็มวัยมีหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom|https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    ]
+  },
+  {
+    "id": "request-basella",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-basella",
+      "thai_name": "ผักปลัง",
+      "english_name": "Ceylon spinach",
+      "scientific_name": "Basella alba",
+      "aliases": "ผักปั๋ง|ผักปัง|ผักปลังขาว|ผักปลังแดง",
+      "rank": "species",
+      "Kingdom": "Plantae",
+      "scope": "ขอบเขต: ต้นผักปลังและเซลล์ใบสีเขียวระยะเจริญเมื่อได้รับแสง ไม่ใช่ทุกเซลล์หรือเมล็ด",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf",
+      "Photosynthesis": "1",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: ประเมินความสามารถของใบสีเขียวเมื่อรับแสง; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf",
+      "Cell wall": "1",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชตัวแทนมีผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf",
+      "Chloroplast": "1",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: ประเมินคลอโรพลาสต์ในใบสีเขียว ไม่ใช่ทุกอวัยวะ; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ต้นพืชประกอบด้วยหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf"
+    ]
+  },
+  {
+    "id": "request-bamboo-shoots",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-bamboo-shoots",
+      "thai_name": "หน่อไม้ (หน่ออ่อนของไผ่)",
+      "english_name": "Bamboo shoots",
+      "scientific_name": "",
+      "aliases": "หน่อ|หน่อไม้|ไผ่ (หน่ออ่อน)",
+      "rank": "informal group",
+      "Kingdom": "Plantae",
+      "scope": "ขอบเขต: หน่ออ่อนของไผ่หลายชนิด ไม่ใช่สิ่งมีชีวิตคนละชนิดกับต้นไผ่; ยังไม่สรุปการสังเคราะห์แสงหรือคลอโรพลาสต์ของหน่อที่อาจอยู่ใต้ดิน",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+      "Photosynthesis": "",
+      "Photosynthesis_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; ประเมินความสามารถของใบสีเขียวเมื่อรับแสง; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+      "Cell wall": "1",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชตัวแทนมีผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+      "Chloroplast": "",
+      "Chloroplast_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; ประเมินคลอโรพลาสต์ในใบสีเขียว ไม่ใช่ทุกอวัยวะ; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ต้นพืชประกอบด้วยหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html"
+    ]
+  },
+  {
+    "id": "request-flowering-plants",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-flowering-plants",
+      "thai_name": "พืชดอก (กลุ่มทั่วไป)",
+      "english_name": "Flowering plants",
+      "scientific_name": "Angiosperms",
+      "aliases": "พืชดอก",
+      "rank": "clade",
+      "Kingdom": "Plantae",
+      "scope": "ขอบเขต: กลุ่มพืชดอกโดยรวม รวมชนิดปรสิตที่อาจไม่สังเคราะห์แสง จึงไม่ใส่ค่าการสังเคราะห์แสงและคลอโรพลาสต์เหมารวม",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/26-3-angiosperms",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://openstax.org/books/biology-2e/pages/26-3-angiosperms",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชที่มีชีวิตมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://openstax.org/books/biology-2e/pages/26-3-angiosperms",
+      "Photosynthesis": "",
+      "Photosynthesis_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; ประเมินความสามารถของใบสีเขียวเมื่อรับแสง; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://openstax.org/books/biology-2e/pages/26-3-angiosperms",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชตัวแทนมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://openstax.org/books/biology-2e/pages/26-3-angiosperms",
+      "Cell wall": "1",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์พืชตัวแทนมีผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://openstax.org/books/biology-2e/pages/26-3-angiosperms",
+      "Chloroplast": "",
+      "Chloroplast_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; ประเมินคลอโรพลาสต์ในใบสีเขียว ไม่ใช่ทุกอวัยวะ; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://openstax.org/books/biology-2e/pages/26-3-angiosperms",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: ต้นพืชประกอบด้วยหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/25-1-early-plant-life|https://openstax.org/books/biology-2e/pages/26-3-angiosperms"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/26-3-angiosperms"
+    ]
+  },
+  {
+    "id": "request-fungi",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-fungi",
+      "thai_name": "เชื้อรา (กลุ่มทั่วไป)",
+      "english_name": "Fungi",
+      "scientific_name": "Fungi",
+      "aliases": "เชื้อรา",
+      "rank": "kingdom",
+      "Kingdom": "Fungi",
+      "scope": "ขอบเขต: กลุ่มราโดยรวม มีทั้งยีสต์เซลล์เดียวและราเส้นใยหลายเซลล์ ไม่รวมสิ่งมีชีวิตที่เพียงมีชื่อเรียกว่าราแต่ไม่ใช่ Fungi",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: ราไม่สังเคราะห์แสง ไม่รวมคู่ร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Cell wall": "1",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์ราไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Multicellular organisms": "",
+      "Multicellular organisms_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; เส้นใยหรือดอกเห็ดหลายเซลล์ตามขอบเขตที่ระบุ; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+    ]
+  },
+  {
+    "id": "request-molds",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-molds",
+      "thai_name": "รา (รูปแบบเส้นใย)",
+      "english_name": "Filamentous molds",
+      "scientific_name": "",
+      "aliases": "รา|ราเส้นใย",
+      "rank": "growth form",
+      "Kingdom": "Fungi",
+      "scope": "ขอบเขต: รูปแบบราเส้นใยระยะเจริญ มีทั้งเส้นใยมีผนังกั้นและเส้นใยร่วมไซโทพลาซึม จึงไม่สรุปจำนวนเซลล์ค่าเดียว ไม่ครอบคลุมราน้ำและราเมือกที่ไม่ใช่ Fungi",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: ราไม่สังเคราะห์แสง ไม่รวมคู่ร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Cell wall": "1",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์ราไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Multicellular organisms": "",
+      "Multicellular organisms_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; เส้นใยหรือดอกเห็ดหลายเซลล์ตามขอบเขตที่ระบุ; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+    ]
+  },
+  {
+    "id": "request-het-lom",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-het-lom",
+      "thai_name": "เห็ดหล่ม (กลุ่มชื่อท้องถิ่น)",
+      "english_name": "Het lom mushrooms",
+      "scientific_name": "Russula spp.",
+      "aliases": "เห็ดหล่ม|เห็ดไคล|เห็ดตะไคล",
+      "rank": "genus (species unresolved)",
+      "Kingdom": "Fungi",
+      "scope": "ขอบเขต: ชื่อท้องถิ่นครอบคลุมเห็ด Russula หลายชนิด เช่น เห็ดหล่มหลังขาวและหลังเขียว ไม่ระบุเป็น Russula virescens โดยไม่มีตัวอย่าง; ใช้ระยะเส้นใยและดอกเห็ด",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi|https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi|https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: ราไม่สังเคราะห์แสง ไม่รวมคู่ร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi|https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi|https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b",
+      "Cell wall": "1",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi|https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์ราไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi|https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b",
+      "Multicellular organisms": "1",
+      "Multicellular organisms_evidence": "อนุมานระดับกลุ่ม: เส้นใยหรือดอกเห็ดหลายเซลล์ตามขอบเขตที่ระบุ; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi|https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b"
+    ]
+  },
+  {
+    "id": "request-suk-sun",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "Local identity supplied by user; Scorias identification unverified. No species, edibility or occurrence claim. OpenStax supports fungal traits only, not the local-name identification."
+    ],
+    "before": null,
+    "after": {
+      "id": "request-suk-sun",
+      "thai_name": "ซุกซุ่น (ชื่อท้องถิ่น ยังไม่ยืนยันชนิด)",
+      "english_name": "Suk sun local fungal material",
+      "scientific_name": "",
+      "aliases": "ซุกซุ่น|ยุกยุ่น|อีหยุ่น|ซุกซุ่น",
+      "rank": "informal group",
+      "Kingdom": "Fungi",
+      "scope": "ขอบเขต: ชื่อวัตถุดิบบนไผ่ตามคำอธิบายของผู้ใช้ จัดเป็นราตามความหมายที่ผู้ใช้ระบุ แต่ยังไม่มีหลักฐานเชื่อมชื่อท้องถิ่นกับสกุล Scorias โดยตรง; ค่าที่ระบุเป็นคุณลักษณะทั่วไปของรา ไม่ใช่การยืนยันชนิดหรือจำนวนเซลล์ของตัวอย่าง",
+      "uncertainty": "Local identity supplied by user; Scorias identification unverified. No species, edibility or occurrence claim. OpenStax supports fungal traits only, not the local-name identification.",
+      "name_sources": "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Photosynthesis": "0",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: ราไม่สังเคราะห์แสง ไม่รวมคู่ร่วมอาศัย; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Cell wall": "1",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์ราระยะเจริญมีผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์ราไม่มีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "Multicellular organisms": "",
+      "Multicellular organisms_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; เส้นใยหรือดอกเห็ดหลายเซลล์ตามขอบเขตที่ระบุ; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+    ]
+  },
+  {
+    "id": "request-green-algae",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-green-algae",
+      "thai_name": "สาหร่ายสีเขียว (กลุ่มทั่วไป)",
+      "english_name": "Green algae",
+      "scientific_name": "",
+      "aliases": "สาหร่ายสีเขียว",
+      "rank": "informal group",
+      "Kingdom": "Protista",
+      "scope": "ขอบเขต: กลุ่มสาหร่ายสีเขียวตามระบบ 5 อาณาจักรของโครงงาน ไม่รวมพืชบก; มีเซลล์เดียว โคโลนี และหลายเซลล์ ผนังเซลล์และจำนวนเซลล์จึงไม่สรุปเป็นค่าเดียว",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://openstax.org/books/microbiology/pages/5-4-algae",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์มีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae",
+      "Photosynthesis": "1",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: ประเมินสาหร่ายสีเขียวที่สังเคราะห์แสง; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae",
+      "Nucleus": "1",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: เซลล์ยูคาริโอตมีนิวเคลียส; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae",
+      "Cell wall": "",
+      "Cell wall_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; ผนังเซลล์แปรตามกลุ่มและระยะ; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae",
+      "Chloroplast": "1",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: เซลล์สีเขียวมีคลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae",
+      "Multicellular organisms": "",
+      "Multicellular organisms_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; มีทั้งเซลล์เดียว โคโลนี และหลายเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://openstax.org/books/microbiology/pages/5-4-algae"
+    ]
+  },
+  {
+    "id": "request-cyanobacteria",
+    "status": "reviewed_group_or_scoped_reference",
+    "issues": [
+      "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง"
+    ],
+    "before": null,
+    "after": {
+      "id": "request-cyanobacteria",
+      "thai_name": "สาหร่ายสีเขียวแกมน้ำเงิน",
+      "english_name": "Cyanobacteria",
+      "scientific_name": "Cyanobacteria",
+      "aliases": "สาหร่ายสีเขียวน้ำเงิน|สาหร่ายสีเขียว น้ำเงิน|สาหร่ายสีน้ำเงินแกมเขียว|ไซยาโนแบคทีเรีย",
+      "rank": "phylum",
+      "Kingdom": "Monera",
+      "scope": "ขอบเขต: ไซยาโนแบคทีเรียตามระบบ Monera ของโครงงาน เป็นแบคทีเรียสังเคราะห์แสง ไม่ใช่สาหร่ายยูคาริโอต; มีทั้งเซลล์เดี่ยวและเส้นสาย ไม่สรุปจำนวนเซลล์ค่าเดียว",
+      "uncertainty": "รายการระดับกลุ่มหรือขอบเขตที่ระบุ ไม่ใช่การระบุชนิดของตัวอย่างจริง",
+      "name_sources": "https://naturalhistory.si.edu/research/botany/research/algae/algae-classification",
+      "feature_sources": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae|https://naturalhistory.si.edu/research/botany/research/algae/algae-classification",
+      "evidence_basis": "Reviewed requested catalogue; group-level inference with explicit scope and unknowns; no specimen measurement or occurrence claim",
+      "verified_on": "2026-10-29",
+      "training_name": "",
+      "Ribosome": "1",
+      "Ribosome_evidence": "อนุมานระดับกลุ่ม: เซลล์แบคทีเรียมีไรโบโซม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae|https://naturalhistory.si.edu/research/botany/research/algae/algae-classification",
+      "Photosynthesis": "1",
+      "Photosynthesis_evidence": "อนุมานระดับกลุ่ม: ไซยาโนแบคทีเรียสังเคราะห์แสง; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae|https://naturalhistory.si.edu/research/botany/research/algae/algae-classification",
+      "Nucleus": "0",
+      "Nucleus_evidence": "อนุมานระดับกลุ่ม: โพรคาริโอตไม่มีนิวเคลียสที่มีเยื่อหุ้ม; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae|https://naturalhistory.si.edu/research/botany/research/algae/algae-classification",
+      "Cell wall": "1",
+      "Cell wall_evidence": "อนุมานระดับกลุ่ม: เซลล์ตัวแทนมีผนังเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae|https://naturalhistory.si.edu/research/botany/research/algae/algae-classification",
+      "Chloroplast": "0",
+      "Chloroplast_evidence": "อนุมานระดับกลุ่ม: การสังเคราะห์แสงไม่ใช้คลอโรพลาสต์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae|https://naturalhistory.si.edu/research/botany/research/algae/algae-classification",
+      "Multicellular organisms": "",
+      "Multicellular organisms_evidence": "Unknown: ไม่สรุปรวมทั้งกลุ่มหรือยังไม่มีหลักฐานในขอบเขตนี้; มีทั้งเซลล์เดี่ยวและเส้นสาย ขึ้นกับนิยามจำนวนเซลล์; https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|https://openstax.org/books/microbiology/pages/5-4-algae|https://naturalhistory.si.edu/research/botany/research/algae/algae-classification"
+    },
+    "review_basis": "requested_catalog",
+    "review_sources": [
+      "https://naturalhistory.si.edu/research/botany/research/algae/algae-classification"
     ]
   }
 ]

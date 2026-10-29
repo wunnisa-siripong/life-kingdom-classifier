@@ -189,6 +189,11 @@ def run(fetch=False,promote=False):
             row['name_sources']+='|'+override['source']
             audit_record['thai_name_evidence']=override
             audit_record['after']=dict(row)
+    # Apply separately reviewed user-requested groups and names on offline replay.
+    from requested_catalog import apply_requested
+    apply_requested(rows, report)
+    added = {k: sum(a['before'] is None and a['after']['Kingdom']==k for a in report)
+             for k in sorted({r['Kingdom'] for r in rows})}
     # This is the single source of truth. build_catalog replays this snapshot only.
     snapshot=E/'curated_catalog.json'
     if snapshot.exists() and json.loads(snapshot.read_text(encoding='utf8'))!=rows and not promote:
@@ -207,7 +212,8 @@ def run(fetch=False,promote=False):
                               'GBIF accepted taxonomy is a reference backbone assertion, not universal taxonomic consensus.',
                               'No new photographs; existing licensed profiles and kingdom icons retained.',
                               'Legacy trait evidence preserved and flagged for further independent review.',
-                              'Protista/Monera expansion deferred: no safe kingdom-wide six-trait template.'])
+                              'Requested broad groups are not species or northern-Thai occurrence claims; variable traits remain unknown.',
+                              'Suk sun is a user-described local fungal material; a Scorias identification is unverified.'])
     dump(E/'summary.json',summary)
     print(json.dumps(summary,ensure_ascii=False,indent=2))
 

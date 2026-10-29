@@ -20,7 +20,7 @@ def read_catalog(path):
     if data['id'].duplicated().any(): raise ValueError('Duplicate IDs')
     if data['id'].eq('').any(): raise ValueError('Empty ID')
     unknown_name=data['scientific_name'].eq('')
-    if (unknown_name & (~data['rank'].str.contains('growth form',case=False) | data['english_name'].eq(''))).any():
+    if (unknown_name & (~data['rank'].str.contains('growth form|informal group',case=False) | data['english_name'].eq('') | data['uncertainty'].eq(''))).any():
         raise ValueError('Unexplained missing scientific name')
     if data.loc[~unknown_name,'scientific_name'].map(normalize).duplicated().any(): raise ValueError('Duplicate scientific names')
     if not set(data['Kingdom']).issubset(KINGDOMS): raise ValueError('Unexpected kingdom')

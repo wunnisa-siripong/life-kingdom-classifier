@@ -1,8 +1,8 @@
 {
   "counts": {
-    "match": 231,
+    "match": 259,
     "mismatch": 6,
-    "not_predicted_unknown": 180
+    "not_predicted_unknown": 187
   },
   "interpretation": "Reference comparison only; shared six-trait combinations are not biological identification or an independent accuracy evaluation.",
   "rows": [
@@ -4668,6 +4668,411 @@
       "id": "gbif-2599339",
       "scientific_name": "Hyphopichia burtonii",
       "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "request-crabs",
+      "scientific_name": "Brachyura",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-worms",
+      "scientific_name": "",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-jellyfish",
+      "scientific_name": "",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-corals",
+      "scientific_name": "",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-tapeworms",
+      "scientific_name": "Cestoda",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-planarians",
+      "scientific_name": "Tricladida",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-ascaris",
+      "scientific_name": "Ascaris lumbricoides",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-pinworm",
+      "scientific_name": "Enterobius vermicularis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-hookworms",
+      "scientific_name": "",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-shellfish",
+      "scientific_name": "",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-cephalopods",
+      "scientific_name": "Cephalopoda",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-insects",
+      "scientific_name": "Insecta",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-shrimps",
+      "scientific_name": "",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-spiders",
+      "scientific_name": "Araneae",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-centipedes",
+      "scientific_name": "Chilopoda",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-starfish",
+      "scientific_name": "Asteroidea",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-urchins",
+      "scientific_name": "Echinoidea",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-cucumbers",
+      "scientific_name": "Holothuroidea",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-fishes",
+      "scientific_name": "",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-amphibians",
+      "scientific_name": "Amphibia",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-frogs",
+      "scientific_name": "Anura",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-reptiles",
+      "scientific_name": "",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-snakes",
+      "scientific_name": "Serpentes",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-crocodilians",
+      "scientific_name": "Crocodylia",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-birds",
+      "scientific_name": "Aves",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-mammals",
+      "scientific_name": "Mammalia",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "request-basella",
+      "scientific_name": "Basella alba",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "request-bamboo-shoots",
+      "scientific_name": "",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "request-flowering-plants",
+      "scientific_name": "Angiosperms",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "request-fungi",
+      "scientific_name": "Fungi",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "request-molds",
+      "scientific_name": "",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "request-het-lom",
+      "scientific_name": "Russula spp.",
+      "reference": "Fungi",
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "request-suk-sun",
+      "scientific_name": "",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "request-green-algae",
+      "scientific_name": "",
+      "reference": "Protista",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Cell wall",
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "request-cyanobacteria",
+      "scientific_name": "Cyanobacteria",
+      "reference": "Monera",
       "status": "not_predicted_unknown",
       "unknown_traits": [
         "Multicellular organisms"

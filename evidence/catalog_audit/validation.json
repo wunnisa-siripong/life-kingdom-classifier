@@ -1,7 +1,7 @@
 {
   "structural_validation": "passed",
-  "total": 417,
-  "new": 300,
+  "total": 452,
+  "new": 335,
   "protected_files": {
     "organisms.csv": "53311374e7c0787131df5e81446564d0d1a5815a",
     "life_kingdom_model.joblib": "3aeef574a4c65a3de51a07b47fbd4ee4de15f2de"
@@ -98,10 +98,6 @@
     "train-50"
   ],
   "biological_verification": "Partial: legacy traits not independently reverified; new traits explicitly group-inferred or unknown",
-  "source_url_count": 887,
-  "live_link_check": {
-    "retrievable": 872,
-    "unresolved": 15,
-    "note": "Previously recorded link checks retained; not rerun by this offline validation. HTTP availability does not certify biological claims."
-  }
+  "source_url_count": 902,
+  "live_link_check": "not run"
 }

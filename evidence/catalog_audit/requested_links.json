@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-29",
+  "note": "HTTP retrieval only; taxonomy/trait scope reviewed separately in requested_catalog.py",
+  "results": [
+    {
+      "url": "https://naturalhistory.si.edu/research/botany/research/algae/algae-classification",
+      "status": "unverified",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/25-1-early-plant-life",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/25-1-early-plant-life"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/26-3-angiosperms",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/26-3-angiosperms"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/27-1-features-of-the-animal-kingdom"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/28-2-phylum-cnidaria"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/28-3-superphylum-lophotrochozoa-flatworms-rotifers-and-nemerteans"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/28-4-superphylum-lophotrochozoa-mollusks-and-annelids"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/28-7-superphylum-deuterostomia"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/29-chapter-summary",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/29-chapter-summary"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+      "status": 200,
+      "final_url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells"
+    },
+    {
+      "url": "https://openstax.org/books/microbiology/pages/5-4-algae",
+      "status": 200,
+      "final_url": "https://openstax.org/books/microbiology/pages/5-4-algae"
+    },
+    {
+      "url": "https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf",
+      "status": 200,
+      "final_url": "https://qsds.go.th/newqssccpn/wp-content/uploads/sites/99/2018/12/120.Ceylon-spinach.pdf"
+    },
+    {
+      "url": "https://www.cdc.gov/dpdx/ascariasis/index.html",
+      "status": "unverified",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.cdc.gov/dpdx/enterobiasis/index.html",
+      "status": "unverified",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.cdc.gov/dpdx/hookworm/index.html",
+      "status": "unverified",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b",
+      "status": 200,
+      "final_url": "https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b"
+    },
+    {
+      "url": "https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+      "status": 200,
+      "final_url": "https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html"
+    }
+  ]
+}

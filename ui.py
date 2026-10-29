@@ -124,6 +124,8 @@ a{color:#B7D7BA!important} [data-testid="stCaptionContainer"]{color:#b5c4b2}
 [data-testid="stBaseButton-pills"],[data-testid="stBaseButton-pillsActive"]{border-radius:30px;padding:10px 16px;border:1px solid #506754;background:#202d24;color:#cbd7c6}
 [data-testid="stBaseButton-pillsActive"]{background:#e5ede2;color:#223428;border-color:#e5ede2}
 [class*="st-key-catalog_item_"]{margin-bottom:12px}
+/* Position the widget wrapper over the card, not inside its zero-height slot. */
+.st-key-catalog_link>[data-testid="stElementContainer"]:has(>[data-testid="stButton"]),[class*="st-key-catalog_item_"]>[data-testid="stElementContainer"]:has(>[data-testid="stButton"]){position:absolute;inset:0;height:100%;z-index:1}
 @media(max-width:600px){.lk-profile{padding:18px}.lk-profile-top{gap:14px}.lk-photo{flex-basis:100px;width:100px;height:112px}.lk-profile h2{font-size:1.9rem}.lk-profile .lk-placeholder{flex-basis:86px;height:112px}.lk-feature{padding:14px 10px;gap:12px}.lk-feature strong{font-size:.86rem}.lk-profile .lk-grid{gap:10px}.lk-catalog-row{padding:14px;gap:14px}.lk-catalog-symbol{flex-basis:50px;width:50px;height:50px;border-radius:14px}.lk-catalog-symbol svg{width:28px;height:28px}.lk-catalog-row strong{font-size:1rem}.lk-catalog-row small{font-size:.82rem}.lk-flow li{gap:14px}.lk-path{padding:16px}.lk-nav-card{padding:16px}.lk-nav-card strong{font-size:1rem}.lk-path-heading{font-size:.72rem}.lk-manual-label{font-size:.9rem}.lk-manual-label>span:last-child{overflow-wrap:anywhere}}
 
 /* Final polish is scoped to biological states and result details. */

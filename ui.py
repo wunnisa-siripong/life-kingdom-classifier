@@ -4,7 +4,9 @@ from urllib.parse import urlparse, unquote
 import pandas as pd
 import streamlit as st
 from catalog import FEATURES, prediction_input
-from species import PROFILES
+import importlib
+import species
+PROFILES = importlib.reload(species).PROFILES
 
 LABELS=dict(zip(FEATURES,['ไรโบโซม','การสังเคราะห์แสง','นิวเคลียส','ผนังเซลล์','คลอโรพลาสต์','หลายเซลล์']))
 ICONS=dict(zip(FEATURES,['◉','☀','◎','▣','❋','◌']))
@@ -156,7 +158,7 @@ def feature_html(row):
 def profile(row):
     e=lambda key:escape(str(row[key]))
     info=PROFILES.get(str(row['scientific_name']))
-    visual=(f'<div class="lk-photo"><img src="{escape(info["image"],quote=True)}" alt="{escape(info["alt"],quote=True)}" loading="lazy" /></div>' if info else f'<div class="lk-placeholder" role="img" aria-label="ยังไม่มีภาพที่ตรวจสอบสิทธิ์"><span aria-hidden="true">{KINGDOM_ICONS.get(row["Kingdom"], "")}</span>ยังไม่มีภาพที่ตรวจสอบสิทธิ์</div>')
+    visual=(f'<div class="lk-photo"><img src="{escape(info["image"],quote=True)}" alt="{escape(info["alt"],quote=True)}" loading="lazy" /></div>' if info and info.get('image') else f'<div class="lk-placeholder" role="img" aria-label="ยังไม่มีภาพที่ตรวจสอบสิทธิ์"><span aria-hidden="true">{KINGDOM_ICONS.get(row["Kingdom"], "")}</span>ยังไม่มีภาพที่ตรวจสอบสิทธิ์</div>')
     bio=''
     if info:
         tags=''.join(f'<span class="lk-tag">{escape(f)}</span>' for f in info['facts'])
@@ -288,7 +290,7 @@ def evidence(row,columns):
         info=PROFILES.get(str(row['scientific_name']))
         names=reference_links(row['name_sources'].split('|'))
         biology=reference_links(row['feature_sources'].split('|')+([info['source']] if info else []))
-        photo=(reference_links([info['image_source']],info['credit'])+reference_links([info['license_url']],info['license'])+'<small>ครอปภาพเพื่อจัดวาง</small>') if info else '<small>ยังไม่มีภาพถ่ายที่ตรวจสอบสิทธิ์ ใช้ไอคอนอาณาจักรแทน</small>'
+        photo=(reference_links([info['image_source']],info['credit'])+reference_links([info['license_url']],info['license'])+'<small>ครอปภาพเพื่อจัดวาง</small>') if info and info.get('image') else '<small>ยังไม่มีภาพถ่ายที่ตรวจสอบสิทธิ์ ใช้ไอคอนอาณาจักรแทน</small>'
         sections=[('ชื่อและอนุกรมวิธาน',names,BOOK_ICON),('ข้อมูลชีววิทยา',biology,MANUAL_ICONS['Nucleus']),('เครดิตภาพ',photo,MANUAL_ICONS['Cell wall'])]
         st.markdown('<div class="lk-references">'+''.join(f'<section class="lk-reference"><span class="lk-reference-icon" aria-hidden="true">{icon}</span><div><strong>{title}</strong>{links}</div></section>' for title,links,icon in sections)+'</div>',unsafe_allow_html=True)
         with st.expander('หลักฐานและขอบเขตคุณลักษณะ',expanded=False):

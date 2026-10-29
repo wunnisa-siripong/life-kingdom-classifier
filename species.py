@@ -4,6 +4,12 @@ Image/taxon/license pages checked 2026-10-28. Images are displayed unedited
 (scaled to fit); Wikimedia hosts the originals. Spirogyra is genus-level.
 """
 PROFILES = {
+    'Scorias sp.': {
+        'description':'ซุกซุ่นเป็นชื่อท้องถิ่นของรา Scorias sp. งานวิจัยของมหาวิทยาลัยเชียงใหม่รายงานว่าเป็นราในไฟลัม Ascomycota มีเส้นใยหนา เนื้อเหนียว และมีผนังกั้นตามขวาง โคโลนีอ่อนสีเขียวอ่อนและเข้มขึ้นเมื่อแก่ ไม่ใช่พืชและไม่สังเคราะห์แสง',
+        'facts':['อาณาจักร Fungi','ระยะเส้นใยมีหลายเซลล์','ระบุระดับสกุล Scorias'],
+        'source':'https://archive.lib.cmu.ac.th/full/T/2558/micro71058sst_ch5.pdf',
+        'source_label':'คลังวิทยานิพนธ์ มหาวิทยาลัยเชียงใหม่ · บทที่ 5 หน้า 77',
+    },
     'Mangifera indica': {
         'image':'https://upload.wikimedia.org/wikipedia/commons/9/9c/Starr_071024-0216_Mangifera_indica.jpg',
         'alt':'ผลมะม่วง Mangifera indica บนต้น',

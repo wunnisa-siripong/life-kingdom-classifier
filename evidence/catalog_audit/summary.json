@@ -14,7 +14,7 @@
   "thai_total": 258,
   "thai_blank": 194,
   "existing_unresolved": 15,
-  "unknown_cells": 310,
+  "unknown_cells": 309,
   "legacy_traits_not_independently_reverified": 117,
   "limitations": [
     "GBIF occurrence reports are not a native checklist or province-level confirmation.",
@@ -22,6 +22,6 @@
     "No new photographs; existing licensed profiles and kingdom icons retained.",
     "Legacy trait evidence preserved and flagged for further independent review.",
     "Requested broad groups are not species or northern-Thai occurrence claims; variable traits remain unknown.",
-    "Suk sun is a user-described local fungal material; a Scorias identification is unverified."
+    "Suk sun is Scorias sp. following CMU thesis p.77; septate vegetative mycelium is multicellular, conidia are not the scoped stage."
   ]
 }

@@ -213,7 +213,7 @@ def run(fetch=False,promote=False):
                               'No new photographs; existing licensed profiles and kingdom icons retained.',
                               'Legacy trait evidence preserved and flagged for further independent review.',
                               'Requested broad groups are not species or northern-Thai occurrence claims; variable traits remain unknown.',
-                              'Suk sun is a user-described local fungal material; a Scorias identification is unverified.'])
+                              'Suk sun is Scorias sp. following CMU thesis p.77; septate vegetative mycelium is multicellular, conidia are not the scoped stage.'])
     dump(E/'summary.json',summary)
     print(json.dumps(summary,ensure_ascii=False,indent=2))
 

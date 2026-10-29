@@ -57,13 +57,22 @@ class CatalogueTests(unittest.TestCase):
             with self.subTest(query=q): self.assertFalse(search(self.data,q).empty)
         for q,expected in [('คน','Homo sapiens'),('ไฮดรา','Hydra spp.'),('ยูกลีนา','Euglena gracilis')]:
             self.assertEqual(search(self.data,q).iloc[0].scientific_name,expected)
-        for q in ['หน่อไม้','ซุกซุ่น','เชื้อรา','รา','สาหร่ายสีเขียว','สาหร่ายสีเขียว น้ำเงิน','พืชดอก']:
+        for q in ['หน่อไม้','เชื้อรา','รา','สาหร่ายสีเขียว','สาหร่ายสีเขียว น้ำเงิน','พืชดอก']:
             with self.subTest(unknown_group=q):
                 row=search(self.data,q).iloc[0]
                 self.assertTrue(row[FEATURES].isna().any())
                 with self.assertRaises(ValueError): prediction_input(row,self.package['features'])
-        self.assertEqual(search(self.data,'ซุกซุ่น').iloc[0].scientific_name,'')
-        self.assertIn('ยังไม่มีหลักฐาน',search(self.data,'ซุกซุ่น').iloc[0].scope)
+        suk=search(self.data,'ซุกซุ่น').iloc[0]
+        self.assertEqual(suk.scientific_name,'Scorias sp.')
+        self.assertEqual(list(suk[FEATURES]),[1,0,1,1,0,1])
+        self.assertIn('ผนังกั้นตามขวาง',suk.scope)
+        self.assertEqual(self.package['model'].predict(prediction_input(suk,self.package['features']))[0],'Fungi')
+        app=AppTest.from_file(str(BASE/'streamlit_app.py'),default_timeout=20)
+        app.session_state['view']='profile'
+        app.session_state['selected_id']=suk.id
+        app.run()
+        self.assertEqual(len(app.exception),0)
+        self.assertTrue(any('รู้จักสิ่งมีชีวิตชนิดนี้' in m.value and 'Scorias sp.' in m.value for m in app.markdown))
         from requested_catalog import apply_requested
         for _,row in self.data[self.data.id.str.startswith('request-')].iterrows():
             for f in FEATURES: self.assertNotIn('|https://',row[f+'_evidence'])

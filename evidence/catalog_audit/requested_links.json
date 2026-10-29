@@ -96,6 +96,13 @@
       "url": "https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
       "status": 200,
       "final_url": "https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html"
+    },
+    {
+      "url": "https://archive.lib.cmu.ac.th/full/T/2558/micro71058sst_ch5.pdf",
+      "status": 200,
+      "reviewed_page": 77,
+      "sha256": "3bbab042976b5c96b882331584b5aa48b40b3429d3764fd8e8ff668aa648cf11",
+      "review_note": "CMU thesis explicitly names suk sun as Scorias sp. and describes transverse septa; vegetative mycelium scoped separately from single-cell conidia."
     }
   ]
 }

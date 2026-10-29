@@ -1,0 +1,62 @@
+{
+  "id": "gbif-11987476",
+  "description": "Scolecobasidium cordanae เป็นราตามระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Scolecobasidium cordanae วงศ์ Sympoventuriaceae อันดับ Venturiales ชั้น Dothideomycetes ข้อมูลลักษณะทั้ง 6 ข้อด้านล่างใช้ระยะชีวิตและชนิดเซลล์ตามขอบเขตของรายการ",
+  "facts": [
+    "ข้อมูลระดับชนิด",
+    "วงศ์ Sympoventuriaceae",
+    "อาณาจักร Fungi"
+  ],
+  "source": "https://api.gbif.org/v1/species/11987476",
+  "source_label": "แหล่งอ้างอิงชื่อและชีววิทยาของรายการ",
+  "taxonomy": {
+    "key": 11987476,
+    "nubKey": 11987476,
+    "nameKey": 130285196,
+    "taxonID": "gbif:11987476",
+    "sourceTaxonKey": 210319941,
+    "kingdom": "Fungi",
+    "phylum": "Ascomycota",
+    "order": "Venturiales",
+    "family": "Sympoventuriaceae",
+    "genus": "Scolecobasidium",
+    "species": "Scolecobasidium cordanae",
+    "kingdomKey": 5,
+    "phylumKey": 95,
+    "classKey": 183,
+    "orderKey": 7446671,
+    "familyKey": 8206374,
+    "genusKey": 2589570,
+    "speciesKey": 11987476,
+    "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+    "constituentKey": "7ddf754f-d193-4cc9-b351-99906754a03b",
+    "parentKey": 2589570,
+    "parent": "Scolecobasidium",
+    "basionymKey": 8148210,
+    "basionym": "Ochroconis cordanae Samerp., Crous & de Hoog",
+    "scientificName": "Scolecobasidium cordanae (Samerp., Crous & de Hoog) Crous, M.Shen & Y.Zhang ter",
+    "canonicalName": "Scolecobasidium cordanae",
+    "authorship": "(Samerp., Crous & de Hoog) Crous, M.Shen & Y.Zhang ter",
+    "nameType": "SCIENTIFIC",
+    "rank": "SPECIES",
+    "origin": "SOURCE",
+    "taxonomicStatus": "ACCEPTED",
+    "nomenclaturalStatus": [],
+    "remarks": "",
+    "publishedIn": "(2020). In Shen, Zhang, Zhao, Groenewald, Crous & Zhang, Stud. Mycol. 96: 210.",
+    "numDescendants": 2,
+    "lastCrawled": "2023-08-22T23:20:59.545+00:00",
+    "lastInterpreted": "2023-08-22T22:57:23.539+00:00",
+    "issues": [
+      "ORIGINAL_NAME_DERIVED"
+    ],
+    "class": "Dothideomycetes"
+  },
+  "image_caption": "ภาพ Scolecobasidium cordanae",
+  "errors": [
+    "commons: HTTP Error 429: Too Many Requests"
+  ],
+  "review_status": "image missing",
+  "verified_on": "2026-10-29",
+  "review_locked": true,
+  "visual_review": "No approved organism image. Label-only images, graphs and wrong-subject figures are not used."
+}

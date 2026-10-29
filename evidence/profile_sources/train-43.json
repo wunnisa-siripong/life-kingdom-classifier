@@ -1,0 +1,34 @@
+{
+  "id": "train-43",
+  "description": "Bacillus sp เป็นมอเนอราตามระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Bacillus sp. ข้อมูลลักษณะทั้ง 6 ข้อด้านล่างใช้ระยะชีวิตและชนิดเซลล์ตามขอบเขตของรายการ",
+  "facts": [
+    "ข้อมูลระดับกลุ่ม",
+    "อาณาจักร Monera"
+  ],
+  "source": "https://ncbi.nlm.nih.gov/sites/books/NBK7699/",
+  "source_label": "แหล่งอ้างอิงชื่อและชีววิทยาของรายการ",
+  "taxonomy": {},
+  "image_caption": "ภาพตัวอย่างในกลุ่ม Bacillus sp.",
+  "errors": [],
+  "review_status": "source-matched image; visual review pending",
+  "verified_on": "2026-10-29",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Bacillus_subtilis_Gram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "image_source": "https://commons.wikimedia.org/wiki/File:Bacillus_subtilis_Gram.jpg",
+  "credit": "Y tambe (original uploader)",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "image_taxon": "Bacillus",
+  "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ABacillus_subtilis_Gram.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+  "encyclopedia_url": "https://en.wikipedia.org/wiki/Bacillus",
+  "encyclopedia_excerpt": "Bacillus, from Latin \"bacillus\", meaning \"little staff, wand\", is a genus of Gram-positive, rod-shaped bacteria, a member of the phylum Bacillota, with 266 named species. The term is also used to describe the shape (rod) of other so-shaped bacteria; and the plural Bacilli is the name of the class of bacteria to which this genus belongs. Bacillus species can be either obligate aerobes which are dependent on oxygen, or facultative anaerobes which can survive in the absence of oxygen. Cultured Bacillus species test positive for the enzyme catalase if oxygen has been used or is present.",
+  "image_description": "microscopic image of Bacillus subtilis (ATCC 6633). Gram staining, magnification:1,000. The oval unstained structures are spores.",
+  "image_local": "assets/species/train-43.jpg",
+  "image_size": [
+    500,
+    375
+  ],
+  "alt": "ภาพตัวอย่างในกลุ่ม Bacillus sp.",
+  "image_changes": "ย่อขนาดและแปลงเป็น JPEG โดยรักษาสัดส่วน ไม่ครอป",
+  "review_locked": true,
+  "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification."
+}

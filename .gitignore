@@ -225,3 +225,6 @@ preview_results.txt
 evidence/ui_preview/mobile.html
 whitespace_check.txt
 final_validation_output.txt
+# Bulk discovery responses stay local; chosen image/taxon/credit evidence is tracked per ID.
+evidence/profile_sources/[0-9a-f]*.json
+evidence/profile_sources/PMC*.xml

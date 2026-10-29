@@ -25,6 +25,38 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(len(set(self.data.apply(option_label,axis=1))),len(self.data))
         self.assertTrue(self.data[FEATURES].isna().any().any())
         for f in FEATURES: self.assertTrue(self.data[f+'_evidence'].str.len().gt(0).all())
+
+    def test_sourced_profiles_and_images(self):
+        from PIL import Image
+        from species import profile_for
+        import urllib.parse
+        coverage=json.loads((BASE/'evidence/profile_coverage.json').read_text(encoding='utf8'))
+        missing=[];images=0
+        for _,row in self.data.iterrows():
+            with self.subTest(profile=row.id):
+                info=profile_for(row)
+                self.assertIsNotNone(info)
+                self.assertGreater(len(info['description']),60)
+                self.assertGreaterEqual(len(info['facts']),2)
+                self.assertTrue(info['source'].startswith('https://'))
+                if not info.get('image_local') and not info.get('image'):
+                    missing.append(row.id);continue
+                images+=1
+                for key in ['credit','license','license_url','image_source','alt']:self.assertTrue(info[key])
+                self.assertIn(urllib.parse.urlparse(info['license_url']).scheme,['http','https'])
+                self.assertTrue(info['license_url'].startswith('https://'))
+                if info.get('image_local'):
+                    path=BASE/info['image_local']
+                    self.assertTrue(path.is_file())
+                    self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),info['image_sha256'])
+                    with Image.open(path) as im:im.verify()
+        self.assertEqual(coverage['profiles'],len(self.data))
+        self.assertEqual(coverage['images'],images)
+        self.assertEqual(set(coverage['missing_images']),set(missing))
+        for q in ['หน่อไม้','เห็ดหล่ม','ซุกซุ่น']:
+            info=profile_for(search(self.data,q).iloc[0])
+            self.assertTrue(info.get('image_local') or info.get('image'))
+            self.assertGreater(len(info['description']),120)
     def test_names(self):
         for q in ['มะม่วง','MANGO','mAnGiFeRa   indica','มะม่วงสวน']:
             self.assertEqual(search(self.data,q).iloc[0].scientific_name,'Mangifera indica')
@@ -57,7 +89,7 @@ class CatalogueTests(unittest.TestCase):
             with self.subTest(query=q): self.assertFalse(search(self.data,q).empty)
         for q,expected in [('คน','Homo sapiens'),('ไฮดรา','Hydra spp.'),('ยูกลีนา','Euglena gracilis')]:
             self.assertEqual(search(self.data,q).iloc[0].scientific_name,expected)
-        for q in ['หน่อไม้','เชื้อรา','รา','สาหร่ายสีเขียว','สาหร่ายสีเขียว น้ำเงิน','พืชดอก']:
+        for q in ['เชื้อรา','รา','สาหร่ายสีเขียว','สาหร่ายสีเขียว น้ำเงิน','พืชดอก']:
             with self.subTest(unknown_group=q):
                 row=search(self.data,q).iloc[0]
                 self.assertTrue(row[FEATURES].isna().any())
@@ -67,6 +99,9 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(list(suk[FEATURES]),[1,0,1,1,0,1])
         self.assertIn('ผนังกั้นตามขวาง',suk.scope)
         self.assertEqual(self.package['model'].predict(prediction_input(suk,self.package['features']))[0],'Fungi')
+        bamboo=search(self.data,'หน่อไม้').iloc[0]
+        self.assertEqual(list(bamboo[FEATURES]),[1,1,1,1,1,1])
+        self.assertIn('ต้นระยะมีใบสีเขียว',bamboo.scope)
         app=AppTest.from_file(str(BASE/'streamlit_app.py'),default_timeout=20)
         app.session_state['view']='profile'
         app.session_state['selected_id']=suk.id

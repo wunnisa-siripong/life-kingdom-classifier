@@ -6,7 +6,7 @@ import streamlit as st
 from catalog import FEATURES, prediction_input
 import importlib
 import species
-PROFILES = importlib.reload(species).PROFILES
+profile_for = importlib.reload(species).profile_for
 
 LABELS=dict(zip(FEATURES,['ไรโบโซม','การสังเคราะห์แสง','นิวเคลียส','ผนังเซลล์','คลอโรพลาสต์','หลายเซลล์']))
 ICONS=dict(zip(FEATURES,['◉','☀','◎','▣','❋','◌']))
@@ -157,12 +157,17 @@ def feature_html(row):
 
 def profile(row):
     e=lambda key:escape(str(row[key]))
-    info=PROFILES.get(str(row['scientific_name']))
-    visual=(f'<div class="lk-photo"><img src="{escape(info["image"],quote=True)}" alt="{escape(info["alt"],quote=True)}" loading="lazy" /></div>' if info and info.get('image') else f'<div class="lk-placeholder" role="img" aria-label="ยังไม่มีภาพที่ตรวจสอบสิทธิ์"><span aria-hidden="true">{KINGDOM_ICONS.get(row["Kingdom"], "")}</span>ยังไม่มีภาพที่ตรวจสอบสิทธิ์</div>')
+    info=profile_for(row)
+    if info and info.get('image_local'):
+        import base64
+        from pathlib import Path
+        info=dict(info,image='data:'+info.get('image_mime','image/jpeg')+';base64,'+base64.b64encode((Path(__file__).resolve().parent/info['image_local']).read_bytes()).decode('ascii'))
+    visual=(f'<a class="lk-photo" href="{escape(info["image_source"],quote=True)}" target="_blank" rel="noopener noreferrer" aria-label="เปิดภาพต้นฉบับพร้อมเครดิต"><img src="{escape(info["image"],quote=True)}" alt="{escape(info["alt"],quote=True)}" loading="lazy" /></a>' if info and info.get('image') else f'<div class="lk-placeholder" role="img" aria-label="ยังไม่มีภาพที่ตรวจสอบสิทธิ์"><span aria-hidden="true">{KINGDOM_ICONS.get(row["Kingdom"], "")}</span>ยังไม่มีภาพที่ตรวจสอบสิทธิ์</div>')
     bio=''
     if info:
         tags=''.join(f'<span class="lk-tag">{escape(f)}</span>' for f in info['facts'])
-        bio=f'<div class="lk-profile-bio"><h3>รู้จักสิ่งมีชีวิตชนิดนี้</h3><p>{escape(info["description"])}</p><div class="lk-tags">{tags}</div></div>'
+        caption=('<p><small>'+escape(info['image_caption'])+'</small></p>') if info.get('image_caption') and (info.get('image') or info.get('image_local')) else ''
+        bio=f'<div class="lk-profile-bio"><h3>รู้จักสิ่งมีชีวิตชนิดนี้</h3><p>{escape(info["description"])}</p><div class="lk-tags">{tags}</div>{caption}</div>'
     st.markdown(f"""<section class="lk-profile" aria-label="Species Profile"><div class="lk-profile-top"><div class="lk-profile-names"><div class="lk-kicker">SPECIES PROFILE</div><h2>{escape(row['thai_name'] or row['english_name'] or row['scientific_name'])}</h2><p><i>{e('scientific_name')}</i></p><p>{e('english_name')} · อาณาจักร{escape(KINGDOM_TH[row['Kingdom']])}</p></div>{visual}</div>{bio}<h3>ลักษณะทางชีววิทยา</h3>{feature_html(row)}</section>""",unsafe_allow_html=True)
 
 def feature_cards(row):
@@ -287,10 +292,10 @@ def reference_links(urls, label=None):
 
 def evidence(row,columns):
     with st.expander('แหล่งอ้างอิงและเครดิตภาพ',expanded=False):
-        info=PROFILES.get(str(row['scientific_name']))
+        info=profile_for(row)
         names=reference_links(row['name_sources'].split('|'))
-        biology=reference_links(row['feature_sources'].split('|')+([info['source']] if info else []))
-        photo=(reference_links([info['image_source']],info['credit'])+reference_links([info['license_url']],info['license'])+'<small>ครอปภาพเพื่อจัดวาง</small>') if info and info.get('image') else '<small>ยังไม่มีภาพถ่ายที่ตรวจสอบสิทธิ์ ใช้ไอคอนอาณาจักรแทน</small>'
+        biology=reference_links(row['feature_sources'].split('|')+([info['source']]+info.get('biology_sources',[]) if info else []))
+        photo=(reference_links([info['image_source']],info['credit'])+reference_links([info['license_url']],info['license'])+'<small>'+escape(info.get('image_caption',''))+'</small><small>'+escape(info.get('image_changes','แสดงภาพโดยรักษาสัดส่วน'))+'</small>') if info and (info.get('image') or info.get('image_local')) else '<small>ยังไม่มีภาพถ่ายที่ตรวจสอบสิทธิ์ ใช้ไอคอนอาณาจักรแทน</small>'
         sections=[('ชื่อและอนุกรมวิธาน',names,BOOK_ICON),('ข้อมูลชีววิทยา',biology,MANUAL_ICONS['Nucleus']),('เครดิตภาพ',photo,MANUAL_ICONS['Cell wall'])]
         st.markdown('<div class="lk-references">'+''.join(f'<section class="lk-reference"><span class="lk-reference-icon" aria-hidden="true">{icon}</span><div><strong>{title}</strong>{links}</div></section>' for title,links,icon in sections)+'</div>',unsafe_allow_html=True)
         with st.expander('หลักฐานและขอบเขตคุณลักษณะ',expanded=False):

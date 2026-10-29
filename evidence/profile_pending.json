@@ -1,0 +1,182 @@
+[
+  {
+    "id": "gbif-1650497",
+    "scientific_name": "Anopheles vagus",
+    "reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/1650497",
+      "https://api.gbif.org/v1/species/1650497/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=216&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-9739824",
+    "scientific_name": "Saitozyma podzolica",
+    "reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/9739824",
+      "https://api.gbif.org/v1/species/9739824/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-11738943",
+    "scientific_name": "Russula pseudocyanoxantha",
+    "reason": "ยังไม่พบภาพที่ตรวจว่าตรงชนิดและมีเงื่อนไขการใช้ภาพที่ยืนยันได้จากแหล่งปฐมภูมิ",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/11738943",
+      "https://api.gbif.org/v1/species/11738943/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-10742558",
+    "scientific_name": "Lactifluus gerardiellus",
+    "reason": "ยังไม่พบภาพที่ตรวจว่าตรงชนิดและมีเงื่อนไขการใช้ภาพที่ยืนยันได้จากแหล่งปฐมภูมิ",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/10742558",
+      "https://api.gbif.org/v1/species/10742558/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-11581860",
+    "scientific_name": "Russula byssina",
+    "reason": "พบ URL ภาพจากพิพิธภัณฑ์ MNHN แต่ต้นทางตอบ 403 จึงยังตรวจภาพจริงไม่ได้",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/11581860",
+      "https://api.gbif.org/v1/species/11581860/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-9791807",
+    "scientific_name": "Bifiguratus adelaidae",
+    "reason": "พบภาพใน accepted manuscript ของ OSTI แต่ยังยืนยันเงื่อนไขสิทธิ์จากแหล่งปฐมภูมิไม่ได้ ไม่ใช้ข้อมูลใบอนุญาตจากตัวรวบรวมเพียงแห่งเดียว",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/9791807",
+      "https://api.gbif.org/v1/species/9791807/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-8296805",
+    "scientific_name": "Basidioascus magus",
+    "reason": "Visually checked: label or specimen envelope only, no organism visible. Not shown as an organism photograph.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/8296805",
+      "https://api.gbif.org/v1/species/8296805/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-9755839",
+    "scientific_name": "Solicoccozyma terricola",
+    "reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/9755839",
+      "https://api.gbif.org/v1/species/9755839/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-5252097",
+    "scientific_name": "Fusarium buharicum",
+    "reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/5252097",
+      "https://api.gbif.org/v1/species/5252097/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-3545360",
+    "scientific_name": "Gymnostellatospora japonica",
+    "reason": "ยังไม่พบภาพที่ตรวจว่าตรงชนิดและมีเงื่อนไขการใช้ภาพที่ยืนยันได้จากแหล่งปฐมภูมิ",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/3545360",
+      "https://api.gbif.org/v1/species/3545360/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-5251371",
+    "scientific_name": "Trichoderma pubescens",
+    "reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/5251371",
+      "https://api.gbif.org/v1/species/5251371/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-2614118",
+    "scientific_name": "Didymella exigua",
+    "reason": "Visually checked: label or specimen envelope only, no organism visible. Not shown as an organism photograph.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/2614118",
+      "https://api.gbif.org/v1/species/2614118/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-9814473",
+    "scientific_name": "Apiotrichum dehoogii",
+    "reason": "ยังไม่พบภาพที่ตรวจว่าตรงชนิดและมีเงื่อนไขการใช้ภาพที่ยืนยันได้จากแหล่งปฐมภูมิ",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/9814473",
+      "https://api.gbif.org/v1/species/9814473/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-7713104",
+    "scientific_name": "Lactifluus pseudoluteopus",
+    "reason": "Visually checked: label or specimen envelope only, no organism visible. Not shown as an organism photograph.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/7713104",
+      "https://api.gbif.org/v1/species/7713104/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-2573550",
+    "scientific_name": "Humicola nigrescens",
+    "reason": "Visual review: chart/workflow/phylogenetic comparison or image of another strain, not a verified photograph of this organism.",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/2573550",
+      "https://api.gbif.org/v1/species/2573550/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-3473983",
+    "scientific_name": "Exophiala nishimurae",
+    "reason": "พบภาพวาดสัณฐานวิทยาในงานวิจัยปี 2002 แต่ยังไม่ยืนยันสิทธิ์นำภาพนั้นมาเผยแพร่ซ้ำ",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/3473983",
+      "https://api.gbif.org/v1/species/3473983/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-10711232",
+    "scientific_name": "Niesslia ligustica",
+    "reason": "ยังไม่พบภาพที่ตรวจว่าตรงชนิดและมีเงื่อนไขการใช้ภาพที่ยืนยันได้จากแหล่งปฐมภูมิ",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/10711232",
+      "https://api.gbif.org/v1/species/10711232/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  },
+  {
+    "id": "gbif-11987476",
+    "scientific_name": "Scolecobasidium cordanae",
+    "reason": "ยังไม่พบภาพที่ตรวจว่าตรงชนิดและมีเงื่อนไขการใช้ภาพที่ยืนยันได้จากแหล่งปฐมภูมิ",
+    "source_urls": [
+      "https://api.gbif.org/v1/species/11987476",
+      "https://api.gbif.org/v1/species/11987476/vernacularNames?limit=1000",
+      "https://api.gbif.org/v1/occurrence/search?country=TH&taxon_key=5&decimalLatitude=17,21&decimalLongitude=97,101.5&limit=0&facet=speciesKey&facetLimit=350"
+    ]
+  }
+]

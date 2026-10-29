@@ -1,8 +1,8 @@
 {
   "counts": {
-    "match": 260,
+    "match": 261,
     "mismatch": 6,
-    "not_predicted_unknown": 186
+    "not_predicted_unknown": 185
   },
   "interpretation": "Reference comparison only; shared six-trait combinations are not biological identification or an independent accuracy evaluation.",
   "rows": [
@@ -5002,10 +5002,13 @@
       "id": "request-bamboo-shoots",
       "scientific_name": "",
       "reference": "Plantae",
-      "status": "not_predicted_unknown",
-      "unknown_traits": [
-        "Photosynthesis",
-        "Chloroplast"
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
       ]
     },
     {

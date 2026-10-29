@@ -1,0 +1,31 @@
+{
+  "id": "request-bamboo-shoots",
+  "description": "",
+  "facts": [
+    "หน่ออ่อนของไผ่",
+    "วงศ์ Poaceae"
+  ],
+  "source": "https://www.hkzbg.gov.hk/en/plants/thematic/bamboo.html",
+  "source_label": "Hong Kong Zoological and Botanical Gardens",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bamboo_shoots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "image_local": "assets/species/request-bamboo-shoots.jpg",
+  "image_size": [
+    675,
+    900
+  ],
+  "image_source": "https://commons.wikimedia.org/wiki/File:Bamboo_shoots.jpg",
+  "image_taxon": "Bamboo shoots (Bambusoideae; species unspecified)",
+  "image_caption": "ภาพหน่อไม้ ระบุระดับกลุ่มไผ่ ไม่ระบุชนิด",
+  "alt": "หน่ออ่อนของไผ่",
+  "credit": "Fumikas Sagisavas",
+  "license": "CC0 1.0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ABamboo+shoots.jpg&prop=imageinfo&iiprop=url%7Cextmetadata",
+  "image_description": "Bamboo shoots",
+  "taxonomy": {},
+  "review_status": "source-matched image; visual review pending",
+  "verified_on": "2026-10-29",
+  "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน ไม่ครอป",
+  "review_locked": true,
+  "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification."
+}

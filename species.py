@@ -1,9 +1,21 @@
-"""Small, sourced profile overlay; never modifies catalogue traits or predictions.
+"""Sourced profiles; image rights and taxonomy remain auditable per catalogue ID.
 
 Image/taxon/license pages checked 2026-10-28. Images are displayed unedited
 (scaled to fit); Wikimedia hosts the originals. Spirogyra is genus-level.
 """
 PROFILES = {
+    'catalog:request-bamboo-shoots': {
+        'description':'หน่อไม้คือหน่ออ่อนของไผ่ ซึ่งเป็นพืชในวงศ์หญ้า (Poaceae) ไม่ใช่สิ่งมีชีวิตคนละชนิดกับต้นไผ่ หน่อที่กำลังยืดตัวได้รับสารอาหารจากต้นแม่ผ่านเหง้า ส่วนใบสีเขียวของต้นไผ่มีคลอโรพลาสต์และสังเคราะห์แสงได้ ค่าทั้ง 6 ข้อในหน้านี้ใช้ต้นไผ่ระยะมีใบสีเขียวเป็นตัวแทน จึงไม่หมายความว่าหน่อใต้ดินทุกเซลล์สังเคราะห์แสงได้',
+        'facts':['วงศ์ Poaceae','หน่ออ่อนของต้นไผ่','ประเมินต้นไผ่ระยะมีใบสีเขียว'],
+        'source':'https://www.nature.com/articles/srep25908',
+        'source_label':'Scientific Reports · การส่งคาร์โบไฮเดรตจากต้นแม่สู่หน่อไผ่',
+    },
+    'Russula spp.': {
+        'description':'เห็ดหล่มเป็นชื่อท้องถิ่นที่ใช้กับเห็ดหลายชนิดในสกุล Russula ไม่ใช่ชื่อของชนิดเดียว งานวิจัยมหาวิทยาลัยเชียงใหม่แยกเห็ดหล่มหลังขาวและหลังเขียวเป็นคนละชนิดด้วยข้อมูลสัณฐานวิทยาและดีเอ็นเอ เห็ดกลุ่มนี้อยู่ในอาณาจักร Fungi ไม่มีคลอโรพลาสต์ และไม่สังเคราะห์แสง ค่าหลายเซลล์ในหน้านี้หมายถึงระยะเส้นใยและดอกเห็ด',
+        'facts':['สกุล Russula','ชื่อท้องถิ่นครอบคลุมหลายชนิด','ระยะเส้นใยและดอกเห็ดหลายเซลล์'],
+        'source':'https://www.cmu.ac.th/th/article/0ca5b227-e1e2-448c-88f4-cdd6cf1b5f0b',
+        'source_label':'มหาวิทยาลัยเชียงใหม่ · งานวิจัยเห็ดหล่มหลังขาวและหลังเขียว',
+    },
     'Scorias sp.': {
         'description':'ซุกซุ่นเป็นชื่อท้องถิ่นของรา Scorias sp. งานวิจัยของมหาวิทยาลัยเชียงใหม่รายงานว่าเป็นราในไฟลัม Ascomycota มีเส้นใยหนา เนื้อเหนียว และมีผนังกั้นตามขวาง โคโลนีอ่อนสีเขียวอ่อนและเข้มขึ้นเมื่อแก่ ไม่ใช่พืชและไม่สังเคราะห์แสง',
         'facts':['อาณาจักร Fungi','ระยะเส้นใยมีหลายเซลล์','ระบุระดับสกุล Scorias'],
@@ -47,3 +59,19 @@ PROFILES = {
         'source_label':'JIRCAS · สาหร่ายน้ำจืดในประเทศไทย',
     },
 }
+
+# Generated source-matched photos/basic profiles, supplemented by reviewed Thai text.
+import json
+from pathlib import Path
+_profile_path=Path(__file__).resolve().parent/'organism_profiles.json'
+PROFILE_BY_ID=json.loads(_profile_path.read_text(encoding='utf8')) if _profile_path.exists() else {}
+
+def profile_for(row):
+    generated=dict(PROFILE_BY_ID.get(str(row['id']),{}))
+    reviewed=PROFILES.get('catalog:'+str(row['id'])) or PROFILES.get(str(row['scientific_name'])) or {}
+    if reviewed.get('image') and not (generated.get('reviewed_image_cached') and generated.get('image_original')==reviewed['image']):
+        # Preserve approved existing images together with their own matching credits.
+        for key in ['image_local','image_caption','image_changes','image_taxon']:
+            generated.pop(key,None)
+    generated.update(reviewed)
+    return generated or None

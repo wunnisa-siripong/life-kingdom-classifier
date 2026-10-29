@@ -1,0 +1,72 @@
+{
+  "id": "train-37",
+  "description": "Trichomonas vaginalis เป็นโพรทิสตาตามระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Trichomonas vaginalis วงศ์ Trichomonadidae อันดับ Trichomonadida ชั้น Trichomonadea ข้อมูลลักษณะทั้ง 6 ข้อด้านล่างใช้ระยะชีวิตและชนิดเซลล์ตามขอบเขตของรายการ",
+  "facts": [
+    "ข้อมูลระดับชนิด",
+    "วงศ์ Trichomonadidae",
+    "อาณาจักร Protista"
+  ],
+  "source": "https://www.cdc.gov/dpdx/trichomoniasis/",
+  "source_label": "แหล่งอ้างอิงชื่อและชีววิทยาของรายการ",
+  "taxonomy": {
+    "key": 221822017,
+    "nameKey": 17658248,
+    "taxonID": "1041291",
+    "kingdom": "Protozoa",
+    "phylum": "Metamonada",
+    "order": "Trichomonadida",
+    "family": "Trichomonadidae",
+    "genus": "Trichomonas",
+    "species": "Trichomonas vaginalis",
+    "kingdomKey": 221812255,
+    "phylumKey": 221821983,
+    "classKey": 221821999,
+    "orderKey": 252095432,
+    "familyKey": 252095433,
+    "genusKey": 221822014,
+    "speciesKey": 221822017,
+    "datasetKey": "0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6",
+    "parentKey": 221822014,
+    "parent": "Trichomonas",
+    "scientificName": "Trichomonas vaginalis (Donné, 1836)",
+    "canonicalName": "Trichomonas vaginalis",
+    "authorship": "(Donné, 1836) ",
+    "nameType": "SCIENTIFIC",
+    "rank": "SPECIES",
+    "origin": "SOURCE",
+    "taxonomicStatus": "ACCEPTED",
+    "nomenclaturalStatus": [],
+    "numDescendants": 0,
+    "references": "https://taxref.mnhn.fr/taxref-web/taxa/1041291",
+    "lastCrawled": "2025-03-14T12:19:09.957+00:00",
+    "lastInterpreted": "2025-03-14T12:41:41.576+00:00",
+    "issues": [
+      "SCIENTIFIC_NAME_ASSEMBLED",
+      "BACKBONE_MATCH_NONE"
+    ],
+    "class": "Trichomonadea"
+  },
+  "image_caption": "ภาพ Trichomonas vaginalis",
+  "errors": [
+    "commons: HTTP Error 429: Too Many Requests"
+  ],
+  "review_status": "source-matched image; visual review pending",
+  "verified_on": "2026-10-29",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Trichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg",
+  "image_local": "assets/species/train-37.jpg",
+  "image_size": [
+    900,
+    581
+  ],
+  "image_source": "https://commons.wikimedia.org/wiki/File:Trichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg",
+  "image_taxon": "Trichomonas vaginalis",
+  "alt": "ภาพ Trichomonas vaginalis",
+  "credit": "Geovane Dias-Lopes1 , Leonardo Saboia-Vahia2, Eliane Trindade Margotti3 , Nilma de Souza Fernandes3 , Cássia Luana de Faria Castro4 , Francisco Odencio Oliveira-Junior5 , Juliana Figueiredo Peixoto1 , Constança Britto1 , Fernando Costa e Silva-Filho6 , Patricia Cuervo2, José Batista de Jesus1,3/ + 1 Fundação Oswaldo Cruz-Fiocruz, Instituto Oswaldo Cruz, Laboratório de Biologia Molecular e Doenças Endêmicas, Rio de Janeiro, RJ, Brasil 2 Fundação Oswaldo Cruz-Fiocruz, Instituto Oswaldo Cruz, Laboratório de Pesquisa em Leishmanioses, Rio de Janeiro, RJ, Brasil 3 Universidade Federal de São João Del Rei, Faculdade de Medicina, Departamento de Medicina, São João Del Rei, MG, Brasil 4 Instituto de Ensino Superior Presidente Tancredo de Almeida Neves, São João Del Rei, MG, Brasil 5 Fundação Oswaldo Cruz-Fiocruz, Instituto Oswaldo Cruz, Laboratório de Ultraestrutura Celular, Rio de Janeiro, RJ, Brasil 6 Universidade Estadual do Norte Fluminense Darcy Ribeiro, Centro de Biociências e Biotecnologia, Laboratório de Biologia Celular e Tecidual, Rio de Janeiro, RJ, Brasil",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAnabaena_sperica2.jpg%7CFile%3AHydra-Foto.jpg%7CFile%3ASinosauropteryxfossil.jpg%7CFile%3ACyanidioschyzon_merolae_10D.jpg%7CFile%3ATrichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg%7CFile%3ACladiella.JPG%7CFile%3AChthamalus_stellatus.jpg%7CFile%3APairedmoths.jpg%7CFile%3AHeterocarpus_ensifer.jpg%7CFile%3AAraneus_diadematus_%28Clerck%2C_1757%29.JPG%7CFile%3ABalantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg%7CFile%3ATWC_Wildlife_Centre%E2%80%A2_Stewart_Nimmo_%E2%80%A2_MRD_8910.jpg%7CFile%3AMold_on_a_strawberry.jpg%7CFile%3AGreen_algae.png&prop=imageinfo&iiprop=url%7Cextmetadata",
+  "image_description": "Trichomonas vaginalis observed by scanning electron microscopy",
+  "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน ไม่ครอป",
+  "review_locked": true,
+  "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification."
+}

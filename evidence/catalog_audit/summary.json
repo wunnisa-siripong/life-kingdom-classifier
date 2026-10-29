@@ -14,7 +14,7 @@
   "thai_total": 258,
   "thai_blank": 194,
   "existing_unresolved": 15,
-  "unknown_cells": 309,
+  "unknown_cells": 307,
   "legacy_traits_not_independently_reverified": 117,
   "limitations": [
     "GBIF occurrence reports are not a native checklist or province-level confirmation.",

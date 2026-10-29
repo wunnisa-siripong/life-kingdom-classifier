@@ -1,0 +1,62 @@
+{
+  "id": "train-28",
+  "description": "Dinosaur เป็นสัตว์ตามระบบ 5 อาณาจักรของโครงงาน ใช้ชื่อ Dinosauria อันดับ Dinosauria ชั้น Reptilia ข้อมูลลักษณะทั้ง 6 ข้อด้านล่างใช้ระยะชีวิตและชนิดเซลล์ตามขอบเขตของรายการ",
+  "facts": [
+    "ข้อมูลระดับกลุ่ม",
+    "อาณาจักร Animalia"
+  ],
+  "source": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+  "source_label": "แหล่งอ้างอิงชื่อและชีววิทยาของรายการ",
+  "taxonomy": {
+    "key": 340904086,
+    "nameKey": 3549821,
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "order": "Dinosauria",
+    "kingdomKey": 340904083,
+    "phylumKey": 340904084,
+    "classKey": 340904085,
+    "orderKey": 340904086,
+    "datasetKey": "1aa43d9b-a9da-41f9-b4a3-70b84c3cc978",
+    "parentKey": 340904085,
+    "parent": "Reptilia",
+    "scientificName": "Dinosauria",
+    "canonicalName": "Dinosauria",
+    "authorship": "",
+    "nameType": "SCIENTIFIC",
+    "rank": "ORDER",
+    "origin": "DENORMED_CLASSIFICATION",
+    "taxonomicStatus": "ACCEPTED",
+    "nomenclaturalStatus": [],
+    "numDescendants": 19,
+    "lastCrawled": "2026-10-20T05:07:09.171+00:00",
+    "lastInterpreted": "2026-10-20T05:07:11.058+00:00",
+    "issues": [
+      "BACKBONE_MATCH_NONE"
+    ],
+    "class": "Reptilia"
+  },
+  "image_caption": "ภาพตัวอย่างในกลุ่ม Dinosauria",
+  "errors": [
+    "commons: HTTP Error 429: Too Many Requests"
+  ],
+  "review_status": "source-matched image; visual review pending",
+  "verified_on": "2026-10-29",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sinosauropteryxfossil.jpg",
+  "image_local": "assets/species/train-28.jpg",
+  "image_size": [
+    900,
+    543
+  ],
+  "image_source": "https://commons.wikimedia.org/wiki/File:Sinosauropteryxfossil.jpg",
+  "image_taxon": "Dinosaur",
+  "alt": "ภาพตัวอย่างในกลุ่ม Dinosauria",
+  "credit": "Sam / Olai Ose / Skjaervoy from Zhangjiagang, China",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source_api": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3AAnabaena_sperica2.jpg%7CFile%3AHydra-Foto.jpg%7CFile%3ASinosauropteryxfossil.jpg%7CFile%3ACyanidioschyzon_merolae_10D.jpg%7CFile%3ATrichomonas_vaginalis_observed_by_scanning_electron_microscopy.jpg%7CFile%3ACladiella.JPG%7CFile%3AChthamalus_stellatus.jpg%7CFile%3APairedmoths.jpg%7CFile%3AHeterocarpus_ensifer.jpg%7CFile%3AAraneus_diadematus_%28Clerck%2C_1757%29.JPG%7CFile%3ABalantiocheilos_melanopterus_-_Karlsruhe_Zoo_02_%28cropped%29.jpg%7CFile%3ATWC_Wildlife_Centre%E2%80%A2_Stewart_Nimmo_%E2%80%A2_MRD_8910.jpg%7CFile%3AMold_on_a_strawberry.jpg%7CFile%3AGreen_algae.png&prop=imageinfo&iiprop=url%7Cextmetadata",
+  "image_description": "Sinosauropteryx fossil, from our trip to Hohhot, Inner Mongolia, China for National Day Holiday 2007. This is the Inner Mongolia Museum, the biggest museum in the region.",
+  "image_changes": "ย่อขนาดและแปลง JPEG โดยรักษาสัดส่วน ไม่ครอป",
+  "review_locked": true,
+  "visual_review": "Image content checked in contact sheets and individual figures; source taxon identification is retained as a provider assertion, not an independent identification."
+}

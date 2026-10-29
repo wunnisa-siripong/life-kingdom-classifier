@@ -18,10 +18,12 @@ class CatalogueTests(unittest.TestCase):
         self.assertEqual(git_sha(BASE/'organisms.csv'),'53311374e7c0787131df5e81446564d0d1a5815a')
         self.assertEqual(git_sha(BASE/'life_kingdom_model.joblib'),'3aeef574a4c65a3de51a07b47fbd4ee4de15f2de')
     def test_scope_and_sources(self):
-        self.assertEqual(len(self.data),117)
+        summary=json.loads((BASE/'evidence/catalog_audit/summary.json').read_text(encoding='utf8'))
+        self.assertEqual(len(self.data),summary['total'])
+        self.assertGreaterEqual(summary['new'],300)
         self.assertEqual(set(self.data.Kingdom),KINGDOMS)
         self.assertEqual(len(set(self.data.apply(option_label,axis=1))),len(self.data))
-        self.assertTrue(self.data[FEATURES].notna().all().all())
+        self.assertTrue(self.data[FEATURES].isna().any().any())
         for f in FEATURES: self.assertTrue(self.data[f+'_evidence'].str.len().gt(0).all())
     def test_names(self):
         for q in ['มะม่วง','MANGO','mAnGiFeRa   indica','มะม่วงสวน']:
@@ -33,9 +35,9 @@ class CatalogueTests(unittest.TestCase):
         self.assertGreater(len(search(self.data,'sativ')),1)
     def test_real_model(self):
         model,cols=self.package['model'],self.package['features']
-        X=self.data[cols].astype(int)
+        X=self.data.dropna(subset=cols)[cols].astype(int)
         predicted=model.predict(X)
-        self.assertEqual(len(predicted),117)
+        self.assertEqual(len(predicted),len(X))
         sp=self.data.loc[self.data.english_name.eq('Spirogyra')].iloc[0]
         self.assertEqual(sp.Kingdom,'Protista')
         self.assertEqual(model.predict(prediction_input(sp,cols))[0],'Plantae')
@@ -121,7 +123,7 @@ class CatalogueTests(unittest.TestCase):
             self.assertFalse(expanders[label].proto.expanded)
         self.assertEqual(len([e for e in app.get('expander') if e.proto.label=='แหล่งอ้างอิงและเครดิตภาพ']),1)
         facts=next(m.value for m in app.markdown if 'lk-model-facts' in m.value and '<div' in m.value)
-        self.assertIn('50 รายการ',facts);self.assertIn('117 รายการ',facts)
+        self.assertIn('50 รายการ',facts);self.assertIn(f'{len(self.data)} รายการ',facts)
         credits=next(m.value for m in app.markdown if '<div class="lk-references"' in m.value)
         self.assertIn('Clumsyninja',credits);self.assertIn('creativecommons.org/licenses/by-sa/4.0/',credits)
 
@@ -132,5 +134,29 @@ class CatalogueTests(unittest.TestCase):
             X=pd.DataFrame([vector],columns=cols)
             steps,leaf=decision_steps(model,X,cols)
             self.assertEqual([s['node'] for s in steps]+[leaf],list(model.decision_path(X).indices))
+
+    def test_unknown_profile_and_names(self):
+        row=self.data.loc[self.data[FEATURES].isna().any(axis=1)].iloc[0]
+        with self.assertRaises(ValueError): prediction_input(row,self.package['features'])
+        app=AppTest.from_file(str(BASE/'streamlit_app.py'),default_timeout=20)
+        app.session_state['view']='profile';app.session_state['selected_id']=row['id'];app.run()
+        self.assertEqual(len(app.exception),0)
+        self.assertTrue(any('ยังไม่ทำนาย' in w.value for w in app.warning))
+        self.assertFalse(any('section class="lk-result"' in m.value for m in app.markdown))
+        self.assertTrue(any('lk-unknown' in m.value for m in app.markdown))
+        for _,r in self.data.iterrows():
+            if r['scientific_name']: self.assertIn(r['id'],set(search(self.data,r['scientific_name'])['id']))
+            if r['thai_name']: self.assertIn(r['id'],set(search(self.data,r['thai_name'])['id']))
+        monarch=search(self.data,'Danaus plexippus').iloc[0]
+        self.assertEqual(monarch['english_name'].casefold(),'monarch butterfly')
+
+    def test_reject_invalid_feature(self):
+        import tempfile
+        raw=pd.read_csv(BASE/'organism_catalog.csv',keep_default_na=False)
+        for bad in ['banana','2','-1','0.5']:
+            raw.loc[0,FEATURES[0]]=bad
+            with tempfile.TemporaryDirectory(dir=BASE) as folder:
+                path=Path(folder)/'invalid.csv';raw.to_csv(path,index=False)
+                with self.assertRaises(ValueError): read_catalog(path)
 
 if __name__=='__main__': unittest.main(verbosity=2)

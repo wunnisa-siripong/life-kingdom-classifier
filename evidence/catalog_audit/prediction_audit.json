@@ -1,0 +1,4677 @@
+{
+  "counts": {
+    "match": 231,
+    "mismatch": 6,
+    "not_predicted_unknown": 180
+  },
+  "interpretation": "Reference comparison only; shared six-trait combinations are not biological identification or an independent accuracy evaluation.",
+  "rows": [
+    {
+      "id": "train-01",
+      "scientific_name": "Rhizobium spp.",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "train-02",
+      "scientific_name": "Anabaena spp.",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "train-03",
+      "scientific_name": "Porifera",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-04",
+      "scientific_name": "Actiniaria",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-05",
+      "scientific_name": "Trematoda",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-06",
+      "scientific_name": "Penaeus monodon",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-07",
+      "scientific_name": "Elephas maximus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-09",
+      "scientific_name": "",
+      "reference": "Fungi",
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "train-10",
+      "scientific_name": "Lentinula edodes",
+      "reference": "Fungi",
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "train-11",
+      "scientific_name": "Ferns",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-12",
+      "scientific_name": "Marchantiophyta",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-13",
+      "scientific_name": "Anthocerotophyta",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-14",
+      "scientific_name": "Psilotum nudum",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-15",
+      "scientific_name": "Cycadales",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-16",
+      "scientific_name": "Ginkgo biloba",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-17",
+      "scientific_name": "Porphyra spp.",
+      "reference": "Protista",
+      "prediction": "Plantae",
+      "status": "mismatch",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-18",
+      "scientific_name": "Gracilaria spp.",
+      "reference": "Protista",
+      "prediction": "Plantae",
+      "status": "mismatch",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-19",
+      "scientific_name": "Ochromonas danica",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "train-20",
+      "scientific_name": "Thalassiosira pseudonana",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "train-21",
+      "scientific_name": "Amoeba spp.",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "train-22",
+      "scientific_name": "Paramecium spp.",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "train-23",
+      "scientific_name": "Euglena gracilis",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "train-24",
+      "scientific_name": "Chlorella spp.",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "train-25",
+      "scientific_name": "Ulva lactuca",
+      "reference": "Protista",
+      "prediction": "Plantae",
+      "status": "mismatch",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-26",
+      "scientific_name": "Spirogyra spp.",
+      "reference": "Protista",
+      "prediction": "Plantae",
+      "status": "mismatch",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-27",
+      "scientific_name": "Hydra spp.",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-28",
+      "scientific_name": "Dinosauria",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-29",
+      "scientific_name": "Tetrahymena thermophila",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "train-30",
+      "scientific_name": "Chlamydomonas reinhardtii",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "train-32",
+      "scientific_name": "Cyanidioschyzon merolae",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "train-33",
+      "scientific_name": "Phaeophyceae",
+      "reference": "Protista",
+      "prediction": "Plantae",
+      "status": "mismatch",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-34",
+      "scientific_name": "Chondrus crispus",
+      "reference": "Protista",
+      "prediction": "Plantae",
+      "status": "mismatch",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-35",
+      "scientific_name": "Volvariella volvacea",
+      "reference": "Fungi",
+      "prediction": "Fungi",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "train-36",
+      "scientific_name": "Giardia duodenalis",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "train-37",
+      "scientific_name": "Trichomonas vaginalis",
+      "reference": "Protista",
+      "prediction": "Protista",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "train-38",
+      "scientific_name": "Physcomitrium patens",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-39",
+      "scientific_name": "Palhinhaea cernua",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-40",
+      "scientific_name": "Phlegmariurus squarrosus",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-41",
+      "scientific_name": "Tridax procumbens",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-42",
+      "scientific_name": "Isoetes spp.",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "train-43",
+      "scientific_name": "Bacillus sp.",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "train-44",
+      "scientific_name": "Mycoplasma spp.",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "train-45",
+      "scientific_name": "Nostoc spp.",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "train-46",
+      "scientific_name": "Oscillatoria spp.",
+      "reference": "Monera",
+      "prediction": "Monera",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "train-48",
+      "scientific_name": "Octocorallia (gorgonian sea fan)",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-49",
+      "scientific_name": "Platyhelminthes",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "train-50",
+      "scientific_name": "Cirripedia (barnacles)",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-3190638",
+      "scientific_name": "Mangifera indica",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2703459",
+      "scientific_name": "Oryza sativa",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-5290052",
+      "scientific_name": "Zea mays",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-7795888",
+      "scientific_name": "Triticum aestivum",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2930137",
+      "scientific_name": "Solanum lycopersicum",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2930262",
+      "scientific_name": "Solanum tuberosum",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2932944",
+      "scientific_name": "Capsicum annuum",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2874569",
+      "scientific_name": "Cucumis sativus",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2874508",
+      "scientific_name": "Cucurbita pepo",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2874621",
+      "scientific_name": "Citrullus lanatus",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2874484",
+      "scientific_name": "Carica papaya",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-5288819",
+      "scientific_name": "Ananas comosus",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2735117",
+      "scientific_name": "Cocos nucifera",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3152230",
+      "scientific_name": "Durio zibethinus",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3189571",
+      "scientific_name": "Garcinia mangostana",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-5421126",
+      "scientific_name": "Nephelium lappaceum",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-5420380",
+      "scientific_name": "Psidium guajava",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2984565",
+      "scientific_name": "Artocarpus heterophyllus",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3190008",
+      "scientific_name": "Dimocarpus longan",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3190002",
+      "scientific_name": "Litchi chinensis",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-5372392",
+      "scientific_name": "Vitis vinifera",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3001244",
+      "scientific_name": "Malus domestica",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-8149923",
+      "scientific_name": "Prunus persica",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-9206251",
+      "scientific_name": "Helianthus annuus",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3052436",
+      "scientific_name": "Arabidopsis thaliana",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2928774",
+      "scientific_name": "Nicotiana tabacum",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3189635",
+      "scientific_name": "Camellia sinensis",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2895345",
+      "scientific_name": "Coffea arabica",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3152205",
+      "scientific_name": "Theobroma cacao",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-5359660",
+      "scientific_name": "Glycine max",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-5353770",
+      "scientific_name": "Arachis hypogaea",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-5347846",
+      "scientific_name": "Lathyrus oleraceus",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2982380",
+      "scientific_name": "Vigna radiata",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3060998",
+      "scientific_name": "Manihot esculenta",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3071171",
+      "scientific_name": "Hevea brasiliensis",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2925649",
+      "scientific_name": "Tectona grandis",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2882449",
+      "scientific_name": "Nelumbo nucifera",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2927100",
+      "scientific_name": "Ocimum tenuiflorum",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-3190474",
+      "scientific_name": "Azadirachta indica",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-7661971",
+      "scientific_name": "Bambusa vulgaris",
+      "reference": "Plantae",
+      "prediction": "Plantae",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gbif-2436436",
+      "scientific_name": "Homo sapiens",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2435035",
+      "scientific_name": "Felis catus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5219173",
+      "scientific_name": "Canis lupus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5219416",
+      "scientific_name": "Panthera tigris",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5219404",
+      "scientific_name": "Panthera leo",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2433433",
+      "scientific_name": "Ursus arctos",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2433399",
+      "scientific_name": "Ailuropoda melanoleuca",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2441205",
+      "scientific_name": "Giraffa camelopardalis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2440886",
+      "scientific_name": "Equus caballus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2441022",
+      "scientific_name": "Bos taurus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7422937",
+      "scientific_name": "Bubalus bubalis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7705930",
+      "scientific_name": "Sus scrofa",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2441056",
+      "scientific_name": "Capra hircus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2441110",
+      "scientific_name": "Ovis aries",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2436940",
+      "scientific_name": "Oryctolagus cuniculus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7429082",
+      "scientific_name": "Mus musculus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2439261",
+      "scientific_name": "Rattus norvegicus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-9797255",
+      "scientific_name": "Danio rerio",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-4285694",
+      "scientific_name": "Oreochromis niloticus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-4286975",
+      "scientific_name": "Cyprinus carpio",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1341976",
+      "scientific_name": "Apis mellifera",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1868664",
+      "scientific_name": "Bombyx mori",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5073713",
+      "scientific_name": "Drosophila melanogaster",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5133088",
+      "scientific_name": "Danaus plexippus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1651891",
+      "scientific_name": "Aedes aegypti",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2289671",
+      "scientific_name": "Octopus vulgaris",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2290849",
+      "scientific_name": "Sepia officinalis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-4410657",
+      "scientific_name": "Lumbricus terrestris",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2283683",
+      "scientific_name": "Caenorhabditis elegans",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5217334",
+      "scientific_name": "Xenopus laevis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-6101224",
+      "scientific_name": "Spilopelia chinensis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2486121",
+      "scientific_name": "Pycnonotus aurigaster",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2489008",
+      "scientific_name": "Acridotheres grandis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2489005",
+      "scientific_name": "Acridotheres tristis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2492680",
+      "scientific_name": "Copsychus saularis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-9515886",
+      "scientific_name": "Hirundo rustica",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5232005",
+      "scientific_name": "Centropus sinensis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2495486",
+      "scientific_name": "Geopelia striata",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5230398",
+      "scientific_name": "Artamus fuscus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2495414",
+      "scientific_name": "Columba livia",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2493598",
+      "scientific_name": "Lonchura punctulata",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2486123",
+      "scientific_name": "Pycnonotus blanfordi",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2493970",
+      "scientific_name": "Dicrurus macrocercus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5231198",
+      "scientific_name": "Passer montanus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2475410",
+      "scientific_name": "Merops orientalis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2496347",
+      "scientific_name": "Eudynamys scolopaceus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5229131",
+      "scientific_name": "Vanellus indicus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2493028",
+      "scientific_name": "Orthotomus sutorius",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2482487",
+      "scientific_name": "Corvus macrorhynchos",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5788886",
+      "scientific_name": "Ficedula albicilla",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2495691",
+      "scientific_name": "Streptopelia tranquebarica",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2480907",
+      "scientific_name": "Ardeola bacchus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5228328",
+      "scientific_name": "Halcyon smyrnensis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2492519",
+      "scientific_name": "Saxicola caprata",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7340244",
+      "scientific_name": "Pycnonotus flaviventris",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2480876",
+      "scientific_name": "Egretta garzetta",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2493095",
+      "scientific_name": "Phylloscopus inornatus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2492846",
+      "scientific_name": "Lanius cristatus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-9600020",
+      "scientific_name": "Dicrurus leucophaeus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2474732",
+      "scientific_name": "Amaurornis phoenicurus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5845390",
+      "scientific_name": "Gracupica nigricollis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5229410",
+      "scientific_name": "Anastomus oscitans",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-9687165",
+      "scientific_name": "Motacilla alba",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2477102",
+      "scientific_name": "Cypsiurus balasiensis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7691806",
+      "scientific_name": "Psilopogon haemacephalus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2493393",
+      "scientific_name": "Heterophasia melanoleuca",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7341597",
+      "scientific_name": "Gracupica contra",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7934047",
+      "scientific_name": "Psilopogon lineatus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2486115",
+      "scientific_name": "Pycnonotus flavescens",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-6100851",
+      "scientific_name": "Saxicola stejnegeri",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2437399",
+      "scientific_name": "Callosciurus finlaysonii",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7261516",
+      "scientific_name": "Tamiops mcclellandii",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5219553",
+      "scientific_name": "Hylobates lar",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2437394",
+      "scientific_name": "Callosciurus erythraeus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2436268",
+      "scientific_name": "Tupaia belangeri",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2436610",
+      "scientific_name": "Macaca assamensis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2433352",
+      "scientific_name": "Megaderma spasma",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2437278",
+      "scientific_name": "Dremomys rufigenis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5218572",
+      "scientific_name": "Hipposideros armiger",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2436271",
+      "scientific_name": "Tupaia glis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2436540",
+      "scientific_name": "Trachypithecus phayrei",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5218600",
+      "scientific_name": "Hipposideros larvatus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5220128",
+      "scientific_name": "Axis porcinus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2436604",
+      "scientific_name": "Macaca mulatta",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2432641",
+      "scientific_name": "Rhinolophus affinis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2432647",
+      "scientific_name": "Rhinolophus coelophyllus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2437409",
+      "scientific_name": "Menetes berdmorei",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2438812",
+      "scientific_name": "Mus pahari",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2439050",
+      "scientific_name": "Niviventer fulvescens",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2437404",
+      "scientific_name": "Callosciurus caniceps",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5816059",
+      "scientific_name": "Hemidactylus platyurus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-9537238",
+      "scientific_name": "Hemidactylus frenatus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-11370548",
+      "scientific_name": "Calotes goetzi",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2447367",
+      "scientific_name": "Gekko gecko",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2464494",
+      "scientific_name": "Sphenomorphus maculatus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2465884",
+      "scientific_name": "Calotes emma",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2460886",
+      "scientific_name": "Eutropis multifasciata",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5222509",
+      "scientific_name": "Oligodon fasciolatus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-12179271",
+      "scientific_name": "Acanthosaura rubrilabris",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-9022569",
+      "scientific_name": "Chrysopelea ornata",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2459346",
+      "scientific_name": "Dendrelaphis pictus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2465654",
+      "scientific_name": "Pseudocalotes microlepis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2453368",
+      "scientific_name": "Ahaetulla prasina",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2447010",
+      "scientific_name": "Dixonius siamensis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2464291",
+      "scientific_name": "Sphenomorphus indicus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2422538",
+      "scientific_name": "Duttaphrynus melanostictus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2430396",
+      "scientific_name": "Fejervarya limnocharis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-9971159",
+      "scientific_name": "Sylvirana nigrovittata",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2423787",
+      "scientific_name": "Polypedates megacephalus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5217805",
+      "scientific_name": "Amolops marmoratus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2421636",
+      "scientific_name": "Kaloula pulchra",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-8658592",
+      "scientific_name": "Tylototriton uyenoi",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-8028213",
+      "scientific_name": "Microhyla mukhlesuri",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2430382",
+      "scientific_name": "Hoplobatrachus rugulosus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7902162",
+      "scientific_name": "Limnonectes taylori",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5218299",
+      "scientific_name": "Ichthyophis kohtaoensis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2430462",
+      "scientific_name": "Limnonectes gyldenstolpei",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2426893",
+      "scientific_name": "Hylarana erythraea",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5217808",
+      "scientific_name": "Amolops archotaphus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2422117",
+      "scientific_name": "Microhyla heymonsi",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1650618",
+      "scientific_name": "Anopheles minimus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1651430",
+      "scientific_name": "Aedes albopictus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1341979",
+      "scientific_name": "Apis cerana",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1653465",
+      "scientific_name": "Culex pallidothorax",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1650580",
+      "scientific_name": "Anopheles barbirostris",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1428428",
+      "scientific_name": "Diplacodes trivialis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1317388",
+      "scientific_name": "Oecophylla smaragdina",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1341978",
+      "scientific_name": "Apis dorsata",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1428577",
+      "scientific_name": "Brachythemis contaminata",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1650368",
+      "scientific_name": "Anopheles aconitus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5130521",
+      "scientific_name": "Junonia lemonias",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1341974",
+      "scientific_name": "Apis florea",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1910629",
+      "scientific_name": "Hypolimnas bolina",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1650497",
+      "scientific_name": "Anopheles vagus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1427804",
+      "scientific_name": "Neurothemis fulvia",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1650474",
+      "scientific_name": "Anopheles culicifacies",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1428645",
+      "scientific_name": "Orthetrum sabina",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-1428867",
+      "scientific_name": "Trithemis aurora",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5130444",
+      "scientific_name": "Junonia iphita",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-7930834",
+      "scientific_name": "Bactrocera dorsalis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-8040366",
+      "scientific_name": "Pethia stoliczkana",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2364604",
+      "scientific_name": "Esomus metallicus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-5205040",
+      "scientific_name": "Schistura poculi",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-10308490",
+      "scientific_name": "Mystacoleucus obtusirostris",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2361369",
+      "scientific_name": "Henicorhynchus siamensis",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2362798",
+      "scientific_name": "Neolissochilus stracheyi",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2362689",
+      "scientific_name": "Danio roseus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2366114",
+      "scientific_name": "Barbonymus gonionotus",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2358648",
+      "scientific_name": "Acanthocobitis zonalternans",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2359497",
+      "scientific_name": "Rasbora paviana",
+      "reference": "Animalia",
+      "prediction": "Animalia",
+      "status": "match",
+      "path_nodes": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gbif-2928551",
+      "scientific_name": "Ipomoea batatas",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5349297",
+      "scientific_name": "Pterocarpus macrocarpus",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5635838",
+      "scientific_name": "Canarium subulatum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7587087",
+      "scientific_name": "Cajanus cajan",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2703463",
+      "scientific_name": "Oryza rufipogon",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2969284",
+      "scientific_name": "Mimosa pudica",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7976013",
+      "scientific_name": "Xylia xylocarpa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7468660",
+      "scientific_name": "Asystasia intrusa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4036385",
+      "scientific_name": "Persicaria chinensis",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4097114",
+      "scientific_name": "Pentacme siamensis",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5316060",
+      "scientific_name": "Dendrobium infundibulum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2946519",
+      "scientific_name": "Clitoria ternatea",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3087725",
+      "scientific_name": "Chromolaena odorata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2874564",
+      "scientific_name": "Coccinia grandis",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4192871",
+      "scientific_name": "Impatiens brachycentra",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3116842",
+      "scientific_name": "Sphagneticola trilobata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3190160",
+      "scientific_name": "Citrus maxima",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2874581",
+      "scientific_name": "Momordica charantia",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2977687",
+      "scientific_name": "Neustanthus phaseoloides",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-8208178",
+      "scientific_name": "Gomphostemma strobilinum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-10775938",
+      "scientific_name": "Grona heterocarpos",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-9778787",
+      "scientific_name": "Sieruela rutidosperma",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3046890",
+      "scientific_name": "Sisymbrium officinale",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5361944",
+      "scientific_name": "Broussonetia papyrifera",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4024677",
+      "scientific_name": "Platycerium wallichii",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4194029",
+      "scientific_name": "Impatiens violiflora",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-8060712",
+      "scientific_name": "Isodon lophanthoides",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3085191",
+      "scientific_name": "Celosia argentea",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3781184",
+      "scientific_name": "Strobilanthes dimorphotricha",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4164044",
+      "scientific_name": "Agapetes hosseana",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7300656",
+      "scientific_name": "Boehmeria clidemioides",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7317960",
+      "scientific_name": "Gynostemma pentaphyllum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3750161",
+      "scientific_name": "Adiantum philippense",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2932389",
+      "scientific_name": "Solanum torvum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3152253",
+      "scientific_name": "Urena lobata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5383493",
+      "scientific_name": "Aporosa villosa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-10829464",
+      "scientific_name": "Polhillides velutina",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3173196",
+      "scientific_name": "Hypoestes phyllostachya",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7264292",
+      "scientific_name": "Rostellularia procumbens",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4167924",
+      "scientific_name": "Vaccinium sprengelii",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2754680",
+      "scientific_name": "Dioscorea glabra",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2928525",
+      "scientific_name": "Ipomoea aquatica",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2968432",
+      "scientific_name": "Dalbergia oliveri",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7493943",
+      "scientific_name": "Schima wallichii",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2811653",
+      "scientific_name": "Coelogyne corymbosa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2968852",
+      "scientific_name": "Dalbergia stipulacea",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3071666",
+      "scientific_name": "Excoecaria philippinensis",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5332363",
+      "scientific_name": "Lithocarpus elegans",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7147896",
+      "scientific_name": "Balanophora fungosa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7279689",
+      "scientific_name": "Sapria himalayana",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2928680",
+      "scientific_name": "Evolvulus nummularius",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3076532",
+      "scientific_name": "Antidesma acidum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3173128",
+      "scientific_name": "Barleria cristata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3744838",
+      "scientific_name": "Lygodium flexuosum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5371675",
+      "scientific_name": "Styrax benzoides",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7902154",
+      "scientific_name": "Symplocos racemosa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3152706",
+      "scientific_name": "Abelmoschus manihot",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3887135",
+      "scientific_name": "Rotheca serrata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3788072",
+      "scientific_name": "Dalrympelea pomifera",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5333084",
+      "scientific_name": "Castanopsis tribuloides",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3068937",
+      "scientific_name": "Euphorbia hirta",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3062308",
+      "scientific_name": "Baliospermum calycinum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-10865206",
+      "scientific_name": "Teyleria stricta",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2764202",
+      "scientific_name": "Commelina diffusa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2930617",
+      "scientific_name": "Solanum melongena",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3662338",
+      "scientific_name": "Gluta usitata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3793714",
+      "scientific_name": "Euonymus cochinchinensis",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2708808",
+      "scientific_name": "Fimbristylis dichotoma",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2889355",
+      "scientific_name": "Antigonon leptopus",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5357108",
+      "scientific_name": "Cassia fistula",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5572994",
+      "scientific_name": "Ruellia simplex",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-8108643",
+      "scientific_name": "Dalbergia cultrata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2754423",
+      "scientific_name": "Dioscorea pentaphylla",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2970418",
+      "scientific_name": "Leucaena leucocephala",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5571773",
+      "scientific_name": "Ficus auriculata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5685051",
+      "scientific_name": "Phoebe lanceolata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3076693",
+      "scientific_name": "Antidesma sootepense",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5333166",
+      "scientific_name": "Castanopsis acuminatissima",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5391861",
+      "scientific_name": "Bidens alba",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-6365559",
+      "scientific_name": "Rhynchoglossum obliquum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7840408",
+      "scientific_name": "Justicia quadrifaria",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-10685285",
+      "scientific_name": "Uraria oblonga",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3075764",
+      "scientific_name": "Drypetes pendula",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4079267",
+      "scientific_name": "Brainea insignis",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5301445",
+      "scientific_name": "Kaempferia rotunda",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5359831",
+      "scientific_name": "Flemingia lineata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5415460",
+      "scientific_name": "Thunbergia laurifolia",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2925303",
+      "scientific_name": "Lantana camara",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4011428",
+      "scientific_name": "Bolbitis sinensis",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5359843",
+      "scientific_name": "Flemingia strobilifera",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7342732",
+      "scientific_name": "Anneslea fragrans",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7724229",
+      "scientific_name": "Tectaria impressa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2958715",
+      "scientific_name": "Caesalpinia pulcherrima",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3071476",
+      "scientific_name": "Codiaeum variegatum",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3082142",
+      "scientific_name": "Baccaurea ramiflora",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5295425",
+      "scientific_name": "Smilax lanceifolia",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5381660",
+      "scientific_name": "Phyllanthus emblica",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5391845",
+      "scientific_name": "Bidens pilosa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3171892",
+      "scientific_name": "Torenia crustacea",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3770457",
+      "scientific_name": "Barleria strigosa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4096576",
+      "scientific_name": "Dipterocarpus obtusifolius",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5609976",
+      "scientific_name": "Callicarpa arborea",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5637355",
+      "scientific_name": "Helicia nilagirica",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7263961",
+      "scientific_name": "Lepidagathis incurva",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-8188339",
+      "scientific_name": "Vitex peduncularis",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-9559369",
+      "scientific_name": "Haplanthus laxiflorus",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3899825",
+      "scientific_name": "Pogostemon menthoides",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4112325",
+      "scientific_name": "Arundinella setosa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5597304",
+      "scientific_name": "Aphanamixis polystachya",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7310512",
+      "scientific_name": "Engelhardia spicata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2953251",
+      "scientific_name": "Bauhinia variegata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2982753",
+      "scientific_name": "Vigna umbellata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-3169830",
+      "scientific_name": "Catharanthus roseus",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-4096555",
+      "scientific_name": "Shorea obtusa",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-5401673",
+      "scientific_name": "Ageratum conyzoides",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7307245",
+      "scientific_name": "Leucas decemdentata",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7317608",
+      "scientific_name": "Trichosanthes rubriflos",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-7368771",
+      "scientific_name": "Maesa ramentacea",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2705733",
+      "scientific_name": "Oplismenus compositus",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-2755489",
+      "scientific_name": "Dioscorea bulbifera",
+      "reference": "Plantae",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Photosynthesis",
+        "Chloroplast"
+      ]
+    },
+    {
+      "id": "gbif-9739824",
+      "scientific_name": "Saitozyma podzolica",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5252216",
+      "scientific_name": "Fusarium fujikuroi",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-3501878",
+      "scientific_name": "Cladosporium salinae",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-8301234",
+      "scientific_name": "Fusarium pseudensiforme",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2559026",
+      "scientific_name": "Umbelopsis dimorpha",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5251355",
+      "scientific_name": "Trichoderma spirale",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5258582",
+      "scientific_name": "Wilcoxina rehmii",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-3359064",
+      "scientific_name": "Russula olivobrunnea",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-7971541",
+      "scientific_name": "Russula depallens",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5893383",
+      "scientific_name": "Meyerozyma guilliermondii",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-11738943",
+      "scientific_name": "Russula pseudocyanoxantha",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-10742558",
+      "scientific_name": "Lactifluus gerardiellus",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-7554445",
+      "scientific_name": "Talaromyces allahabadensis",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-7635477",
+      "scientific_name": "Russula griseocarnosa",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-11581860",
+      "scientific_name": "Russula byssina",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-3360190",
+      "scientific_name": "Russula alboareolata",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-3359911",
+      "scientific_name": "Russula purpureofusca",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-10831436",
+      "scientific_name": "Mallocybe substraminipes",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-11617298",
+      "scientific_name": "Nigrospora vesicularifera",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-9791807",
+      "scientific_name": "Bifiguratus adelaidae",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2559369",
+      "scientific_name": "Mortierella rishikesha",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5246344",
+      "scientific_name": "Microporus xanthopus",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-12030173",
+      "scientific_name": "Podila humilis",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-10703565",
+      "scientific_name": "Ganoderma eickeri",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-8296805",
+      "scientific_name": "Basidioascus magus",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-10706167",
+      "scientific_name": "Pseudosperma bulbosissimum",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-3517908",
+      "scientific_name": "Lasiodiplodia gonubiensis",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2528998",
+      "scientific_name": "Cortinarius casimirii",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5260095",
+      "scientific_name": "Penicillium pimiteouiense",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-10673716",
+      "scientific_name": "Chloridium aseptatum",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-11709501",
+      "scientific_name": "Inocybe venerabilis",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-9755839",
+      "scientific_name": "Solicoccozyma terricola",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5252097",
+      "scientific_name": "Fusarium buharicum",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-9658214",
+      "scientific_name": "Mariannaea fusiformis",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-10672826",
+      "scientific_name": "Hyaloscypha finlandica",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-3545360",
+      "scientific_name": "Gymnostellatospora japonica",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5251371",
+      "scientific_name": "Trichoderma pubescens",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2614118",
+      "scientific_name": "Didymella exigua",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-9814473",
+      "scientific_name": "Apiotrichum dehoogii",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2535466",
+      "scientific_name": "Lepiota griseovirens",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-7713104",
+      "scientific_name": "Lactifluus pseudoluteopus",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2559325",
+      "scientific_name": "Mortierella gemmifera",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-11979995",
+      "scientific_name": "Polyozellus sciastrus",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-7472266",
+      "scientific_name": "Clonostachys rosea",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2597681",
+      "scientific_name": "Penicillium citrinum",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-5238927",
+      "scientific_name": "Tomentella fuscocinerea",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-11430411",
+      "scientific_name": "Setophaeosphaeria microspora",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2551423",
+      "scientific_name": "Russula virescens",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2573550",
+      "scientific_name": "Humicola nigrescens",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-8050025",
+      "scientific_name": "Metapochonia rubescens",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-10867411",
+      "scientific_name": "Cortinarius desertorum",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2533062",
+      "scientific_name": "Hebeloma mesophaeum",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2522918",
+      "scientific_name": "Thelephora caryophyllea",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-8067271",
+      "scientific_name": "Talaromyces marneffei",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-3473983",
+      "scientific_name": "Exophiala nishimurae",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-10711232",
+      "scientific_name": "Niesslia ligustica",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-11987476",
+      "scientific_name": "Scolecobasidium cordanae",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2562709",
+      "scientific_name": "Metacordyceps chlamydosporia",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-7676966",
+      "scientific_name": "Acrocalymma fici",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    },
+    {
+      "id": "gbif-2599339",
+      "scientific_name": "Hyphopichia burtonii",
+      "reference": "Fungi",
+      "status": "not_predicted_unknown",
+      "unknown_traits": [
+        "Multicellular organisms"
+      ]
+    }
+  ]
+}

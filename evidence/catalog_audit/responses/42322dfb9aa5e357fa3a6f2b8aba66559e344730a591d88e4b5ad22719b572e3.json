@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/match?name=Platyhelminthes", "retrieved_on": "2026-10-29", "data": {"usageKey": 108, "scientificName": "Platyhelminthes", "canonicalName": "Platyhelminthes", "rank": "PHYLUM", "status": "ACCEPTED", "confidence": 94, "matchType": "EXACT", "kingdom": "Animalia", "phylum": "Platyhelminthes", "kingdomKey": 1, "phylumKey": 108}}

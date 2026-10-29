@@ -1,0 +1,107 @@
+{
+  "structural_validation": "passed",
+  "total": 417,
+  "new": 300,
+  "protected_files": {
+    "organisms.csv": "53311374e7c0787131df5e81446564d0d1a5815a",
+    "life_kingdom_model.joblib": "3aeef574a4c65a3de51a07b47fbd4ee4de15f2de"
+  },
+  "framework_differences": [
+    {
+      "id": "train-01",
+      "project": "Monera",
+      "reference": "Bacteria"
+    },
+    {
+      "id": "train-19",
+      "project": "Protista",
+      "reference": "Chromista"
+    },
+    {
+      "id": "train-20",
+      "project": "Protista",
+      "reference": "Chromista"
+    },
+    {
+      "id": "train-22",
+      "project": "Protista",
+      "reference": "Chromista"
+    },
+    {
+      "id": "train-23",
+      "project": "Protista",
+      "reference": "Protozoa"
+    },
+    {
+      "id": "train-25",
+      "project": "Protista",
+      "reference": "Plantae"
+    },
+    {
+      "id": "train-26",
+      "project": "Protista",
+      "reference": "Plantae"
+    },
+    {
+      "id": "train-29",
+      "project": "Protista",
+      "reference": "Chromista"
+    },
+    {
+      "id": "train-30",
+      "project": "Protista",
+      "reference": "Plantae"
+    },
+    {
+      "id": "train-33",
+      "project": "Protista",
+      "reference": "Chromista"
+    },
+    {
+      "id": "train-34",
+      "project": "Protista",
+      "reference": "Plantae"
+    },
+    {
+      "id": "train-36",
+      "project": "Protista",
+      "reference": "Protozoa"
+    },
+    {
+      "id": "train-44",
+      "project": "Monera",
+      "reference": "Bacteria"
+    },
+    {
+      "id": "train-46",
+      "project": "Monera",
+      "reference": "Bacteria"
+    }
+  ],
+  "shared_names": {},
+  "text_warnings": [],
+  "unresolved_taxonomy": [
+    "train-02",
+    "train-09",
+    "train-11",
+    "train-17",
+    "train-18",
+    "train-21",
+    "train-24",
+    "train-27",
+    "train-28",
+    "train-32",
+    "train-37",
+    "train-43",
+    "train-45",
+    "train-48",
+    "train-50"
+  ],
+  "biological_verification": "Partial: legacy traits not independently reverified; new traits explicitly group-inferred or unknown",
+  "source_url_count": 887,
+  "live_link_check": {
+    "retrievable": 872,
+    "unresolved": 15,
+    "note": "Previously recorded link checks retained; not rerun by this offline validation. HTTP availability does not certify biological claims."
+  }
+}

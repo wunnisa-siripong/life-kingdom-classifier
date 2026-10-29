@@ -1,0 +1,8 @@
+{
+  "kind": "Static mobile CSS render from actual Streamlit AppTest output; not a mobile interaction test",
+  "width": 390,
+  "id": "gbif-5349297",
+  "scientific_name": "Pterocarpus macrocarpus",
+  "live_mobile_status": "Local browser connection timed out",
+  "render_verification": "not verified: browser file URL policy rejected"
+}

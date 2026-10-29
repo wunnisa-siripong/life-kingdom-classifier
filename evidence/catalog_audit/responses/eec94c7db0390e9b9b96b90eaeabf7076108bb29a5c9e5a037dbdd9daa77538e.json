@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/match?name=Trichomonas%20vaginalis", "retrieved_on": "2026-10-29", "data": {"usageKey": 8265662, "scientificName": "Trichomonas", "canonicalName": "Trichomonas", "rank": "GENUS", "status": "DOUBTFUL", "confidence": 92, "matchType": "HIGHERRANK", "kingdom": "Animalia", "genus": "Trichomonas", "kingdomKey": 1, "genusKey": 8265662}}

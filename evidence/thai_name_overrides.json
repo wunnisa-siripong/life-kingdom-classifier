@@ -1,0 +1,193 @@
+[
+  {
+    "scientific_name": "Solanum lycopersicum",
+    "thai_name": "มะเขือเทศ",
+    "aliases": [
+      "มาบ่าละ"
+    ],
+    "source": "https://rspg.mfu.ac.th/plant-genetic-conservation/botany/detail_action/642",
+    "basis": "MFU botanical record explicitly pairs Thai heading and scientific name; local Akha alias in Thai script",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Solanum tuberosum",
+    "thai_name": "มันฝรั่ง",
+    "aliases": [],
+    "source": "https://www.doa.go.th/pvp/wp-content/uploads/2021/11/4-24regudoadus2564.pdf",
+    "basis": "DOA plant variety publication explicitly pairs names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Citrullus lanatus",
+    "thai_name": "แตงโม",
+    "aliases": [],
+    "source": "https://thbif.onep.go.th/taxons/detail/48054",
+    "basis": "TH-BIF taxon record Thai name",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Psidium guajava",
+    "thai_name": "ฝรั่ง",
+    "aliases": [
+      "มะก้วย",
+      "มะก้วยกา"
+    ],
+    "source": "https://www.rspg.or.th/plants_data/use/herbs03-4.htm",
+    "basis": "RSPG plant record heading and other names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Manihot esculenta",
+    "thai_name": "มันสำปะหลัง",
+    "aliases": [
+      "เดี่ยด่วย",
+      "มะละกอผะ"
+    ],
+    "source": "https://rspg.mfu.ac.th/plant-genetic-conservation/botany/detail_action/568",
+    "basis": "MFU botanical record; Yao and Lahu local aliases in Thai script",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Nicotiana tabacum",
+    "thai_name": "ยาสูบ",
+    "aliases": [],
+    "source": "https://rspg-kmutt.kmutt.ac.th/document/2555-report.pdf",
+    "basis": "KMUTT RSPG plant inventory row 134 pairs names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Bambusa vulgaris",
+    "thai_name": "ซางคำ",
+    "aliases": [],
+    "source": "https://thbif.onep.go.th/taxons/detail/4669",
+    "basis": "TH-BIF species record; only species-level name selected, no cultivar names promoted",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Oreochromis niloticus",
+    "thai_name": "ปลานิล",
+    "aliases": [],
+    "source": "https://chiangmai.zoothailand.org/animal_view.php?detail_id=50",
+    "basis": "Chiang Mai Zoo species profile heading",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Lentinula edodes",
+    "thai_name": "เห็ดหอม",
+    "aliases": [],
+    "source": "https://food.fda.moph.go.th/database-food/category/positivelists2?page=105",
+    "basis": "Thai FDA food list row 1044 pairs Thai, English and scientific names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Volvariella volvacea",
+    "thai_name": "เห็ดฟาง",
+    "aliases": [],
+    "source": "https://doaplant.doa.go.th/RecFront/PlantDetail/477",
+    "basis": "DOA explicitly identifies straw mushroom strain as Volvariella volvacea",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Tridax procumbens",
+    "thai_name": "ตีนตุ๊กแก",
+    "aliases": [
+      "หญ้าตีนตุ๊กแก"
+    ],
+    "source": "https://thbif.onep.go.th/specifics/invasive-species/browse?status=1",
+    "basis": "TH-BIF invasive species table row 128 pairs names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Penaeus monodon",
+    "thai_name": "กุ้งกุลาดำ",
+    "aliases": [],
+    "source": "https://km.dmcr.go.th/c_218/s_222/d_2569",
+    "basis": "DMCR species report explicitly pairs names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Prunus persica",
+    "thai_name": "พีช",
+    "aliases": [],
+    "source": "https://food.fda.moph.go.th/database-food/category/positivelists2?page=44",
+    "basis": "Thai FDA food list row 431 pairs names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Pisum sativum",
+    "thai_name": "ถั่วลันเตา",
+    "aliases": [],
+    "source": "https://bch.onep.go.th/wp-content/uploads/2024/03/Book1_full.cleaned.pdf",
+    "basis": "ONEP national biodiversity publication pairs names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Bombyx mori",
+    "thai_name": "ผีเสื้อไหม",
+    "aliases": [
+      "มอธไหม"
+    ],
+    "source": "https://thbif.onep.go.th/taxons/detail/5598",
+    "basis": "TH-BIF explicit Thai species names; adult common names with whole-organism scope",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Vitis vinifera",
+    "thai_name": "องุ่น",
+    "aliases": [],
+    "source": "https://doaplant.doa.go.th/GardFront/GardGenInfoDetail/164",
+    "basis": "DOA horticultural genetic-resource record pairs Thai name with genus and epithet",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Ginkgo biloba",
+    "thai_name": "แปะก๊วย",
+    "aliases": [],
+    "source": "https://medplant.mahidol.ac.th/document/74_Ginkgo_biloba.pdf",
+    "basis": "Mahidol medicinal-plant information explicitly pairs species and Thai name",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Danio rerio",
+    "thai_name": "ปลาม้าลาย",
+    "aliases": [],
+    "source": "https://digital.car.chula.ac.th/chulaetd/2654/",
+    "basis": "Chulalongkorn thesis abstract explicitly pairs species and Thai name",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Spirogyra spp.",
+    "thai_name": "สไปโรไจรา",
+    "aliases": [
+      "สาหร่ายเตา",
+      "เทาน้ำ"
+    ],
+    "source": "https://food.fda.moph.go.th/database-food/category/alternative-protein/?page=8",
+    "basis": "Thai FDA alternative-protein table row 76 pairs genus-level names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Drosophila melanogaster",
+    "thai_name": "แมลงหวี่",
+    "aliases": [],
+    "source": "https://inmu.mahidol.ac.th/th/research_projects/research_pro-before2557/",
+    "basis": "Mahidol nutrition research inventory row 83 explicitly pairs species and Thai name; name shared with other species",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Psilotum nudum",
+    "thai_name": "ระกำปู",
+    "aliases": [],
+    "source": "https://botany.dnp.go.th/PDF/publications/Plant_Identification_Handbook2.pdf",
+    "basis": "DNP plant identification handbook explicitly pairs scientific and Thai names",
+    "checked_on": "2026-10-29"
+  },
+  {
+    "scientific_name": "Porifera",
+    "thai_name": "ฟองน้ำ",
+    "aliases": [],
+    "source": "https://www.nstda.or.th/brt/article/khanom/429-marine-sponge-sumaitt.html",
+    "basis": "NSTDA explains sponge phylum Porifera; group-level common name, not species",
+    "checked_on": "2026-10-29"
+  }
+]

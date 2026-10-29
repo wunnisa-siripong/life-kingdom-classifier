@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/match?name=Dinosauria", "retrieved_on": "2026-10-29", "data": {"confidence": 100, "note": "No match because of too little confidence", "matchType": "NONE", "synonym": false}}

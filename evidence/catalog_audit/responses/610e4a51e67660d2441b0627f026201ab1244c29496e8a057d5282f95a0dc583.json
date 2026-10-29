@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/match?name=Marchantiophyta", "retrieved_on": "2026-10-29", "data": {"usageKey": 9, "scientificName": "Marchantiophyta", "canonicalName": "Marchantiophyta", "rank": "PHYLUM", "status": "ACCEPTED", "confidence": 94, "matchType": "EXACT", "kingdom": "Plantae", "phylum": "Marchantiophyta", "kingdomKey": 6, "phylumKey": 9}}

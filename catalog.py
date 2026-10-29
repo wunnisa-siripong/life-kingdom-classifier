@@ -18,16 +18,23 @@ def read_catalog(path):
     required={'id','thai_name','english_name','scientific_name','aliases','Kingdom','rank','scope','uncertainty','name_sources','feature_sources','evidence_basis','verified_on',*FEATURES}
     if not required.issubset(data.columns): raise ValueError('Missing catalogue columns')
     if data['id'].duplicated().any(): raise ValueError('Duplicate IDs')
+    if data['id'].eq('').any(): raise ValueError('Empty ID')
+    unknown_name=data['scientific_name'].eq('')
+    if (unknown_name & (~data['rank'].str.contains('growth form',case=False) | data['english_name'].eq(''))).any():
+        raise ValueError('Unexplained missing scientific name')
+    if data.loc[~unknown_name,'scientific_name'].map(normalize).duplicated().any(): raise ValueError('Duplicate scientific names')
     if not set(data['Kingdom']).issubset(KINGDOMS): raise ValueError('Unexpected kingdom')
     for col in FEATURES:
+        # Only an empty cell means unknown. Never silently turn bad input into null.
+        if not data[col].astype(str).isin(['','0','1']).all(): raise ValueError('Invalid binary feature: '+col)
         data[col]=pd.to_numeric(data[col],errors='coerce').astype('Int64')
-        if not data[col].dropna().isin([0,1]).all(): raise ValueError('Invalid binary feature')
         if col+'_evidence' not in data: raise ValueError('Missing feature evidence')
+        if data[col+'_evidence'].str.strip().eq('').any(): raise ValueError('Empty feature evidence')
     if (data[['scope','feature_sources','name_sources']]=='').any().any(): raise ValueError('Missing scope/sources')
     return data
 def option_label(row):
     primary=row['thai_name'] or row['english_name'] or row['scientific_name']
-    return primary+(' · '+row['scientific_name'] if row['scientific_name']!=primary else '')
+    return primary+(' · '+row['scientific_name'] if row['scientific_name'] and row['scientific_name']!=primary else '')
 def prediction_input(values,columns):
     if len(columns)!=6 or set(columns)!=set(FEATURES): raise ValueError('Unexpected model features')
     if any(pd.isna(values[c]) or values[c] not in (0,1) for c in columns):

@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/match?name=Mammalia", "retrieved_on": "2026-10-29", "data": {"usageKey": 359, "scientificName": "Mammalia", "canonicalName": "Mammalia", "rank": "CLASS", "status": "ACCEPTED", "confidence": 94, "matchType": "EXACT", "kingdom": "Animalia", "phylum": "Chordata", "kingdomKey": 1, "phylumKey": 44, "classKey": 359, "class": "Mammalia"}}

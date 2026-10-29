@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/match?name=Insecta", "retrieved_on": "2026-10-29", "data": {"usageKey": 216, "scientificName": "Insecta", "canonicalName": "Insecta", "rank": "CLASS", "status": "ACCEPTED", "confidence": 94, "matchType": "EXACT", "kingdom": "Animalia", "phylum": "Arthropoda", "kingdomKey": 1, "phylumKey": 54, "classKey": 216, "class": "Insecta"}}

@@ -232,6 +232,8 @@ def thai_evidence(text):
 
 def scope_summary(row):
     scope=str(row['scope'])
+    if scope.startswith('Representative living nucleated host cell;'):
+        return 'ใช้เซลล์เจ้าบ้านที่มีชีวิตและมีนิวเคลียสเป็นตัวแทน และร่างกายโตเต็มวัยสำหรับจำนวนเซลล์ ไม่รวมสิ่งมีชีวิตร่วมอาศัย สปอร์ เซลล์สืบพันธุ์ ระยะพักตัว และเซลล์พิเศษที่ไม่มีนิวเคลียส ค่าที่ยังไม่มีหลักฐานเฉพาะชนิดแสดงว่าไม่ทราบ'
     if scope.startswith('Mature green plant;'):
         return 'ใช้พืชสีเขียวโตเต็มวัยและเนื้อเยื่อใบที่รับแสง ไม่ครอบคลุมทุกเซลล์ เมล็ด หรือระยะพักตัว'
     if scope.startswith('Juvenile/adult host body'):
@@ -290,6 +292,10 @@ def evidence(row,columns):
         with st.expander('หลักฐานและขอบเขตคุณลักษณะ',expanded=False):
             inferred='group' in str(row['evidence_basis']).lower()
             st.write(('คุณลักษณะเป็นการอนุมานระดับกลุ่ม ไม่ใช่ผลวัดแยกรายชนิดทั้ง 6 ข้อ ' if inferred else 'คุณลักษณะอ้างอิงตามระยะชีวิตและชนิดเซลล์ที่ระบุ ')+scope_summary(row))
+            if str(row['id']).startswith('train-'):
+                st.caption('รายการเดิมใช้หลักฐาน audit ของโครงงาน การตรวจชื่อรอบนี้ไม่ได้ยืนยันหลักฐานคุณลักษณะรายข้อใหม่ทั้งหมด')
+            if 'Northern bounding-box occurrence' in str(row['uncertainty']):
+                st.caption('มีรายงานพบในกรอบพิกัดภาคเหนือจาก GBIF ไม่ใช่การยืนยันว่าเป็นชนิดพื้นเมือง ชื่อสามัญอาจใช้ร่วมกับชนิดอื่นได้')
             for f in columns:
                 st.markdown('**'+feature_text(row,f)+'**')
                 reason=thai_evidence(str(row[f+'_evidence'])).removeprefix('อนุมานระดับกลุ่ม: ')

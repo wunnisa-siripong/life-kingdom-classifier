@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "baseline": 117,
+  "total": 417,
+  "new": 300,
+  "added_by_kingdom": {
+    "Animalia": 120,
+    "Plantae": 120,
+    "Fungi": 60
+  },
+  "thai_filled_existing": 25,
+  "thai_total": 218,
+  "thai_blank": 199,
+  "existing_unresolved": 15,
+  "unknown_cells": 300,
+  "legacy_traits_not_independently_reverified": 117,
+  "limitations": [
+    "GBIF occurrence reports are not a native checklist or province-level confirmation.",
+    "GBIF accepted taxonomy is a reference backbone assertion, not universal taxonomic consensus.",
+    "No new photographs; existing licensed profiles and kingdom icons retained.",
+    "Legacy trait evidence preserved and flagged for further independent review.",
+    "Protista/Monera expansion deferred: no safe kingdom-wide six-trait template."
+  ]
+}

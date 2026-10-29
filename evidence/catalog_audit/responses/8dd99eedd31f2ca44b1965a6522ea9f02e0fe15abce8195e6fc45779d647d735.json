@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/3781184/vernacularNames?limit=1000", "retrieved_on": "2026-10-29", "data": {"offset": 0, "limit": 1000, "endOfRecords": true, "results": [{"taxonKey": 3781184, "vernacularName": "球花馬藍", "language": "zho", "source": "Catalogue of Life", "sourceTaxonKey": 295563627}]}}

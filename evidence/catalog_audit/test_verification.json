@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "tests": 9,
+  "python": "3.12.14",
+  "streamlit": "1.50.0",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.6.1",
+  "date": "2026-10-29",
+  "checks": [
+    "all catalogue names and aliases",
+    "unknown-profile does not predict",
+    "invalid binary values rejected",
+    "unchanged original training and model hashes",
+    "all 64 binary decision paths",
+    "search and navigation",
+    "Spirogyra model/reference mismatch"
+  ],
+  "mobile_browser": "not verified; localhost timeout and file URL policy rejection"
+}

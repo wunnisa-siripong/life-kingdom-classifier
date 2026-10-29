@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local verification logs
+test_results.txt
+preview_results.txt
+evidence/ui_preview/mobile.html
+whitespace_check.txt
+final_validation_output.txt

@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/match?name=Bacillus", "retrieved_on": "2026-10-29", "data": {"confidence": 100, "note": "Multiple equal matches for Bacillus", "matchType": "NONE", "synonym": false}}

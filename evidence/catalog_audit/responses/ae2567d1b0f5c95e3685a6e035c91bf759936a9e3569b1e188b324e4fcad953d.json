@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/match?name=Aves", "retrieved_on": "2026-10-29", "data": {"usageKey": 212, "scientificName": "Aves", "canonicalName": "Aves", "rank": "CLASS", "status": "ACCEPTED", "confidence": 94, "matchType": "EXACT", "kingdom": "Animalia", "phylum": "Chordata", "kingdomKey": 1, "phylumKey": 44, "classKey": 212, "class": "Aves"}}

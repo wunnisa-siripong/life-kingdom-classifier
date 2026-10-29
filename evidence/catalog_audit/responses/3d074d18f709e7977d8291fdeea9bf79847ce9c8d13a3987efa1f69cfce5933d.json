@@ -1,0 +1,1 @@
+{"url": "https://api.gbif.org/v1/species/7340244/vernacularNames?limit=1000", "retrieved_on": "2026-10-29", "data": {"offset": 0, "limit": 1000, "endOfRecords": true, "results": [{"taxonKey": 7340244, "vernacularName": "Black-crested Bulbul", "language": "eng", "source": "The Clements Checklist", "sourceTaxonKey": 133150963}]}}

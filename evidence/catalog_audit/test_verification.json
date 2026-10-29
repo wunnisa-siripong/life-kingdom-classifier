@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "tests": 9,
+  "tests": 10,
   "python": "3.12.14",
   "streamlit": "1.50.0",
   "pandas": "2.2.3",
@@ -12,6 +12,7 @@
     "invalid binary values rejected",
     "unchanged original training and model hashes",
     "all 64 binary decision paths",
+    "catalogue cache invalidates after CSV content changes",
     "search and navigation",
     "Spirogyra model/reference mismatch"
   ],

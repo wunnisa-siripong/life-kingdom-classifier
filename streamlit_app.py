@@ -1,5 +1,6 @@
 from pathlib import Path
 import platform
+import hashlib
 import joblib
 import pandas as pd
 import sklearn
@@ -19,7 +20,7 @@ def load_model():
     return model,columns
 
 @st.cache_data
-def load_data():
+def load_data(catalog_revision):
     return read_catalog(BASE/"organism_catalog.csv"),pd.read_csv(BASE/"organisms.csv",encoding="utf-8-sig")
 
 
@@ -34,7 +35,8 @@ from ui import CSS, LABELS, QUESTIONS, KINGDOM_TH, KINGDOM_ICONS, BOOK_ICON, pro
 st.markdown(CSS,unsafe_allow_html=True)
 try:
     model,model_columns=load_model()
-    catalog,training=load_data()
+    catalog_revision=hashlib.sha256((BASE/"organism_catalog.csv").read_bytes()).hexdigest()
+    catalog,training=load_data(catalog_revision)
 except Exception as error:
     st.error("โหลดข้อมูลหรือโมเดลไม่สำเร็จ กรุณาตรวจการติดตั้งและไฟล์บน GitHub")
     st.exception(error)

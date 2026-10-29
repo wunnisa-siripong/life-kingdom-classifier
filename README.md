@@ -51,4 +51,4 @@ python -m unittest test_app -v
 streamlit run streamlit_app.py
 ```
 
-ทดสอบ 9 ชุดผ่าน รวมชื่อ/alias ทั้งแค็ตตาล็อก โปรไฟล์ unknown การปฏิเสธ binary ผิดรูป ไฟล์ฝึก/โมเดลเดิม และ decision_path ทั้ง 64 เวกเตอร์ ขอบเขตการตรวจมือถือและการเผยแพร่ดู CATALOG_AUDIT_TH.md
+ทดสอบ 10 ชุดผ่าน รวมชื่อ/alias ทั้งแค็ตตาล็อก โปรไฟล์ unknown การปฏิเสธ binary ผิดรูป ไฟล์ฝึก/โมเดลเดิม และ decision_path ทั้ง 64 เวกเตอร์ ขอบเขตการตรวจมือถือและการเผยแพร่ดู CATALOG_AUDIT_TH.md

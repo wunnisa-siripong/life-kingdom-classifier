@@ -159,4 +159,20 @@ class CatalogueTests(unittest.TestCase):
                 path=Path(folder)/'invalid.csv';raw.to_csv(path,index=False)
                 with self.assertRaises(ValueError): read_catalog(path)
 
+    def test_catalog_cache_refresh_after_csv_change(self):
+        import tempfile, shutil
+        with tempfile.TemporaryDirectory(dir=BASE) as folder:
+            root=Path(folder)
+            for name in ['streamlit_app.py','catalog.py','ui.py','species.py','organisms.csv','organism_catalog.csv','life_kingdom_model.joblib']:
+                shutil.copyfile(BASE/name,root/name)
+            shutil.copytree(BASE/'search_component',root/'search_component')
+            app=AppTest.from_file(str(root/'streamlit_app.py'),default_timeout=20).run()
+            self.assertEqual(len(app.exception),0)
+            self.assertTrue(any(f'ดูข้อมูลทั้งหมด {len(self.data)} รายการ' in m.value for m in app.markdown))
+            raw=pd.read_csv(root/'organism_catalog.csv',keep_default_na=False)
+            raw.iloc[:-1].to_csv(root/'organism_catalog.csv',index=False,encoding='utf-8-sig')
+            app.run()
+            self.assertEqual(len(app.exception),0)
+            self.assertTrue(any(f'ดูข้อมูลทั้งหมด {len(self.data)-1} รายการ' in m.value for m in app.markdown))
+
 if __name__=='__main__': unittest.main(verbosity=2)
